@@ -1,0 +1,8 @@
+{
+  "bookId": "hound-of-the-baskervilles",
+  "expectedChapters": 15,
+  "skipHeadings": [
+    "THE END"
+  ],
+  "headings": "ChapterWord"
+}

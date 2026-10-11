@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!-- Shared with tools/TemporalGraph.Cli: one Llm:ApiKey serves both (LlmSettings.UserSecretsId). -->
+    <UserSecretsId>temporalgraph-cli</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="16.6.7" />
+    <!-- GraphQL spans (request, parse, validate, execute) for the Aspire dashboard. -->
+    <PackageReference Include="HotChocolate.Diagnostics" Version="16.6.7" />
+    <!-- The gateway's JWT (Auth:Gateway:SigningKey set); registered only in gateway mode. -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemporalGraph.Data\TemporalGraph.Data.csproj" />
+    <!-- The chat mutation (the same tools, pack, prompt and LLM pipeline as the CLI's chat command). -->
+    <ProjectReference Include="..\TemporalGraph.Chat\TemporalGraph.Chat.csproj" />
+    <ProjectReference Include="..\TemporalGraph.Llm\TemporalGraph.Llm.csproj" />
+    <ProjectReference Include="..\TemporalGraph.Query\TemporalGraph.Query.csproj" />
+    <ProjectReference Include="..\TemporalGraph.ServiceDefaults\TemporalGraph.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <!-- The book manifest and one read-only SQLite database per book (built by tools/TemporalGraph.Cli).
+       Resource names: books/books.json, books/<id>.sqlite (see BookResources). -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\data\books\books.json" LogicalName="books/books.json" />
+    <EmbeddedResource Include="..\..\data\books\*.sqlite" LogicalName="books/%(Filename)%(Extension)" />
+    <!-- The voice layer, books/<id>/voice/<file> (book.md, <slug>.md, lines.json; the review file is not needed). -->
+    <EmbeddedResource Include="..\..\data\books\*\voice\*.md" Exclude="..\..\data\books\*\voice\lines.review.md" LogicalName="books/%(RecursiveDir)%(Filename)%(Extension)" />
+    <EmbeddedResource Include="..\..\data\books\*\voice\lines.json" LogicalName="books/%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+  <!-- The query files, one folder per book id: queries/<bookId>/<name>.cypher (the chat tools' queries) and
+       queries/<bookId>/samples/<NN>-<slug>.cypher (the book's own samples) (see SampleQueries). -->
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\queries\**\*.cypher" LogicalName="queries/%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

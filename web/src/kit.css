@@ -1,0 +1,12 @@
+/* Tailwind entry for the design kit (design-kit/README.md, "Copying into another repo").
+   No preflight, so Fluent is never reset. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "./design-kit/tokens.css";
+
+@layer base {
+  /* Without preflight the browser's 8px body margin would show around the page. */
+  html { background: var(--abp-page); }
+  body { margin: 0; }
+}

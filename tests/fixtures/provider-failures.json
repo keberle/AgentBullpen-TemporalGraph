@@ -1,0 +1,149 @@
+{
+  "about": "Provider error responses as the providers document them. Shapes only: the keys, account names and amounts are made up. The site's LLM proxy tests can copy this file; each case has the reason it must classify as (null = not a provider-account failure: retry or report upstream-error).",
+  "cases": [
+    {
+      "name": "openrouter-402-credits",
+      "provider": "openrouter",
+      "status": 402,
+      "retryAfterSeconds": null,
+      "body": { "error": { "code": 402, "message": "Insufficient credits. This account never purchased credits. Make sure your key is on the correct account or org, and if so, purchase more at https://openrouter.ai/settings/credits", "metadata": {} } },
+      "reason": "credits"
+    },
+    {
+      "name": "openrouter-402-key-limit",
+      "provider": "openrouter",
+      "status": 402,
+      "retryAfterSeconds": null,
+      "body": { "error": { "code": 402, "message": "Key limit exceeded (daily limit). Manage it using https://openrouter.ai/settings/keys", "metadata": { "limit_source": "openrouter_key_limit" } } },
+      "reason": "key-limit"
+    },
+    {
+      "name": "anthropic-400-credit-balance",
+      "provider": "anthropic",
+      "status": 400,
+      "retryAfterSeconds": null,
+      "body": { "type": "error", "error": { "type": "invalid_request_error", "message": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits." } },
+      "reason": "credits"
+    },
+    {
+      "name": "anthropic-400-other",
+      "provider": "anthropic",
+      "status": 400,
+      "retryAfterSeconds": null,
+      "body": { "type": "error", "error": { "type": "invalid_request_error", "message": "max_tokens: 64000 > 32000, which is the maximum allowed number of output tokens for this model" } },
+      "reason": null
+    },
+    {
+      "name": "azure-429-quota-long-wait",
+      "provider": "azure",
+      "status": 429,
+      "retryAfterSeconds": 86400,
+      "body": { "error": { "code": "429", "message": "Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-10-21 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 86400 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit." } },
+      "reason": "quota"
+    },
+    {
+      "name": "azure-429-long-wait-in-message-only",
+      "provider": "azure",
+      "status": 429,
+      "retryAfterSeconds": null,
+      "body": { "error": { "code": "429", "message": "Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-10-21 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 3600 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit." } },
+      "reason": "quota"
+    },
+    {
+      "name": "azure-429-short-wait",
+      "provider": "azure",
+      "status": 429,
+      "retryAfterSeconds": 6,
+      "body": { "error": { "code": "429", "message": "Requests to the ChatCompletions_Create Operation under Azure OpenAI API version 2024-10-21 have exceeded token rate limit of your current OpenAI S0 pricing tier. Please retry after 6 seconds. Please go here: https://aka.ms/oai/quotaincrease if you would like to further increase the default rate limit." } },
+      "reason": null
+    },
+    {
+      "name": "openai-429-insufficient-quota",
+      "provider": "openai",
+      "status": 429,
+      "retryAfterSeconds": null,
+      "body": { "error": { "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.", "type": "insufficient_quota", "param": null, "code": "insufficient_quota" } },
+      "reason": "quota"
+    },
+    {
+      "name": "openai-429-rate-limit",
+      "provider": "openai",
+      "status": 429,
+      "retryAfterSeconds": 2,
+      "body": { "error": { "message": "Rate limit reached for gpt-4o-mini in organization org-example on requests per min (RPM): Limit 3, Used 3, Requested 1. Please try again in 20s.", "type": "requests", "param": null, "code": "rate_limit_exceeded" } },
+      "reason": null
+    },
+    {
+      "name": "openrouter-429-free-tier",
+      "provider": "openrouter",
+      "status": 429,
+      "retryAfterSeconds": null,
+      "body": { "error": { "code": 429, "message": "Rate limit exceeded: new-account-rpm/openai/gpt-6-luna-20260922. 20 requests per minute", "metadata": {} } },
+      "reason": null
+    },
+    {
+      "name": "anthropic-429-rate-limit",
+      "provider": "anthropic",
+      "status": 429,
+      "retryAfterSeconds": null,
+      "body": { "type": "error", "error": { "type": "rate_limit_error", "message": "This request would exceed the rate limit for your organization of 50,000 input tokens per minute." } },
+      "reason": null
+    },
+    {
+      "name": "openai-401-bad-key",
+      "provider": "openai",
+      "status": 401,
+      "retryAfterSeconds": null,
+      "body": { "error": { "message": "Incorrect API key provided: sk-exampl************1234. You can find your API key at https://platform.openai.com/account/api-keys.", "type": "invalid_request_error", "param": null, "code": "invalid_api_key" } },
+      "reason": "auth"
+    },
+    {
+      "name": "anthropic-401-bad-key",
+      "provider": "anthropic",
+      "status": 401,
+      "retryAfterSeconds": null,
+      "body": { "type": "error", "error": { "type": "authentication_error", "message": "invalid x-api-key" } },
+      "reason": "auth"
+    },
+    {
+      "name": "openrouter-401-key-disabled",
+      "provider": "openrouter",
+      "status": 401,
+      "retryAfterSeconds": null,
+      "body": { "error": { "code": 401, "message": "User not found." } },
+      "reason": "auth"
+    },
+    {
+      "name": "anthropic-403-permission",
+      "provider": "anthropic",
+      "status": 403,
+      "retryAfterSeconds": null,
+      "body": { "type": "error", "error": { "type": "permission_error", "message": "Your API key does not have permission to use the specified resource." } },
+      "reason": "auth"
+    },
+    {
+      "name": "openai-500",
+      "provider": "openai",
+      "status": 500,
+      "retryAfterSeconds": null,
+      "body": { "error": { "message": "The server had an error while processing your request. Sorry about that!", "type": "server_error", "param": null, "code": null } },
+      "reason": null
+    },
+    {
+      "name": "anthropic-529-overloaded",
+      "provider": "anthropic",
+      "status": 529,
+      "retryAfterSeconds": null,
+      "body": { "type": "error", "error": { "type": "overloaded_error", "message": "Overloaded" } },
+      "reason": null
+    },
+    {
+      "name": "openrouter-502-upstream",
+      "provider": "openrouter",
+      "status": 502,
+      "retryAfterSeconds": null,
+      "body": { "error": { "code": 502, "message": "Provider returned error", "metadata": { "provider_name": "Example" } } },
+      "reason": null
+    }
+  ]
+}

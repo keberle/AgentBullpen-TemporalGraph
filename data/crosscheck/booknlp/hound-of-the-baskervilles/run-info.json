@@ -1,0 +1,67 @@
+{
+  "book": "hound-of-the-baskervilles",
+  "model": "big",
+  "pipeline": "entity,quote,supersense,event,coref",
+  "seconds": 466.7,
+  "input": {
+    "stage0": "runs/20261007T033517Z-2c8d9a/stage-0.json",
+    "bodyCharStart": 910,
+    "bodyCharEnd": 362395,
+    "textSha256": "f7c8c68729d32a5f6a04a5a9ad73d184176e66a6c76b3992c41c1ab47b427d98"
+  },
+  "versions": {
+    "booknlp": "1.0.8",
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "tokenizers": "0.22.2",
+    "spacy": "3.8.16",
+    "en_core_web_sm": "3.7.1",
+    "setuptools": "80.10.2",
+    "numpy": "2.5.3",
+    "python": "3.14.6",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "ARM64"
+  },
+  "modelFiles": [
+    {
+      "file": "entities_google_bert_uncased_L-6_H-768_A-12-v1.0.model",
+      "url": "https://people.ischool.berkeley.edu/~dbamman/booknlp_models/entities_google_bert_uncased_L-6_H-768_A-12-v1.0.model",
+      "cached": true,
+      "bytes": 311346637
+    },
+    {
+      "file": "coref_google_bert_uncased_L-12_H-768_A-12-v1.0.model",
+      "url": "https://people.ischool.berkeley.edu/~dbamman/booknlp_models/coref_google_bert_uncased_L-12_H-768_A-12-v1.0.model",
+      "cached": true,
+      "bytes": 446250373
+    },
+    {
+      "file": "speaker_google_bert_uncased_L-12_H-768_A-12-v1.0.1.model",
+      "url": "https://people.ischool.berkeley.edu/~dbamman/booknlp_models/speaker_google_bert_uncased_L-12_H-768_A-12-v1.0.1.model",
+      "cached": true,
+      "bytes": 438641129
+    }
+  ],
+  "droppedKeys": {
+    "entities_google_bert_uncased_L-6_H-768_A-12-v1.0.model": [
+      "bert.embeddings.position_ids"
+    ],
+    "coref_google_bert_uncased_L-12_H-768_A-12-v1.0.model": [
+      "bert.embeddings.position_ids"
+    ],
+    "speaker_google_bert_uncased_L-12_H-768_A-12-v1.0.1.model": [
+      "bert.embeddings.position_ids"
+    ]
+  },
+  "hosts": {
+    "models": "people.ischool.berkeley.edu",
+    "bertBases": "huggingface.co (files redirect to us.aws.cdn.hf.co)",
+    "packages": "pypi.org / files.pythonhosted.org"
+  },
+  "counts": {
+    "characters": 501,
+    "mentions": 3847,
+    "mentionOffsetsChecked": 3847,
+    "mentionOffsetsExact": 3847
+  }
+}

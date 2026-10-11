@@ -1,0 +1,11 @@
+# Sherlock Holmes, end of chapter 3. Run with and without --spoilers.
+Who is Dr. Mortimer?
+Whom have you met so far in this affair?
+What do you know about Sir Charles Baskerville?
+Where is Baskerville Hall, and who lives there?
+Who is Sir Henry Baskerville?
+What happened on the night Sir Charles died?
+Who is Stapleton?
+Who is Laura Lyons?
+Do you know anything about the hound?
+Who do you suspect?

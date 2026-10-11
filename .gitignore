@@ -1,0 +1,79 @@
+# ---- Local secrets & dev config (NEVER commit) ----
+**/appsettings.Development.json
+**/appsettings.*.Local.json
+**/.env
+**/.env.local
+**/.env.*.local
+**/.env.*
+**/secrets.json
+*.pem
+*.pfx
+*.key
+.azure/
+
+# ---- Node ----
+node_modules/
+**/dist/
+*.log
+.vite/
+*.tsbuildinfo
+
+# ---- .NET build output ----
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.binlog
+artifacts/
+
+# ---- Aspire ----
+.aspire/
+
+# ---- Python (the BookNLP sidecar) ----
+__pycache__/
+.venv/
+
+# ---- IDE / editor ----
+.vs/
+.idea/
+*.swp
+*~
+
+# ---- Indexing run folders (local system of record) ----
+/runs/
+
+# ---- Private working notes (handoffs, reports, screens) ----
+/.archive/
+/docs/handoff/
+
+# ---- Local databases (the promoted books in data/books are the only ones committed) ----
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
+!/data/books/*.sqlite
+
+# ---- Test and check output (Playwright, coverage, screenshots) ----
+TestResults/
+test-results/
+playwright-report/
+blob-report/
+coverage/
+*.trx
+/screens/
+/screenshots/
+
+# ---- Agent and tool state ----
+.claude/
+.cursor/
+.codex/
+.aider*
+.vscode/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini

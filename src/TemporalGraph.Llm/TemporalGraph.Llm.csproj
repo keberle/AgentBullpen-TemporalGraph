@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- The LLM client factory and call pipeline (settings, profiles, PolicyId, sampling, retries, call log), shared by
+       tools/TemporalGraph.Cli (indexing stages, llm-check, chat) and src/TemporalGraph.Api (the chat mutation) through
+       TemporalGraph.Chat. Run folders are not known here: the call log writes to an ILlmCallLog the caller supplies. -->
+
+  <ItemGroup>
+    <!-- Exact pins: Agent Framework ships breaking minors often, and these resolve together (Agent Framework 1.23.0 needs
+         MEAI 10.10.0 + Abstractions 10.10.1, MEAI.OpenAI 10.10.1 needs OpenAI 2.14.0). Agent Framework is in TemporalGraph.Chat. -->
+    <PackageReference Include="Microsoft.Extensions.AI" Version="[10.10.0]" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="[10.10.1]" />
+    <PackageReference Include="OpenAI" Version="[2.14.0]" />
+    <PackageReference Include="Anthropic" Version="[12.53.0]" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- ChatClientFactory's test-only Anthropic base URL (local fake server). -->
+    <InternalsVisibleTo Include="TemporalGraph.Cli" />
+    <InternalsVisibleTo Include="TemporalGraph.Chat" />
+    <InternalsVisibleTo Include="TemporalGraph.Data.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,92 @@
+{
+  "book": "treasure-island",
+  "runId": "20261011T131304Z-6e965a",
+  "promotedAt": "2026-10-11T13:19:26Z",
+  "git": {
+    "commit": "3005e1d98d315df2b73a10f8c78462294f5b8d7a",
+    "dirty": true
+  },
+  "chapters": {
+    "first": 1,
+    "last": 34
+  },
+  "textSha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+  "llm": {
+    "profile": "haiku55",
+    "type": "Anthropic",
+    "model": "claude-haiku-5-5"
+  },
+  "anchor": {
+    "edtf": "1751-09-15",
+    "note": "Assumption: the story's first narrated event is placed on 1751-09-15, a date made up from the text's own clues (The text describes a seafaring captain arriving at a coastal inn on a lonely cove with a sea-chest, with no year given, so a plausible year for an 18th-century seaside setting is chosen and a day in early autumn is picked, following the mail-coach arrival the morning before at the Royal George.). Every other story date is derived from it."
+  },
+  "scores": null,
+  "leakTests": {
+    "spoilers-off": {
+      "checked": 154664,
+      "passed": true
+    },
+    "spoilers-on": {
+      "checked": 248796,
+      "passed": true
+    },
+    "identity": {
+      "checked": 0,
+      "passed": true
+    },
+    "referenced-events": {
+      "checked": 91,
+      "passed": true
+    },
+    "clocks": {
+      "checked": 8592,
+      "passed": true
+    }
+  },
+  "skills": {
+    "extract-graph": 1,
+    "pick-anchor-date": 2,
+    "assign-story-time": 5,
+    "revise-perceptions": 2
+  },
+  "counts": {
+    "rows": {
+      "nodes": 2283,
+      "node_labels": 2283,
+      "edges": 6309,
+      "event_order": 0,
+      "characters": 75,
+      "locations": 73,
+      "timeline": 816,
+      "chapters": 34,
+      "positions": 1375
+    },
+    "labels": {
+      "Character": 75,
+      "Event": 781,
+      "Fact": 1354,
+      "Location": 73
+    },
+    "edgeTypes": {
+      "DISCOVERED": 1355,
+      "LOCATED_AT": 505,
+      "MENTIONED_IN": 91,
+      "PARTICIPATED_IN": 1468,
+      "PERCEIVES": 2870,
+      "RELATED_TO": 20
+    }
+  },
+  "layout": {
+    "algorithm": "d3-force-3d 3.0.6",
+    "seed": 66,
+    "iterations": 300,
+    "nodes": 2283,
+    "edges": 6309,
+    "alpha3": 0.001,
+    "alpha2": 0.000108,
+    "radius3": 1550.66,
+    "radius2": 1076.82,
+    "computedAt": "2026-10-11T16:08:35Z",
+    "milliseconds": 11431
+  }
+}

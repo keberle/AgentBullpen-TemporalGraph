@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "src/TemporalGraph.AppHost/TemporalGraph.AppHost.csproj"
+  }
+}

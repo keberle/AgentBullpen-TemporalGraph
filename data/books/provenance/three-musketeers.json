@@ -1,0 +1,93 @@
+{
+  "book": "three-musketeers",
+  "runId": "20261011T142504Z-6ed0f4",
+  "promotedAt": "2026-10-11T14:40:54Z",
+  "git": {
+    "commit": "3005e1d98d315df2b73a10f8c78462294f5b8d7a",
+    "dirty": true
+  },
+  "chapters": {
+    "first": 1,
+    "last": 67
+  },
+  "textSha256": "1682d060845717283d22462d1d884f79c2741ecdba3cfe5ceed700602ccf0e75",
+  "llm": {
+    "profile": "haiku55",
+    "type": "Anthropic",
+    "model": "claude-haiku-5-5"
+  },
+  "anchor": {
+    "edtf": "1625-04-07",
+    "note": "Assumption: the story's first narrated event is placed on 1625-04-07, a date made up from the text's own clues (The text states the scene is on the first Monday of the month of April, 1625, so the first Monday of April 1625 (April 7) is chosen as the day.). Every other story date is derived from it."
+  },
+  "scores": null,
+  "leakTests": {
+    "spoilers-off": {
+      "checked": 780373,
+      "passed": true
+    },
+    "spoilers-on": {
+      "checked": 1043941,
+      "passed": true
+    },
+    "identity": {
+      "checked": 252,
+      "passed": true
+    },
+    "referenced-events": {
+      "checked": 278,
+      "passed": true
+    },
+    "clocks": {
+      "checked": 22529,
+      "passed": true
+    }
+  },
+  "skills": {
+    "extract-graph": 1,
+    "pick-anchor-date": 2,
+    "assign-story-time": 5,
+    "revise-perceptions": 2
+  },
+  "counts": {
+    "rows": {
+      "nodes": 5918,
+      "node_labels": 5918,
+      "edges": 16611,
+      "event_order": 0,
+      "characters": 241,
+      "locations": 208,
+      "timeline": 2203,
+      "chapters": 67,
+      "positions": 8089
+    },
+    "labels": {
+      "Character": 241,
+      "Event": 2135,
+      "Fact": 3334,
+      "Location": 208
+    },
+    "edgeTypes": {
+      "DISCOVERED": 3347,
+      "IDENTICAL_TO": 7,
+      "LOCATED_AT": 922,
+      "MENTIONED_IN": 278,
+      "PARTICIPATED_IN": 4410,
+      "PERCEIVES": 7551,
+      "RELATED_TO": 96
+    }
+  },
+  "layout": {
+    "algorithm": "d3-force-3d 3.0.6",
+    "seed": 66,
+    "iterations": 300,
+    "nodes": 5918,
+    "edges": 16611,
+    "alpha3": 0.001,
+    "alpha2": 0.000108,
+    "radius3": 2197.5,
+    "radius2": 1509.59,
+    "computedAt": "2026-10-11T16:09:45Z",
+    "milliseconds": 66837
+  }
+}

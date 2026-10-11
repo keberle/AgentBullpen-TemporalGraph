@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="13.6.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsAspireHost>true</IsAspireHost>
+    <!-- DCP and the dashboard come from the Aspire CLI (the template default since 13.5), so the CLI and the
+         orchestration versions stay in step. Needs the Aspire CLI on PATH (or dnx) at build time. -->
+    <AspireUseCliBundle>true</AspireUseCliBundle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="13.6.0" />
+    <PackageReference Include="Aspire.Hosting.JavaScript" Version="13.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemporalGraph.Api\TemporalGraph.Api.csproj" />
+    <ProjectReference Include="..\..\tools\TemporalGraph.Cli\TemporalGraph.Cli.csproj" />
+  </ItemGroup>
+
+</Project>

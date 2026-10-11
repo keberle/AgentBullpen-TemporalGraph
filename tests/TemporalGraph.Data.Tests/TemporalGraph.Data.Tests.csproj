@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
+    <PackageReference Include="xunit.v3" Version="3.2.2" />
+    <!-- TestConsole for the setup walkthrough's prompts. -->
+    <PackageReference Include="Spectre.Console.Testing" Version="0.57.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TemporalGraph.Data\TemporalGraph.Data.csproj" />
+    <!-- For the embedded book manifest and databases. -->
+    <ProjectReference Include="..\..\src\TemporalGraph.Api\TemporalGraph.Api.csproj" />
+    <!-- For the embedded source texts. -->
+    <ProjectReference Include="..\..\tools\TemporalGraph.Cli\TemporalGraph.Cli.csproj" />
+    <!-- FakeLlmServer (shared with the API tests). -->
+    <ProjectReference Include="..\TemporalGraph.Testing\TemporalGraph.Testing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Using Include="TemporalGraph.Testing" />
+  </ItemGroup>
+
+  <!-- The committed appsettings.json templates, under their own names (the project references also copy appsettings files here). -->
+  <ItemGroup>
+    <None Include="..\..\tools\TemporalGraph.Cli\appsettings.json" Link="templates\cli.appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\..\src\TemporalGraph.Api\appsettings.json" Link="templates\api.appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- chat: the committed query files (the tools), the earlier-shape query files (no book has that shape any more; they are kept
+       under tests/fixtures for the hand-built graphs of that shape) and the Query tests' hand-built graph. -->
+  <ItemGroup>
+    <None Include="..\..\queries\hound-of-the-baskervilles\*.cypher" Link="queries\hound-of-the-baskervilles\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\fixtures\queries-earlier\*.cypher" Link="queries-earlier\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Include="..\TemporalGraph.Query.Tests\Fixture.cs" Link="Chat\QueryFixture.cs" />
+  </ItemGroup>
+
+</Project>

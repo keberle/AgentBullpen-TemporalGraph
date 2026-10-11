@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <!-- Llm:ApiKey lives in user-secrets, shared with the API (same UserSecretsId). -->
+    <UserSecretsId>temporalgraph-cli</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ChatCommand.RunAsync and other internals used by the tests. -->
+    <InternalsVisibleTo Include="TemporalGraph.Data.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.57.2" />
+    <PackageReference Include="Spectre.Console.Cli" Version="0.57.2" />
+    <!-- JsonText, for a query result shown as JSON at a terminal. -->
+    <PackageReference Include="Spectre.Console.Json" Version="0.57.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TemporalGraph.Data\TemporalGraph.Data.csproj" />
+    <!-- Chat (tools, pack, prompt, conversation) and the LLM client pipeline, shared with the API. -->
+    <ProjectReference Include="..\..\src\TemporalGraph.Chat\TemporalGraph.Chat.csproj" />
+    <ProjectReference Include="..\..\src\TemporalGraph.Llm\TemporalGraph.Llm.csproj" />
+    <!-- The openCypher subset for the query command. -->
+    <ProjectReference Include="..\..\src\TemporalGraph.Query\TemporalGraph.Query.csproj" />
+    <!-- OpenTelemetry defaults (ConfigureOpenTelemetryCore only; no ASP.NET parts are used). -->
+    <ProjectReference Include="..\..\src\TemporalGraph.ServiceDefaults\TemporalGraph.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+  <!-- Llm settings: appsettings.json (committed template) and appsettings.Development.json (gitignored, real
+       non-secret values), read from AppContext.BaseDirectory so the CLI works from any folder. The key stays in user-secrets. -->
+  <ItemGroup>
+    <None Update="appsettings.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="appsettings.Development.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- The source texts (data/books/source/<id>.txt, Project Gutenberg, unchanged) are read from disk under the repo
+       root, not embedded: a book added with `books add` cannot be compiled in. -->
+
+</Project>

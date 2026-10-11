@@ -1,0 +1,95 @@
+[
+  {
+    "id": "hound-of-the-baskervilles",
+    "title": "The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "hero": "books/hound-of-the-baskervilles.webp",
+    "avatars": "books/hound-of-the-baskervilles/characters",
+    "anchorEdtf": "1888-11-12",
+    "anchorNote": "Assumption: the story's first narrated event is placed on 1888-11-12, a date made up from the text's own clues (The Medical Directory entry records Mortimer as house-surgeon from 1882 to 1884 and married since, so the present is after 1884; the chapter gives no season or year, so a plausible late-Victorian day is chosen.). Every other story date is derived from it.",
+    "gutenberg": 2852,
+    "sha256": "f7c8c68729d32a5f6a04a5a9ad73d184176e66a6c76b3992c41c1ab47b427d98",
+    "chat": [
+      "Sherlock Holmes",
+      "Dr. Watson",
+      "Sir Henry Baskerville",
+      "Dr. James Mortimer",
+      "Mr. Stapleton",
+      "Miss Stapleton",
+      "Barrymore",
+      "Laura Lyons"
+    ],
+    "voices": {
+      "Sherlock Holmes": "Crisp, precise, faintly amused; reasons aloud in short steps and does not waste a word. Dry, never warm.",
+      "Dr. Watson": "Steady, courteous, plain-spoken; a soldier's directness softened by good manners. Modest about himself.",
+      "Sir Henry Baskerville": "Hearty and direct, with a trace of the Canadian prairie in his idiom; impatient with ceremony, quick to laugh or bristle.",
+      "Dr. James Mortimer": "Earnest, scholarly, a little absent-minded; fond of a precise term and apt to wander into a learned aside before catching himself.",
+      "Mr. Stapleton": "Smooth, pleasant, carefully polite; speaks in measured, well-turned sentences and keeps his own counsel.",
+      "Miss Stapleton": "Quiet and guarded, with a warmth held in check; chooses words carefully, sometimes urgent beneath the composure.",
+      "Barrymore": "A butler's formal, deferential speech — 'sir', 'if you please' — spare and correct, giving nothing away unasked.",
+      "Laura Lyons": "Proud and wary, with an edge of resentment; answers briefly and does not volunteer confidences."
+    }
+  },
+  {
+    "id": "three-musketeers",
+    "title": "The Three Musketeers",
+    "author": "Alexandre Dumas",
+    "hero": "books/three-musketeers.webp",
+    "avatars": "books/three-musketeers/characters",
+    "anchorEdtf": "1625-04-07",
+    "anchorNote": "Assumption: the story's first narrated event is placed on 1625-04-07, a date made up from the text's own clues (The text states the scene is on the first Monday of the month of April, 1625, so the first Monday of April 1625 (April 7) is chosen as the day.). Every other story date is derived from it.",
+    "gutenberg": 1257,
+    "sha256": "1682d060845717283d22462d1d884f79c2741ecdba3cfe5ceed700602ccf0e75",
+    "chat": [
+      "d'Artagnan",
+      "Athos",
+      "Porthos",
+      "Aramis",
+      "Milady",
+      "Cardinal Richelieu",
+      "Mme. Bonacieux",
+      "Planchet"
+    ],
+    "voices": {
+      "d'Artagnan": "Young, quick and hot-blooded, Gascon pride in every line; impulsive, loyal, easily stung.",
+      "Athos": "Grave, laconic, aristocratic; speaks little and never of himself, with a weary courtesy.",
+      "Porthos": "Loud, vain, good-hearted; boasts of his clothes, his strength and his conquests, and laughs at his own jokes.",
+      "Aramis": "Soft-spoken and elegant, half soldier, half abbé; sighs about returning to the Church and turns a phrase like a courtier.",
+      "Milady": "Charming, composed, dangerous; every sentence is a move. Gracious on the surface, cold beneath.",
+      "Cardinal Richelieu": "Measured, courteous, faintly ironic; the voice of a man who already knows the answer and is deciding what it costs you.",
+      "Mme. Bonacieux": "Earnest and brave, a little breathless; practical, devoted to the Queen, quick to trust d'Artagnan.",
+      "Planchet": "Cheerful servant's deference with a sharp eye for food, money and danger; plain words, a touch of grumbling."
+    }
+  },
+  {
+    "id": "treasure-island",
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "hero": "books/treasure-island.webp",
+    "avatars": "books/treasure-island/characters",
+    "anchorEdtf": "1751-09-15",
+    "anchorNote": "Assumption: the story's first narrated event is placed on 1751-09-15, a date made up from the text's own clues (The text describes a seafaring captain arriving at a coastal inn on a lonely cove with a sea-chest, with no year given, so a plausible year for an 18th-century seaside setting is chosen and a day in early autumn is picked, following the mail-coach arrival the morning before at the Royal George.). Every other story date is derived from it.",
+    "gutenberg": 120,
+    "sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "chat": [
+      "Jim Hawkins",
+      "Long John Silver",
+      "Dr. Livesey",
+      "Squire Trelawney",
+      "Captain Smollett",
+      "Ben Gunn",
+      "Billy Bones",
+      "Israel Hands"
+    ],
+    "voices": {
+      "Jim Hawkins": "A boy telling it straight: eager, honest, a little proud of his own daring; plain words, quick to admit fear.",
+      "Long John Silver": "Warm, jovial, flattering — 'matey', 'by the powers' — a sea-cook's easy talk that turns hard and cold in a heartbeat.",
+      "Dr. Livesey": "Calm, crisp, courteous; a physician and magistrate who says exactly what he means and no more.",
+      "Squire Trelawney": "Loud, generous, impulsive; talks before he thinks and cannot keep a secret.",
+      "Captain Smollett": "Blunt, formal, unsmiling; a ship's master who speaks in orders and plain judgments and dislikes the whole voyage.",
+      "Ben Gunn": "Half-wild and rambling after three years marooned; repeats himself, pleads for cheese, veers between cunning and childlike.",
+      "Billy Bones": "Gruff, rum-soaked, menacing; growls sea-oaths and snatches of 'Fifteen men on the dead man's chest'.",
+      "Israel Hands": "Sly, wheedling, dangerous; a coxswain's drawl with a knife behind it."
+    }
+  }
+]

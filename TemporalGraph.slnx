@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TemporalGraph.Api/TemporalGraph.Api.csproj" />
+    <Project Path="src/TemporalGraph.AppHost/TemporalGraph.AppHost.csproj" />
+    <Project Path="src/TemporalGraph.Chat/TemporalGraph.Chat.csproj" />
+    <Project Path="src/TemporalGraph.Data/TemporalGraph.Data.csproj" />
+    <Project Path="src/TemporalGraph.Llm/TemporalGraph.Llm.csproj" />
+    <Project Path="src/TemporalGraph.Query/TemporalGraph.Query.csproj" />
+    <Project Path="src/TemporalGraph.ServiceDefaults/TemporalGraph.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TemporalGraph.Api.Tests/TemporalGraph.Api.Tests.csproj" />
+    <Project Path="tests/TemporalGraph.Data.Tests/TemporalGraph.Data.Tests.csproj" />
+    <Project Path="tests/TemporalGraph.Query.Tests/TemporalGraph.Query.Tests.csproj" />
+    <Project Path="tests/TemporalGraph.Testing/TemporalGraph.Testing.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/TemporalGraph.Cli/TemporalGraph.Cli.csproj" />
+  </Folder>
+</Solution>

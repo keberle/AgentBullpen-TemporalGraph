@@ -1,0 +1,3848 @@
+coref	cat	prop	char_start	char_end	text
+172	PER	NOM	918	947	THE HOUND OF THE BASKERVILLES
+94	PER	PROP	972	987	Sherlock Holmes
+90	PER	PROP	996	1010	A. Conan Doyle
+91	PER	PROP	1028	1036	Robinson
+173	GPE	NOM	1073	1094	a West - Country legend
+90	PER	PROP	1221	1235	A. Conan Doyle
+1	GPE	PROP	1248	1256	Hindhead
+2	FAC	PROP	1265	1291	Haslemere . Contents
+94	PER	PROP	1309	1328	Mr. Sherlock Holmes
+98	LOC	PROP	1355	1371	the Baskervilles
+92	PER	PROP	1410	1431	Sir Henry Baskerville
+4	FAC	PROP	1445	1465	Three Broken Threads
+5	FAC	PROP	1479	1495	Baskerville Hall
+174	FAC	NOM	1509	1541	The Stapletons of Merripit House
+6	FAC	PROP	1527	1541	Merripit House
+93	PER	PROP	1571	1581	Dr. Watson
+175	FAC	NOM	1595	1618	The Light upon the Moor
+7	LOC	PROP	1610	1618	the Moor
+93	PER	PROP	1637	1647	Dr. Watson
+93	PER	PROP	1688	1698	Dr. Watson
+176	PER	NOM	1712	1730	The Man on the Tor
+8	LOC	PROP	1723	1730	the Tor
+7	LOC	PROP	1753	1761	the Moor
+98	LOC	PROP	1817	1833	the Baskervilles
+94	PER	PROP	1884	1934	Mr. Sherlock Holmes Mr. Sherlock Holmes
+178	PER	NOM	2160	2171	our visitor
+95	PER	PROP	2410	2424	James Mortimer
+1335	PER	NOM	2441	2473	his friends of the C.C.H.
+179	PER	NOM	2555	2592	the old - fashioned family practitioner
+93	PER	PROP	2664	2670	Watson
+94	PER	PROP	2706	2712	Holmes
+93	PER	PROP	3020	3026	Watson
+178	PER	NOM	3055	3066	our visitor
+1338	PER	NOM	3249	3256	the man
+180	PER	NOM	3361	3380	my companion
+95	PER	PROP	3388	3400	Dr. Mortimer
+1339	PER	NOM	3404	3444	a successful , elderly medical man
+1340	PER	NOM	3466	3484	those who know him
+94	PER	PROP	3557	3563	Holmes
+1341	PER	NOM	3648	3730	a country practitioner who does a great deal of his visiting on foot
+1342	PER	NOM	3879	3905	a town practitioner
+94	PER	PROP	4073	4079	Holmes
+1343	PER	NOM	4121	4142	friends of the C.C.H.
+1344	PER	NOM	4132	4142	the C.C.H.
+1345	PER	NOM	4177	4195	the Something Hunt
+93	PER	PROP	4365	4371	Watson
+94	PER	PROP	4399	4405	Holmes
+1347	PER	NOM	4712	4732	a conductor of light
+1348	PER	NOM	4734	4771	Some people without possessing genius
+1349	PER	NOM	4833	4854	my dear fellow
+1351	PER	NOM	5953	5960	my dear
+93	PER	PROP	5961	5967	Watson
+1338	PER	NOM	6225	6232	The man
+1353	PER	NOM	6246	6268	a country practitioner
+1351	PER	NOM	6407	6414	my dear
+93	PER	PROP	6415	6421	Watson
+1355	PER	NOM	6508	6516	a doctor
+1356	FAC	NOM	6552	6562	a hospital
+1357	FAC	NOM	6640	6653	that hospital
+1359	PER	NOM	6922	6942	this unknown visitor
+9	FAC	PROP	7007	7036	Charing Cross Hospital
+1338	PER	NOM	7207	7214	the man
+1362	GPE	NOM	7239	7243	town
+1363	LOC	NOM	7260	7271	the country
+1364	PER	NOM	7476	7487	his friends
+95	PER	PROP	7578	7590	Dr. Mortimer
+1365	FAC	NOM	7620	7639	the hospital
+1366	FAC	NOM	7775	7790	a town hospital
+1367	FAC	NOM	7794	7812	a country practice
+1369	PER	NOM	8042	8076	the _ staff _ of the hospital
+1365	FAC	NOM	8064	8076	the hospital
+1371	PER	NOM	8089	8139	a man well - established in a London practice
+10	GPE	PROP	8117	8123	London
+1372	PER	NOM	8172	8182	such a one
+1363	LOC	NOM	8211	8222	the country
+1365	FAC	NOM	8256	8275	the hospital
+1375	PER	NOM	8325	8347	a house - surgeon
+1376	PER	NOM	8351	8368	a house - physician
+1377	PER	NOM	8386	8409	a senior student
+1378	PER	NOM	8474	8517	your grave , middle - aged family practitioner
+1379	PER	NOM	8486	8517	middle - aged family practitioner
+1351	PER	NOM	8549	8556	my dear
+93	PER	PROP	8557	8563	Watson
+1381	PER	NOM	8583	8617	a young fellow under thirty
+94	PER	PROP	8836	8851	Sherlock Holmes
+1338	PER	NOM	9103	9110	the man
+181	PER	NOM	9254	9271	several Mortimers
+178	PER	NOM	9299	9317	our visitor
+95	PER	PROP	9356	9364	Mortimer
+95	PER	PROP	9366	9371	James
+11	GPE	PROP	9389	9396	Grimpen
+12	GPE	PROP	9398	9406	Dartmoor
+13	GPE	PROP	9408	9413	Devon
+1383	PER	NOM	9424	9437	House - surgeon
+1384	FAC	NOM	9461	9483	Charing Cross Hospital
+1385	PER	NOM	9494	9547	Winner of the Jackson prize for Comparative Pathology
+1386	PER	NOM	9673	9732	Author of ‘ Some Freaks of Atavism ’ ( _ Lancet _ 1882 )
+1387	PER	NOM	9802	9881	Medical Officer for the parishes of Grimpen , Thorsley , and High Barrow
+1388	FAC	NOM	9822	9881	the parishes of Grimpen , Thorsley , and High Barrow
+11	GPE	PROP	9847	9854	Grimpen
+15	GPE	PROP	9856	9864	Thorsley
+16	FAC	PROP	9870	9881	High Barrow
+93	PER	PROP	9925	9931	Watson
+94	PER	PROP	9939	9945	Holmes
+1389	PER	NOM	9984	10000	a country doctor
+1390	PER	NOM	10242	10296	an amiable man in this world who receives testimonials
+1391	LOC	NOM	10260	10270	this world
+1392	PER	NOM	10310	10373	an unambitious one who abandons a London career for the country
+10	GPE	PROP	10344	10350	London
+1363	GPE	NOM	10362	10373	the country
+1394	PER	NOM	10391	10500	an absent - minded one who leaves his stick and not his visiting - card after waiting an hour in your room
+1395	FAC	NOM	10491	10500	your room
+1396	PER	NOM	10589	10599	his master
+1397	PER	NOM	10869	10878	a mastiff
+96	PER	PROP	10912	10916	Jove
+1398	PER	NOM	10926	10948	a curly - haired spaniel
+186	FAC	NOM	10983	10991	the room
+1349	PER	NOM	11152	11166	My dear fellow
+1401	PER	NOM	11329	11338	its owner
+93	PER	PROP	11370	11376	Watson
+1402	PER	NOM	11384	11415	a professional brother of yours
+93	PER	PROP	11513	11519	Watson
+95	PER	PROP	11656	11674	Dr. James Mortimer
+1403	PER	NOM	11676	11694	the man of science
+94	PER	PROP	11703	11725	Sherlock Holmes
+1404	PER	NOM	11727	11750	the specialist in crime
+178	PER	NOM	11789	11800	our visitor
+189	PER	NOM	11851	11881	a typical country practitioner
+190	PER	NOM	11890	12065	a very tall , thin man , with a long nose like a beak , which jutted out between two keen , grey eyes , set closely together and sparkling brightly from behind
+94	PER	PROP	12428	12434	Holmes
+1405	FAC	NOM	12575	12579	here
+1406	FAC	NOM	12586	12605	the Shipping Office
+1407	LOC	NOM	12646	12655	the world
+94	PER	PROP	12697	12703	Holmes
+1408	PER	NOM	12720	12723	sir
+9	FAC	PROP	12741	12763	Charing Cross Hospital
+1409	PER	NOM	12781	12799	one or two friends
+1410	GPE	NOM	12800	12805	there
+1411	PER	NOM	12849	12853	Dear
+1411	PER	NOM	12855	12859	dear
+94	PER	PROP	12879	12885	Holmes
+95	PER	PROP	12914	12926	Dr. Mortimer
+1408	PER	NOM	13113	13116	sir
+1365	FAC	NOM	13141	13153	the hospital
+1416	FAC	NOM	13235	13258	a home of my own
+94	PER	PROP	13325	13331	Holmes
+95	PER	PROP	13350	13368	Dr. James Mortimer
+1417	PER	NOM	13381	13387	Mister
+1408	PER	NOM	13389	13392	sir
+1417	PER	NOM	13394	13400	Mister
+1420	PER	NOM	13401	13418	a humble M.R.C.S.
+1421	PER	NOM	13434	13455	a man of precise mind
+1422	PER	NOM	13479	13499	A dabbler in science
+94	PER	PROP	13501	13511	Mr. Holmes
+1423	LOC	NOM	13538	13582	the shores of the great unknown ocean
+94	PER	PROP	13605	13631	Mr. Sherlock Holmes
+1424	PER	NOM	13685	13694	my friend
+93	PER	PROP	13695	13705	Dr. Watson
+1408	PER	NOM	13736	13739	sir
+1426	PER	NOM	13808	13819	your friend
+94	PER	PROP	13855	13865	Mr. Holmes
+1408	PER	NOM	14088	14091	sir
+94	PER	PROP	14279	14294	Sherlock Holmes
+192	PER	NOM	14301	14320	our strange visitor
+1428	PER	NOM	14351	14388	an enthusiast in your line of thought
+1408	PER	NOM	14402	14405	sir
+1338	PER	NOM	14561	14568	The man
+94	PER	PROP	14764	14770	Holmes
+194	PER	NOM	14861	14882	our curious companion
+1408	PER	NOM	14903	14906	sir
+1405	FAC	NOM	15036	15040	here
+1408	PER	NOM	15091	15094	sir
+94	PER	PROP	15191	15201	Mr. Holmes
+1433	PER	NOM	15248	15266	an unpractical man
+1434	PER	NOM	15400	15442	the second highest expert in Europe
+17	GPE	PROP	15436	15442	Europe
+1408	PER	NOM	15463	15466	sir
+94	PER	PROP	15532	15538	Holmes
+1436	PER	NOM	15572	15608	the man of precisely scientific mind
+97	PER	PROP	15621	15646	Monsieur Bertillon
+1408	PER	NOM	15743	15746	sir
+1438	PER	NOM	15751	15780	the precisely scientific mind
+1439	PER	NOM	15789	15822	a practical man of affairs
+1408	PER	NOM	15880	15883	sir
+94	PER	PROP	15948	15954	Holmes
+95	PER	PROP	15966	15978	Dr. Mortimer
+98	PER	PROP	16184	16200	the Baskervilles
+95	PER	PROP	16253	16271	Dr. James Mortimer
+186	FAC	NOM	16312	16320	the room
+94	PER	PROP	16328	16334	Holmes
+1408	PER	NOM	16465	16468	sir
+1443	PER	NOM	16599	16683	a poor expert who could not give the date of a document within a decade or so
+95	PER	PROP	16820	16832	Dr. Mortimer
+99	PER	PROP	16919	16949	Sir Charles Baskerville
+18	GPE	PROP	17040	17050	Devonshire
+1444	PER	NOM	17080	17099	his personal friend
+1445	PER	NOM	17111	17132	his medical attendant
+1446	PER	NOM	17148	17167	a strong - minded man
+1408	PER	NOM	17169	17172	sir
+94	PER	PROP	17382	17388	Holmes
+93	PER	PROP	17489	17495	Watson
+5	FAC	PROP	17741	17757	Baskerville Hall
+1448	PER	NOM	17935	17964	the Baskerville family
+94	PER	PROP	18338	18344	Holmes
+95	PER	PROP	18460	18472	Dr. Mortimer
+172	PER	NOM	18630	18659	the Hound of the Baskervilles
+98	PER	PROP	18643	18659	the Baskervilles
+101	GPE	PROP	18738	18763	Hugo Baskerville
+1450	PER	NOM	18793	18802	my father
+1451	PER	NOM	18966	18973	my sons
+1453	PER	NOM	19320	19330	our family
+100	PER	PROP	19523	19537	Lord Clarendon
+1454	FAC	NOM	19595	19633	this Manor of Baskerville
+20	GPE	PROP	19622	19633	Baskerville
+101	PER	PROP	19646	19650	Hugo
+1455	PER	NOM	19713	19750	a most wild , profane , and godless man
+1456	PER	NOM	19782	19796	his neighbours
+1457	LOC	NOM	20007	20015	the West
+1458	PER	NOM	20034	20043	this Hugo
+1459	PER	NOM	20151	20231	the daughter of a yeoman who held lands near the Baskerville estate
+1460	PER	NOM	20167	20231	a yeoman who held lands near the Baskerville estate
+1461	FAC	NOM	20209	20231	the Baskerville estate
+1462	PER	NOM	20237	20301	the young maiden , being discreet and of good repute
+102	PER	PROP	20410	20430	Michaelmas this Hugo
+1463	PER	NOM	20437	20495	five or six of his idle and wicked companions
+1464	PER	NOM	20452	20495	his idle and wicked companions
+1465	FAC	NOM	20513	20521	the farm
+1466	PER	NOM	20551	20561	the maiden
+1467	PER	NOM	20563	20573	her father
+1468	PER	NOM	20578	20586	brothers
+1469	FAC	NOM	20598	20602	home
+1471	FAC	NOM	20664	20672	the Hall
+1466	PER	NOM	20673	20696	the maiden
+1473	FAC	NOM	20711	20727	an upper chamber
+102	PER	PROP	20735	20739	Hugo
+1364	PER	NOM	20744	20768	his friends
+1475	PER	NOM	20845	20858	the poor lass
+1476	FAC	NOM	20859	20867	upstairs
+101	PER	PROP	21056	21072	Hugo Baskerville
+1477	PER	NOM	21133	21154	the man who said them
+1478	PER	NOM	21255	21285	the bravest or most active man
+1479	LOC	NOM	21469	21477	the moor
+1471	FAC	NOM	21513	21521	the Hall
+1467	PER	NOM	21539	21549	her father
+1482	FAC	NOM	21539	21556	her father ’s farm
+101	PER	PROP	21613	21617	Hugo
+1483	PER	NOM	21623	21646	his guests
+1484	PER	NOM	21722	21733	his captive
+1485	PER	NOM	21863	21870	a devil
+1486	FAC	NOM	21906	21934	the dining - hall
+1487	PER	NOM	22192	22214	the wench
+1488	PER	NOM	22227	22240	the revellers
+1338	PER	NOM	22282	22289	the man
+1490	PER	NOM	22291	22361	one more wicked or , it may be , more drunken than the rest
+101	PER	PROP	22437	22441	Hugo
+1491	FAC	NOM	22451	22460	the house
+1492	PER	NOM	22472	22482	his grooms
+1493	PER	NOM	22601	22609	the maid
+1479	LOC	NOM	22695	22716	the moor
+1488	PER	NOM	22754	22767	the revellers
+1496	LOC	NOM	22971	22984	the moorlands
+1497	PER	NOM	23213	23243	the whole of them
+1493	PER	NOM	23416	23424	the maid
+1499	FAC	NOM	23481	23493	her own home
+1500	PER	NOM	23563	23614	the night shepherds upon the moorlands
+1496	LOC	NOM	23601	23614	the moorlands
+1338	PER	NOM	23689	23696	the man
+1504	PER	NOM	23839	23870	the unhappy maiden
+101	PER	PROP	23966	23982	Hugo Baskerville
+103	PER	PROP	24094	24097	God
+1505	PER	NOM	24151	24170	the drunken squires
+1506	PER	NOM	24178	24190	the shepherd
+1479	LOC	NOM	24303	24311	the moor
+1488	PER	NOM	24440	24453	the revellers
+1479	LOC	NOM	24547	24568	the moor
+1510	PER	NOM	24577	24581	each
+1512	LOC	NOM	24879	24898	a deep dip or goyal
+1479	LOC	NOM	24933	24941	the moor
+1515	PER	NOM	24943	24961	some slinking away
+1516	PER	NOM	24966	25023	some , with starting hackles and staring eyes
+1517	LOC	NOM	25037	25074	the narrow valley before
+1518	PER	NOM	25097	25108	The company
+1519	PER	NOM	25129	25143	more sober men
+1521	PER	NOM	25262	25275	three of them
+1522	LOC	NOM	25352	25361	the goyal
+1523	PER	NOM	25507	25564	certain forgotten peoples in the days of old
+1524	LOC	NOM	25612	25624	the clearing
+101	PER	PROP	25835	25851	Hugo Baskerville
+1526	PER	NOM	25921	25967	these three dare - devil roysterers
+101	PER	PROP	26000	26004	Hugo
+101	PER	PROP	26277	26306	Hugo Baskerville
+1527	PER	NOM	26390	26399	the three
+1479	LOC	NOM	26480	26488	the moor
+1529	PER	NOM	26491	26494	One
+1530	PER	NOM	26580	26595	the other twain
+1531	PER	NOM	26605	26615	broken men
+1451	PER	NOM	26691	26698	my sons
+1533	PER	NOM	26770	26780	the family
+1534	PER	NOM	26997	27028	many of the family
+1533	PER	NOM	27018	27028	the family
+1536	PER	NOM	27252	27349	the innocent beyond that third or fourth generation which is threatened in Holy Writ
+1537	GPE	NOM	27368	27383	that Providence
+1451	PER	NOM	27385	27392	my sons
+1479	LOC	NOM	27490	27511	the moor
+101	PER	PROP	27609	27625	Hugo Baskerville
+1540	PER	NOM	27629	27637	his sons
+104	PER	PROP	27638	27644	Rodger
+105	PER	PROP	27649	27653	John
+1541	PER	NOM	27719	27744	their sister
+106	PER	PROP	27745	27754	Elizabeth
+95	PER	PROP	27772	27784	Dr. Mortimer
+94	PER	PROP	27902	27928	Mr. Sherlock Holmes
+195	PER	NOM	27930	27940	The latter
+1542	PER	NOM	28088	28114	a collector of fairy tales
+95	PER	PROP	28126	28138	Dr. Mortimer
+94	PER	PROP	28197	28207	Mr. Holmes
+99	PER	PROP	28402	28425	Sir Charles Baskerville
+1424	PER	NOM	28487	28496	My friend
+178	PER	NOM	28562	28573	Our visitor
+99	PER	PROP	28647	28670	Sir Charles Baskerville
+1543	PER	NOM	28714	28767	the probable Liberal candidate for Mid - Devon
+21	GPE	PROP	28758	28767	Mid - Devon
+1544	GPE	NOM	28812	28831	the county
+99	PER	PROP	28841	28852	Sir Charles
+5	FAC	PROP	28868	28884	Baskerville Hall
+1545	PER	NOM	29024	29079	all who had been brought into contact with him
+1546	PER	NOM	29108	29125	_ nouveaux riches _
+1548	PER	NOM	29164	29238	the scion of an old county family which has fallen upon evil days
+1549	PER	NOM	29186	29238	an old county family which has fallen upon evil days
+99	PER	PROP	29364	29375	Sir Charles
+22	GPE	PROP	29432	29445	South African
+23	GPE	PROP	29591	29598	England
+1550	FAC	NOM	29649	29691	his residence at Baskerville Hall
+5	FAC	PROP	29675	29691	Baskerville Hall
+1551	LOC	NOM	29913	29934	the whole countryside
+99	PER	PROP	30266	30277	Sir Charles
+99	PER	PROP	30639	30650	Sir Charles
+1553	PER	NOM	30655	30664	a widower
+1554	PER	NOM	30670	30760	a man who may be said to have been in some ways of an eccentric habit of mind
+1555	PER	NOM	30866	30885	his indoor servants
+5	FAC	PROP	30889	30918	Baskerville Hall
+1556	PER	NOM	30932	30964	a married couple named Barrymore
+107	PER	PROP	30955	30964	Barrymore
+1557	PER	NOM	30966	30990	the husband
+1558	PER	NOM	31001	31007	butler
+1559	PER	NOM	31012	31020	the wife
+1560	PER	NOM	31024	31035	housekeeper
+1561	PER	NOM	31090	31105	several friends
+99	PER	PROP	31139	31150	Sir Charles
+95	PER	PROP	31397	31415	Dr. James Mortimer
+1562	PER	NOM	31417	31427	the friend
+1563	PER	NOM	31417	31478	the friend and medical attendant of the deceased
+1564	PER	NOM	31453	31478	the deceased
+99	PER	PROP	31570	31593	Sir Charles Baskerville
+1565	FAC	NOM	31685	31725	the famous yew alley of Baskerville Hall
+5	FAC	PROP	31709	31725	Baskerville Hall
+108	PER	PROP	31757	31771	the Barrymores
+99	PER	PROP	31843	31854	Sir Charles
+10	GPE	PROP	31920	31926	London
+107	PER	PROP	31957	31966	Barrymore
+107	PER	PROP	32189	32198	Barrymore
+1471	FAC	NOM	32208	32216	the hall
+1396	PER	NOM	32319	32329	his master
+99	PER	PROP	32358	32382	Sir Charles
+1568	FAC	NOM	32419	32428	the alley
+1479	LOC	NOM	32518	32526	the moor
+99	PER	PROP	32556	32567	Sir Charles
+1568	FAC	NOM	32655	32664	the alley
+107	PER	PROP	32812	32821	Barrymore
+1396	PER	NOM	32827	32837	his master
+109	PER	PROP	33035	33045	One Murphy
+1572	PER	NOM	33047	33080	a gipsy horse - dealer
+1479	LOC	NOM	33089	33097	the moor
+99	PER	PROP	33390	33401	Sir Charles
+1574	PER	NOM	33390	33410	Sir Charles ’s person
+1575	PER	NOM	33436	33446	the doctor
+95	PER	PROP	33535	33547	Dr. Mortimer
+1576	PER	NOM	33608	33662	his friend and patient who lay before him
+1577	PER	NOM	33943	33961	the coroner ’s jury
+99	PER	PROP	34140	34151	Sir Charles
+1578	PER	NOM	34140	34158	Sir Charles ’s heir
+1471	FAC	NOM	34189	34197	the Hall
+1580	PER	NOM	34303	34314	the coroner
+1581	PER	NOM	34495	34524	a tenant for Baskerville Hall
+5	FAC	PROP	34508	34524	Baskerville Hall
+1582	PER	NOM	34562	34577	the next of kin
+110	PER	PROP	34581	34602	Mr. Henry Baskerville
+1583	PER	NOM	34639	34704	the son of Sir Charles Baskerville ’s younger brother
+99	PER	PROP	34650	34673	Sir Charles Baskerville
+1584	PER	NOM	34650	34704	Sir Charles Baskerville ’s younger brother
+1585	PER	NOM	34707	34739	The young man when last heard of
+24	GPE	PROP	34760	34767	America
+95	PER	PROP	34877	34889	Dr. Mortimer
+94	PER	PROP	34976	34986	Mr. Holmes
+99	PER	PROP	35027	35050	Sir Charles Baskerville
+94	PER	PROP	35087	35102	Sherlock Holmes
+95	PER	PROP	35720	35732	Dr. Mortimer
+1586	PER	NOM	35848	35854	anyone
+1580	PER	NOM	35890	35901	the coroner
+1588	PER	NOM	35927	35943	a man of science
+5	FAC	PROP	36086	36102	Baskerville Hall
+1479	LOC	NOM	36477	36485	The moor
+1591	PER	NOM	36518	36555	those who live near each other
+1592	GPE	NOM	36545	36555	each other
+99	PER	PROP	36631	36654	Sir Charles Baskerville
+111	PER	PROP	36678	36698	Mr. Frankland
+25	FAC	PROP	36703	36714	Lafter Hall
+112	PER	PROP	36720	36733	Mr. Stapleton
+1593	PER	NOM	36735	36749	the naturalist
+1594	PER	NOM	36768	36811	no other men of education within many miles
+99	PER	PROP	36813	36831	Sir Charles
+1595	PER	NOM	36836	36850	a retiring man
+26	GPE	PROP	37022	37041	South Africa
+1597	PER	NOM	37139	37150	the Bushman
+113	PER	PROP	37155	37175	the Hottentot
+99	PER	PROP	37261	37272	Sir Charles
+1599	FAC	NOM	37451	37473	his own grounds
+1479	LOC	NOM	37515	37523	the moor
+94	PER	PROP	37577	37587	Mr. Holmes
+1601	PER	NOM	37652	37662	his family
+1602	PER	NOM	37726	37739	his ancestors
+1603	PER	NOM	37950	37970	any strange creature
+1604	FAC	NOM	38165	38174	his house
+1605	FAC	NOM	38258	38266	his hall
+99	PER	PROP	39364	39375	Sir Charles
+10	GPE	PROP	39395	39401	London
+1362	GPE	NOM	39662	39666	town
+1610	PER	NOM	39687	39703	a new man
+112	PER	PROP	39705	39718	Mr. Stapleton
+1611	PER	NOM	39720	39788	a mutual friend who was much concerned at his state of health
+99	PER	PROP	39900	39911	Sir Charles
+107	PER	PROP	39920	39929	Barrymore
+1612	PER	NOM	39930	39971	the butler , who made the discovery
+114	PER	PROP	39978	39985	Perkins
+1613	PER	NOM	39978	40008	Perkins the groom on horseback
+5	FAC	PROP	40072	40088	Baskerville Hall
+1614	FAC	NOM	40247	40260	the yew alley
+107	PER	PROP	40471	40480	Barrymore
+99	PER	PROP	40603	40614	Sir Charles
+107	PER	PROP	40913	40922	Barrymore
+1615	PER	NOM	41164	41169	A man
+1616	PER	NOM	41175	41182	a woman
+95	PER	PROP	41196	41208	Dr. Mortimer
+94	PER	PROP	41320	41330	Mr. Holmes
+1575	PER	NOM	41506	41516	the doctor
+94	PER	PROP	41604	41610	Holmes
+1617	PER	NOM	41898	41909	no one else
+1618	PER	NOM	41980	41986	no one
+1479	LOC	NOM	42129	42137	the moor
+1568	FAC	NOM	42437	42446	the alley
+1622	FAC	NOM	42544	42566	The walk in the centre
+1623	FAC	NOM	42647	42655	the walk
+1479	LOC	NOM	42881	42889	the moor
+1614	FAC	NOM	42975	42988	the yew alley
+1529	PER	NOM	42989	42992	one
+1491	FAC	NOM	43032	43041	the house
+1628	FAC	NOM	43116	43130	a summer - house
+99	PER	PROP	43162	43173	Sir Charles
+95	PER	PROP	43262	43274	Dr. Mortimer
+1629	FAC	NOM	43336	43344	the path
+1629	FAC	NOM	43521	43529	the path
+1586	PER	NOM	43772	43778	anyone
+1618	PER	NOM	43936	43942	no one
+99	PER	PROP	44055	44066	Sir Charles
+1410	FAC	NOM	44087	44092	there
+1634	PER	NOM	44249	44260	a colleague
+93	PER	PROP	44262	44268	Watson
+1636	PER	NOM	44410	44419	no others
+94	PER	PROP	44431	44446	Sherlock Holmes
+1410	FAC	NOM	44543	44548	there
+1638	PER	NOM	44675	44696	the scientific expert
+1639	PER	NOM	44837	44853	curious peasants
+95	PER	PROP	44859	44878	Dr. Mortimer
+95	PER	PROP	44880	44892	Dr. Mortimer
+94	PER	PROP	45021	45031	Mr. Holmes
+1407	LOC	NOM	45074	45083	the world
+1641	PER	NOM	45241	45297	the most acute and most experienced of detectives
+94	PER	PROP	45476	45486	Mr. Holmes
+1642	PER	NOM	45691	45705	several people
+1479	LOC	NOM	45738	45746	the moor
+1644	PER	NOM	45770	45799	this Baskerville demon
+1645	PER	NOM	45976	45985	these men
+1646	PER	NOM	46006	46030	a hard - headed countryman
+1647	PER	NOM	46032	46045	one a farrier
+1648	PER	NOM	46051	46079	one a moorland farmer
+1649	GPE	NOM	46255	46274	the district
+1650	PER	NOM	46291	46302	a hardy man
+1479	LOC	NOM	46318	46326	the moor
+1652	PER	NOM	46364	46388	a trained man of science
+94	PER	PROP	46480	46486	Holmes
+1391	LOC	NOM	46565	46575	this world
+1654	PER	NOM	46648	46666	the Father of Evil
+1655	PER	NOM	46791	46809	The original hound
+1615	PER	NOM	46837	46842	a man
+95	PER	PROP	46987	46999	Dr. Mortimer
+99	PER	PROP	47159	47170	Sir Charles
+92	PER	PROP	47367	47395	Sir Henry Baskerville
+27	GPE	PROP	47412	47432	Waterloo Station”—Dr
+95	PER	PROP	47434	47442	Mortimer
+1657	PER	NOM	47526	47534	the heir
+99	PER	PROP	47568	47579	Sir Charles
+1659	PER	NOM	47596	47623	this young gentleman
+28	GPE	PROP	47662	47668	Canada
+1660	PER	NOM	47723	47762	an excellent fellow in every way
+1661	PER	NOM	47783	47796	a medical man
+1662	PER	NOM	47804	47848	a trustee and executor of Sir Charles
+99	PER	PROP	47837	47848	Sir Charles
+1663	PER	NOM	47877	47894	no other claimant
+1664	PER	NOM	47924	47978	The only other kinsman whom we have been able to trace
+104	PER	PROP	47990	48008	Rodger Baskerville
+1665	PER	NOM	48010	48162	the youngest of three brothers of whom poor Sir Charles was the elder . The second brother , who died young , is the father of this lad Henry
+1666	PER	NOM	48026	48072	three brothers of whom poor Sir Charles
+99	PER	PROP	48049	48072	poor Sir Charles
+1667	PER	NOM	48077	48086	the elder
+1668	PER	NOM	48088	48122	The second brother , who died young
+1669	PER	NOM	48134	48162	the father of this lad Henry
+1670	PER	NOM	48148	48162	this lad Henry
+1671	PER	NOM	48164	48173	The third
+104	PER	PROP	48175	48181	Rodger
+1672	PER	NOM	48187	48223	the black sheep of the family
+1533	PER	NOM	48213	48223	the family
+1674	PER	NOM	48236	48279	the old masterful Baskerville strain
+20	GPE	PROP	48254	48265	Baskerville
+101	PER	PROP	48350	48358	old Hugo
+23	GPE	PROP	48368	48375	England
+29	GPE	PROP	48412	48427	Central America
+1410	GPE	NOM	48438	48443	there
+92	PER	PROP	48469	48474	Henry
+1676	PER	NOM	48485	48513	the last of the Baskervilles
+98	PER	PROP	48497	48513	the Baskervilles
+30	FAC	PROP	48565	48581	Waterloo Station
+31	GPE	PROP	48627	48638	Southampton
+94	PER	PROP	48658	48668	Mr. Holmes
+1677	FAC	NOM	48753	48776	the home of his fathers
+1678	PER	NOM	48765	48776	his fathers
+1679	PER	NOM	48843	48882	every Baskerville who goes there
+99	PER	PROP	48935	48946	Sir Charles
+1680	PER	NOM	49056	49075	the old race
+1681	PER	NOM	49081	49105	the heir to great wealth
+1682	GPE	NOM	49110	49127	that deadly place
+1683	LOC	NOM	49187	49227	the whole poor , bleak countryside
+99	PER	PROP	49303	49314	Sir Charles
+1684	PER	NOM	49359	49380	no tenant of the Hall
+1471	FAC	NOM	49372	49380	the Hall
+94	PER	PROP	49557	49563	Holmes
+12	GPE	PROP	49721	49729	Dartmoor
+1686	PER	NOM	49757	49770	a Baskerville
+1687	PER	NOM	49994	50007	the young man
+10	GPE	PROP	50016	50022	London
+18	GPE	PROP	50046	50056	Devonshire
+1688	PER	NOM	50058	50111	A devil with merely local powers like a parish vestry
+1689	FAC	NOM	50096	50111	a parish vestry
+94	PER	PROP	50202	50212	Mr. Holmes
+1687	PER	NOM	50363	50383	the young man
+18	GPE	PROP	50403	50413	Devonshire
+10	GPE	PROP	50420	50426	London
+1408	PER	NOM	50512	50515	sir
+1693	PER	NOM	50547	50601	your spaniel who is scratching at my front door
+32	GPE	PROP	50618	50626	Waterloo
+92	PER	PROP	50642	50663	Sir Henry Baskerville
+95	PER	PROP	50909	50921	Dr. Mortimer
+92	PER	PROP	51072	51100	Sir Henry Baskerville
+94	PER	PROP	51136	51146	Mr. Holmes
+94	PER	PROP	51274	51280	Holmes
+202	FAC	NOM	51308	51317	the stair
+95	PER	PROP	51353	51365	Dr. Mortimer
+99	PER	PROP	51387	51417	Sir Charles Baskerville
+1642	PER	NOM	51426	51440	several people
+1479	LOC	NOM	51473	51481	the moor
+1696	PER	NOM	51494	51506	Three people
+94	PER	PROP	51627	51633	Holmes
+93	PER	PROP	51780	51786	Watson
+1349	PER	NOM	51837	51851	my dear fellow
+115	PER	PROP	51999	52006	Bradley
+1424	PER	NOM	52406	52422	my friend
+204	FAC	NOM	52722	52729	my club
+33	FAC	PROP	52752	52771	Baker Street
+205	FAC	NOM	52844	52860	the sitting - room
+186	FAC	NOM	52965	52973	the room
+94	PER	PROP	53280	53286	Holmes
+93	PER	PROP	53452	53458	Watson
+1699	FAC	NOM	53672	53681	your club
+1351	PER	NOM	53721	53728	My dear
+94	PER	PROP	53729	53735	Holmes
+93	PER	PROP	53892	53898	Watson
+1701	PER	NOM	53995	54013	A gentleman
+1702	PER	NOM	54162	54189	a fixture therefore all day
+1703	PER	NOM	54201	54235	a man with intimate friends
+1704	PER	NOM	54219	54235	intimate friends
+1407	LOC	NOM	54346	54355	The world
+1706	PER	NOM	54388	54394	nobody
+1707	PER	NOM	54479	54488	A fixture
+18	GPE	PROP	54538	54548	Devonshire
+34	GPE	PROP	54796	54804	Stamford
+1708	LOC	NOM	54831	54855	this portion of the moor
+1479	LOC	NOM	54847	54855	the moor
+1710	FAC	NOM	55110	55151	the particular district which concerns us
+5	FAC	PROP	55161	55184	Baskerville Hall
+1614	FAC	NOM	55261	55274	the yew alley
+1479	LOC	NOM	55353	55361	the moor
+1714	FAC	NOM	55409	55438	This small clump of buildings
+1715	GPE	NOM	55454	55534	the hamlet of Grimpen , where our friend Dr. Mortimer has his headquarters
+11	GPE	PROP	55468	55475	Grimpen
+1716	PER	NOM	55483	55493	our friend
+95	PER	PROP	55494	55506	Dr. Mortimer
+1717	FAC	NOM	55518	55534	his headquarters
+1718	FAC	NOM	55601	55631	a very few scattered dwellings
+25	FAC	PROP	55641	55652	Lafter Hall
+1719	FAC	NOM	55708	55782	a house indicated here which may be the residence of the naturalist
+1720	FAC	NOM	55751	55782	the residence of the naturalist
+1593	PER	NOM	55768	55782	the naturalist
+112	PER	PROP	55783	55792	Stapleton
+1722	FAC	NOM	55845	55898	two moorland farmhouses , High Tor and Foulmire
+35	FAC	PROP	55877	55885	High Tor
+36	LOC	PROP	55890	55898	Foulmire
+1723	FAC	NOM	55925	55970	the great convict prison of Princetown
+37	GPE	PROP	55960	55970	Princetown
+1724	LOC	NOM	55991	56013	these scattered points
+1725	LOC	NOM	56029	56056	the desolate , lifeless moor
+1727	LOC	NOM	56200	56212	a wild place
+1728	PER	NOM	56262	56271	the devil
+1729	PER	NOM	56323	56326	men
+1728	PER	NOM	56422	56431	The devil
+1731	PER	NOM	56422	56440	The devil ’s agents
+95	PER	PROP	56686	56705	Dr. Mortimer
+95	PER	PROP	57634	57642	Mortimer
+1338	PER	NOM	57653	57660	the man
+1568	FAC	NOM	57710	57719	the alley
+1735	PER	NOM	57754	57763	some fool
+1615	PER	NOM	57807	57812	a man
+1568	FAC	NOM	57833	57842	the alley
+93	PER	PROP	57893	57899	Watson
+1338	PER	NOM	58111	58118	the man
+1479	LOC	NOM	58289	58297	the moor
+1741	PER	NOM	58349	58383	a man who had lost his wits
+1491	FAC	NOM	58406	58415	the house
+1743	PER	NOM	58449	58458	the gipsy
+1614	FAC	NOM	58675	58688	the yew alley
+1745	FAC	NOM	58704	58724	his own house
+1746	PER	NOM	58771	58778	someone
+1338	PER	NOM	58791	58798	The man
+95	PER	PROP	59004	59016	Dr. Mortimer
+1479	LOC	NOM	59296	59311	the moor
+1410	FAC	NOM	59334	59339	there
+10	GPE	PROP	59398	59404	London
+93	PER	PROP	59429	59435	Watson
+95	PER	PROP	59620	59632	Dr. Mortimer
+92	PER	PROP	59637	59665	Sir Henry Baskerville
+92	PER	PROP	59704	59725	Sir Henry Baskerville
+94	PER	PROP	59780	59786	Holmes
+209	PER	NOM	59850	59861	Our clients
+95	PER	PROP	59951	59963	Dr. Mortimer
+210	PER	NOM	59990	60007	the young baronet
+195	PER	NOM	60016	60026	The latter
+212	PER	NOM	60031	60178	a small , alert , dark - eyed man about thirty years of age , very sturdily built , with thick black eyebrows and a strong , pugnacious face
+213	PER	NOM	60436	60449	the gentleman
+92	PER	PROP	60469	60490	Sir Henry Baskerville
+95	PER	PROP	60498	60510	Dr. Mortimer
+94	PER	PROP	60569	60595	Mr. Sherlock Holmes
+1751	PER	NOM	60605	60619	my friend here
+92	PER	PROP	60900	60909	Sir Henry
+10	GPE	PROP	61027	61033	London
+94	PER	PROP	61074	61084	Mr. Holmes
+92	PER	PROP	61346	61374	Sir Henry Baskerville
+38	FAC	PROP	61376	61396	Northumberland Hotel
+39	FAC	PROP	61454	61467	Charing Cross
+1752	FAC	NOM	61566	61590	the Northumberland Hotel
+94	PER	PROP	61606	61612	Holmes
+178	PER	NOM	61640	61651	our visitor
+1618	PER	NOM	61663	61669	No one
+95	PER	PROP	61716	61735	Dr. Mortimer
+95	PER	PROP	61752	61764	Dr. Mortimer
+1410	FAC	NOM	61795	61800	there
+1755	PER	NOM	61841	61849	a friend
+1575	PER	NOM	61857	61867	the doctor
+1756	FAC	NOM	61938	61955	this hotel
+1746	PER	NOM	61973	61980	Someone
+1479	LOC	NOM	62369	62377	the moor
+1758	LOC	NOM	62398	62403	moor ”
+92	PER	PROP	62450	62471	Sir Henry Baskerville
+94	PER	PROP	62500	62517	Mr. Holmes
+95	PER	PROP	62658	62670	Dr. Mortimer
+1408	PER	NOM	62769	62772	sir
+1760	PER	NOM	62807	62873	someone who was convinced that the business is supernatural
+92	PER	PROP	62908	62917	Sir Henry
+1761	PER	NOM	62955	62972	all you gentlemen
+1763	FAC	NOM	63093	63102	this room
+92	PER	PROP	63104	63120	Sir Henry
+94	PER	PROP	63148	63163	Sherlock Holmes
+93	PER	PROP	63379	63385	Watson
+1363	GPE	NOM	63927	63938	the country
+223	LOC	NOM	64025	64036	this island
+93	PER	PROP	64076	64082	Watson
+94	PER	PROP	64091	64097	Holmes
+95	PER	PROP	64231	64243	Dr. Mortimer
+94	PER	PROP	64254	64260	Holmes
+92	PER	PROP	64310	64331	Sir Henry Baskerville
+92	PER	PROP	64644	64653	Sir Henry
+93	PER	PROP	64655	64661	Watson
+1351	PER	NOM	64874	64881	my dear
+93	PER	PROP	64882	64888	Watson
+92	PER	PROP	65191	65207	Sir Henry
+94	PER	PROP	65391	65401	Mr. Holmes
+95	PER	PROP	65467	65479	Dr. Mortimer
+1424	PER	NOM	65491	65500	my friend
+1765	PER	NOM	65542	65599	anyone saying that the words were from a newspaper
+1766	PER	NOM	65804	65810	Doctor
+1767	PER	NOM	65845	65852	a negro
+40	GPE	PROP	65876	65884	Esquimau
+1768	PER	NOM	66367	66384	your negro
+1769	PER	NOM	66489	66523	the special expert in crime
+1770	PER	NOM	66656	66672	a _ Times _ leader
+94	PER	PROP	66925	66935	Mr. Holmes
+92	PER	PROP	66943	66971	Sir Henry Baskerville
+1746	PER	NOM	66974	66981	someone
+94	PER	PROP	67052	67058	Holmes
+1746	PER	NOM	67209	67216	Someone
+94	PER	PROP	67333	67339	Holmes
+94	PER	PROP	67713	67723	Mr. Holmes
+1774	PER	NOM	67985	68004	the highly educated
+1775	PER	NOM	68072	68134	an educated man who wished to pose as an uneducated one
+1776	PER	NOM	68117	68134	an uneducated one
+1777	PER	NOM	68554	68564	the cutter
+1778	PER	NOM	68689	68725	the composer of such a letter
+92	PER	PROP	68903	68912	Sir Henry
+1779	FAC	NOM	68942	68951	his hotel
+1780	PER	NOM	68957	68969	the composer
+95	PER	PROP	69085	69104	Dr. Mortimer
+1781	LOC	NOM	69134	69209	the region where we balance probabilities and choose the most likely
+1782	FAC	NOM	69455	69469	a hotel
+1407	LOC	NOM	69489	69498	the world
+1784	PER	NOM	69617	69627	the writer
+1785	FAC	NOM	69958	69967	the hotel
+1786	FAC	NOM	70138	70176	the hotels around Charing Cross
+39	FAC	PROP	70163	70176	Charing Cross
+1787	PER	NOM	70280	70328	the person who sent this singular message
+116	PER	PROP	70330	70336	Halloa
+116	PER	PROP	70338	70344	Halloa
+92	PER	PROP	70721	70737	Sir Henry
+10	GPE	PROP	70815	70821	London
+94	PER	PROP	70843	70853	Mr. Holmes
+1586	PER	NOM	70901	70907	anyone
+178	PER	NOM	71013	71024	our visitor
+1586	PER	NOM	71049	71055	anyone
+92	PER	PROP	71361	71370	Sir Henry
+41	GPE	PROP	71401	71408	British
+1790	GPE	NOM	71465	71475	the States
+28	GPE	PROP	71483	71489	Canada
+1791	PER	NOM	71657	71668	My dear sir
+95	PER	PROP	71677	71689	Dr. Mortimer
+1785	FAC	NOM	71755	71764	the hotel
+94	PER	PROP	71802	71812	Mr. Holmes
+94	PER	PROP	71938	71944	Holmes
+1793	PER	NOM	72197	72221	the chap who cleans them
+1794	FAC	NOM	72291	72301	the Strand
+10	GPE	PROP	72577	72583	London
+95	PER	PROP	72692	72704	Dr. Mortimer
+42	GPE	PROP	72878	72882	West
+94	PER	PROP	73087	73109	Sherlock Holmes
+95	PER	PROP	73135	73147	Dr. Mortimer
+1795	PER	NOM	73244	73253	gentlemen
+228	PER	NOM	73261	73272	the baronet
+94	PER	PROP	73534	73540	Holmes
+95	PER	PROP	73552	73571	Dr. Mortimer
+230	PER	NOM	73685	73706	our scientific friend
+92	PER	PROP	73822	73843	Sir Henry Baskerville
+1796	FAC	NOM	74126	74137	the nursery
+1533	PER	NOM	74168	74178	the family
+1798	PER	NOM	74251	74259	my uncle
+1799	PER	NOM	74425	74443	a policeman
+1800	PER	NOM	74447	74458	a clergyman
+1785	FAC	NOM	74544	74553	the hotel
+1746	PER	NOM	74631	74638	someone
+1479	LOC	NOM	74692	74700	the moor
+95	PER	PROP	74708	74720	Dr. Mortimer
+94	PER	PROP	74748	74754	Holmes
+1746	PER	NOM	74762	74769	someone
+95	PER	PROP	75020	75032	Dr. Mortimer
+92	PER	PROP	75182	75191	Sir Henry
+5	FAC	PROP	75254	75270	Baskerville Hall
+1806	PER	NOM	75376	75393	this family fiend
+1807	PER	NOM	75428	75440	human beings
+1808	PER	NOM	75550	75566	no devil in hell
+94	PER	PROP	75575	75585	Mr. Holmes
+1809	LOC	NOM	75612	75617	earth
+1810	FAC	NOM	75658	75683	the home of my own people
+1811	PER	NOM	75670	75683	my own people
+98	PER	PROP	75864	75880	the Baskervilles
+233	PER	NOM	75905	75937	their last representative
+1615	PER	NOM	76054	76059	a man
+94	PER	PROP	76214	76224	Mr. Holmes
+1813	FAC	NOM	76293	76301	my hotel
+1426	PER	NOM	76319	76330	your friend
+93	PER	PROP	76332	76342	Dr. Watson
+93	PER	PROP	76503	76509	Watson
+235	PER	NOM	76723	76736	his companion
+237	PER	NOM	76844	76856	our visitors
+94	PER	PROP	76928	76934	Holmes
+238	PER	NOM	76952	76978	the languid dreamer
+239	PER	NOM	76982	76999	the man of action
+93	PER	PROP	77031	77037	Watson
+240	FAC	NOM	77091	77099	his room
+241	FAC	NOM	77233	77243	the street
+95	PER	PROP	77245	77257	Dr. Mortimer
+20	GPE	PROP	77262	77273	Baskerville
+43	FAC	PROP	77363	77376	Oxford Street
+1407	LOC	NOM	77437	77446	the world
+1351	PER	NOM	77448	77455	my dear
+93	PER	PROP	77456	77462	Watson
+1819	PER	NOM	77501	77513	your company
+1820	PER	NOM	77541	77552	Our friends
+43	FAC	PROP	77797	77810	Oxford Street
+44	FAC	PROP	77823	77836	Regent Street
+1820	PER	NOM	77850	77861	our friends
+243	FAC	NOM	77886	77892	a shop
+94	PER	PROP	77919	77925	Holmes
+245	PER	NOM	78091	78159	a man inside which had halted on the other side of the street
+241	FAC	NOM	78149	78159	the street
+1821	PER	NOM	78225	78232	our man
+93	PER	PROP	78234	78240	Watson
+248	PER	NOM	78544	78554	the driver
+44	FAC	PROP	78588	78601	Regent Street
+94	PER	PROP	78610	78616	Holmes
+249	PER	NOM	78655	78667	no empty one
+94	PER	PROP	78860	78866	Holmes
+93	PER	PROP	79017	79023	Watson
+93	PER	PROP	79025	79031	Watson
+1822	PER	NOM	79044	79064	an honest man
+1338	PER	NOM	79150	79157	the man
+1824	PER	NOM	79201	79206	A spy
+20	GPE	PROP	79269	79280	Baskerville
+1746	PER	NOM	79322	79329	someone
+1362	GPE	NOM	79358	79362	town
+1827	FAC	NOM	79414	79465	the Northumberland Hotel which he had chosen
+38	FAC	PROP	79425	79445	Northumberland Hotel
+95	PER	PROP	79649	79661	Dr. Mortimer
+1829	PER	NOM	79747	79756	loiterers
+241	FAC	NOM	79760	79770	the street
+1832	PER	NOM	79815	79827	a clever man
+93	PER	PROP	79829	79835	Watson
+1820	PER	NOM	80057	80068	our friends
+1834	PER	NOM	80134	80166	their invisible attendant
+1837	PER	NOM	80561	80571	the cabman
+1351	PER	NOM	80654	80661	My dear
+93	PER	PROP	80662	80668	Watson
+1821	PER	NOM	80791	80798	our man
+1843	PER	NOM	81073	81082	the first
+1752	FAC	NOM	81149	81173	the Northumberland Hotel
+1845	PER	NOM	81204	81215	our unknown
+92	PER	PROP	81229	81240	Baskerville
+1469	FAC	NOM	81241	81245	home
+1847	PER	NOM	81486	81498	our opponent
+1821	PER	NOM	81536	81550	our man
+44	FAC	PROP	81597	81610	Regent Street
+95	PER	PROP	81648	81660	Dr. Mortimer
+235	PER	NOM	81667	81680	his companion
+94	PER	PROP	81781	81787	Holmes
+1850	PER	NOM	81790	81807	The shadow
+1851	PER	NOM	81956	81964	that man
+1853	PER	NOM	82129	82168	A clever man upon so delicate an errand
+93	PER	PROP	82250	82256	Watson
+255	FAC	NOM	82283	82320	one of the district messenger offices
+256	FAC	NOM	82290	82320	the district messenger offices
+257	PER	NOM	82360	82371	the manager
+117	PER	PROP	82387	82393	Wilson
+1408	PER	NOM	82507	82510	sir
+1349	PER	NOM	82594	82608	My dear fellow
+117	PER	PROP	82659	82665	Wilson
+1856	PER	NOM	82686	82695	your boys
+1857	PER	NOM	82696	82775	a lad named Cartwright , who showed some ability during the investigation
+1408	PER	NOM	82793	82796	sir
+258	PER	NOM	82942	82985	A lad of fourteen , with a bright , keen face
+257	PER	NOM	83020	83031	the manager
+260	PER	NOM	83084	83104	the famous detective
+1860	FAC	NOM	83128	83147	the Hotel Directory
+94	PER	PROP	83155	83161	Holmes
+118	PER	PROP	83187	83197	Cartwright
+1861	FAC	NOM	83222	83241	twenty - three hotels
+1405	FAC	NOM	83242	83246	here
+1863	FAC	NOM	83262	83306	the immediate neighbourhood of Charing Cross
+39	FAC	PROP	83293	83306	Charing Cross
+1408	PER	NOM	83336	83339	sir
+1408	PER	NOM	83406	83409	sir
+1866	PER	NOM	83460	83478	the outside porter
+1408	PER	NOM	83549	83552	sir
+1408	PER	NOM	83768	83771	sir
+1408	PER	NOM	84026	84029	sir
+1866	PER	NOM	84055	84073	the outside porter
+1871	PER	NOM	84088	84103	the hall porter
+33	FAC	PROP	84613	84625	Baker Street
+93	PER	PROP	84651	84657	Watson
+1872	PER	NOM	84725	84752	the cabman , No . 2704
+1873	FAC	NOM	84781	84828	one of the Bond Street picture galleries
+1874	FAC	NOM	84788	84828	the Bond Street picture galleries
+1785	FAC	NOM	84870	84886	the hotel
+119	PER	PROP	84910	84957	Three Broken Threads Sherlock Holmes
+263	PER	NOM	85193	85219	the modern Belgian masters
+264	FAC	NOM	85321	85332	the gallery
+1752	FAC	NOM	85368	85392	the Northumberland Hotel
+92	PER	PROP	85404	85425	Sir Henry Baskerville
+1476	FAC	NOM	85429	85437	upstairs
+266	PER	NOM	85459	85475	the clerk
+119	PER	PROP	85607	85613	Holmes
+92	PER	PROP	85720	85731	Baskerville
+1529	PER	NOM	85733	85736	One
+120	PER	PROP	85741	85759	Theophilus Johnson
+268	PER	NOM	85764	85770	family
+45	GPE	PROP	85775	85784	Newcastle
+269	PER	NOM	85793	85802	the other
+121	PER	PROP	85803	85815	Mrs. Oldmore
+270	FAC	NOM	85829	85839	High Lodge
+46	GPE	PROP	85841	85846	Alton
+1877	PER	NOM	85878	85914	the same Johnson whom I used to know
+120	PER	PROP	85887	85894	Johnson
+119	PER	PROP	85929	85935	Holmes
+271	PER	NOM	85939	85949	the porter
+1878	PER	NOM	85952	85960	A lawyer
+1408	PER	NOM	86031	86034	sir
+122	PER	PROP	86044	86055	Mr. Johnson
+1880	PER	NOM	86057	86071	the coal - owner
+1881	PER	NOM	86073	86103	a very active gentleman
+1408	PER	NOM	86197	86200	sir
+1756	FAC	NOM	86214	86224	this hotel
+121	PER	PROP	86313	86325	Mrs. Oldmore
+1885	PER	NOM	86415	86425	one friend
+1529	PER	NOM	86433	86436	one
+1887	PER	NOM	86443	86450	another
+1888	PER	NOM	86470	86485	an invalid lady
+1408	PER	NOM	86487	86490	sir
+1890	PER	NOM	86492	86503	Her husband
+1891	PER	NOM	86513	86539	mayor of Gloucester
+47	GPE	PROP	86529	86539	Gloucester
+1362	GPE	NOM	86579	86583	town
+93	PER	PROP	86721	86727	Watson
+1476	FAC	NOM	86776	86784	upstairs
+1893	PER	NOM	86820	86912	the people who are so interested in our friend have not settled down in his own hotel
+1716	PER	NOM	86856	86866	our friend
+1895	FAC	NOM	86899	86912	his own hotel
+116	PER	PROP	87158	87164	halloa
+1349	PER	NOM	87166	87180	my dear fellow
+275	FAC	NOM	87256	87266	the stairs
+92	PER	PROP	87289	87317	Sir Henry Baskerville
+1756	FAC	NOM	87675	87685	this hotel
+1898	PER	NOM	87753	87773	the wrong man
+94	PER	PROP	87921	87931	Mr. Holmes
+1408	PER	NOM	88036	88039	sir
+1408	PER	NOM	88147	88150	sir
+1407	LOC	NOM	88296	88312	the world
+1902	PER	NOM	88532	88535	man
+276	PER	NOM	88572	88597	An agitated German waiter
+1408	PER	NOM	88641	88644	sir
+1785	FAC	NOM	88675	88684	the hotel
+257	PER	NOM	88795	88813	the manager
+1756	FAC	NOM	88859	88869	this hotel
+1408	PER	NOM	88901	88904	sir
+1908	FAC	NOM	89064	89083	this den of thieves
+1909	PER	NOM	89076	89083	thieves
+94	PER	PROP	89097	89107	Mr. Holmes
+94	PER	PROP	89462	89468	Holmes
+92	PER	PROP	89624	89633	Sir Henry
+1910	PER	NOM	89666	89683	your uncle
+278	FAC	NOM	90182	90282	the private sitting - room to which we afterwards repaired that Holmes asked Baskerville
+94	PER	PROP	90251	90257	Holmes
+92	PER	PROP	90271	90282	Baskerville
+5	FAC	PROP	90328	90344	Baskerville Hall
+94	PER	PROP	90433	90439	Holmes
+10	GPE	PROP	90549	90555	London
+1911	PER	NOM	90566	90597	the millions of this great city
+1912	GPE	NOM	90582	90597	this great city
+1913	PER	NOM	90637	90649	these people
+95	PER	PROP	90816	90835	Dr. Mortimer
+1914	FAC	NOM	90878	90886	my house
+95	PER	PROP	90898	90910	Dr. Mortimer
+1915	PER	NOM	91031	91046	your neighbours
+12	GPE	PROP	91067	91075	Dartmoor
+1916	PER	NOM	91076	91115	any man with a black , full beard
+107	PER	PROP	91156	91165	Barrymore
+99	PER	PROP	91167	91178	Sir Charles
+1917	PER	NOM	91167	91187	Sir Charles ’s butler
+1918	PER	NOM	91199	91229	a man with a full , black beard
+107	PER	PROP	91255	91264	Barrymore
+1471	FAC	NOM	91296	91304	the Hall
+10	GPE	PROP	91409	91415	London
+92	PER	PROP	91504	91513	Sir Henry
+107	PER	PROP	91548	91561	Mr. Barrymore
+5	FAC	PROP	91563	91579	Baskerville Hall
+1921	FAC	NOM	91589	91624	the nearest telegraph - office
+11	PER	PROP	91626	91633	Grimpen
+1922	PER	NOM	91683	91697	the postmaster
+11	PER	PROP	91699	91706	Grimpen
+107	PER	PROP	91721	91741	Mr. Barrymore
+92	PER	PROP	91817	91838	Sir Henry Baskerville
+1923	FAC	NOM	91840	91860	Northumberland Hotel
+107	PER	PROP	91917	91926	Barrymore
+1924	FAC	NOM	91933	91962	his post in Devonshire
+18	GPE	PROP	91952	91962	Devonshire
+92	PER	PROP	91999	92010	Baskerville
+95	PER	PROP	92025	92037	Dr. Mortimer
+1925	PER	NOM	92053	92067	this Barrymore
+1926	PER	NOM	92094	92122	the son of the old caretaker
+1927	PER	NOM	92105	92122	the old caretaker
+1471	FAC	NOM	92167	92175	the Hall
+1930	PER	NOM	92234	92242	his wife
+1931	PER	NOM	92262	92270	a couple
+1544	GPE	NOM	92281	92298	the county
+92	PER	PROP	92335	92346	Baskerville
+1933	PER	NOM	92400	92443	none of the family at the Hall these people
+1533	PER	NOM	92408	92418	the family
+1471	FAC	NOM	92422	92430	the Hall
+1913	PER	NOM	92431	92443	these people
+1937	FAC	NOM	92456	92474	a mighty fine home
+107	PER	PROP	92534	92543	Barrymore
+99	PER	PROP	92561	92572	Sir Charles
+94	PER	PROP	92595	92601	Holmes
+1930	PER	NOM	92620	92628	his wife
+99	PER	PROP	92734	92745	Sir Charles
+95	PER	PROP	92874	92886	Dr. Mortimer
+99	PER	PROP	92979	92997	Sir Charles
+1939	PER	NOM	93067	93078	anyone else
+1940	PER	NOM	93129	93140	individuals
+92	PER	PROP	93213	93222	Sir Henry
+94	PER	PROP	93327	93333	Holmes
+99	PER	PROP	93446	93457	Sir Charles
+1943	FAC	NOM	93607	93617	the estate
+1615	PER	NOM	93696	93701	a man
+95	PER	PROP	93766	93778	Dr. Mortimer
+1945	PER	NOM	93823	93839	our young friend
+1943	FAC	NOM	93914	93924	the estate
+104	PER	PROP	93943	93961	Rodger Baskerville
+99	PER	PROP	93963	93974	Sir Charles
+1947	PER	NOM	93963	93992	Sir Charles ’s younger brother
+1943	FAC	NOM	94016	94026	the estate
+124	PER	PROP	94044	94056	the Desmonds
+1949	PER	NOM	94073	94088	distant cousins
+125	PER	PROP	94090	94103	James Desmond
+1950	PER	NOM	94107	94150	an elderly clergyman in Westmoreland
+48	GPE	PROP	94138	94150	Westmoreland
+125	PER	PROP	94235	94252	Mr. James Desmond
+99	PER	PROP	94297	94308	Sir Charles
+1951	PER	NOM	94316	94372	a man of venerable appearance and of saintly life
+99	PER	PROP	94438	94449	Sir Charles
+1952	PER	NOM	94504	94529	this man of simple tastes
+1953	PER	NOM	94539	94581	the heir to Sir Charles ’s thousands
+99	PER	PROP	94551	94562	Sir Charles
+1943	FAC	NOM	94618	94628	the estate
+1955	PER	NOM	94679	94700	the heir to the money
+1956	PER	NOM	94743	94760	the present owner
+92	PER	PROP	94855	94864	Sir Henry
+94	PER	PROP	94881	94891	Mr. Holmes
+1957	PER	NOM	95088	95101	my poor uncle
+1958	PER	NOM	95117	95126	the owner
+98	PER	PROP	95166	95182	the Baskervilles
+1959	FAC	NOM	95228	95240	the property
+1960	FAC	NOM	95242	95247	House
+92	PER	PROP	95312	95321	Sir Henry
+18	GPE	PROP	95401	95411	Devonshire
+95	PER	PROP	95532	95544	Dr. Mortimer
+95	PER	PROP	95577	95589	Dr. Mortimer
+1604	FAC	NOM	95625	95634	his house
+1407	LOC	NOM	95693	95702	the world
+92	PER	PROP	95744	95753	Sir Henry
+1746	PER	NOM	95785	95792	someone
+1964	PER	NOM	95794	95839	a trusty man , who will be always by your side
+94	PER	PROP	95897	95907	Mr. Holmes
+10	GPE	PROP	96187	96193	London
+1965	PER	NOM	96248	96295	one of the most revered names in England
+23	GPE	PROP	96288	96295	England
+1966	PER	NOM	96319	96332	a blackmailer
+12	GPE	PROP	96440	96448	Dartmoor
+94	PER	PROP	96503	96509	Holmes
+1424	PER	NOM	96541	96550	my friend
+1968	PER	NOM	96586	96669	no man who is better worth having at your side when you are in a tight place
+1618	PER	NOM	96671	96677	No one
+92	PER	PROP	96819	96830	Baskerville
+93	PER	PROP	96930	96940	Dr. Watson
+5	FAC	PROP	97071	97087	Baskerville Hall
+94	PER	PROP	97250	97256	Holmes
+228	PER	NOM	97296	97307	the baronet
+280	PER	NOM	97321	97332	a companion
+94	PER	PROP	97497	97503	Holmes
+93	PER	PROP	97663	97673	Dr. Watson
+49	GPE	PROP	97809	97819	Paddington
+92	PER	PROP	97859	97870	Baskerville
+186	FAC	NOM	97939	97947	the room
+94	PER	PROP	98095	98117	Sherlock Holmes
+95	PER	PROP	98163	98175	Dr. Mortimer
+1763	FAC	NOM	98205	98214	this room
+92	PER	PROP	98270	98281	Baskerville
+1972	PER	NOM	98377	98387	the waiter
+283	PER	NOM	98455	98465	The German
+99	PER	PROP	98766	98777	Sir Charles
+284	PER	NOM	98926	98954	the black - bearded spy
+285	FAC	NOM	98958	98968	the hansom
+94	PER	PROP	99090	99096	Holmes
+33	FAC	PROP	99150	99162	Baker Street
+107	PER	PROP	99574	99583	Barrymore
+1471	FAC	NOM	99590	99598	the Hall
+20	GPE	PROP	99600	99611	BASKERVILLE
+1861	FAC	NOM	99651	99670	twenty - three hotels
+118	PER	PROP	99749	99759	CARTWRIGHT
+1973	PER	NOM	99787	99797	my threads
+93	PER	PROP	99799	99805	Watson
+1974	PER	NOM	99965	99993	the cabman who drove the spy
+1975	PER	NOM	99986	99993	the spy
+289	PER	NOM	100296	100325	a rough - looking fellow
+1338	PER	NOM	100352	100359	the man
+1976	FAC	NOM	100400	100415	the head office
+1977	PER	NOM	100421	100443	a gent at this address
+1979	FAC	NOM	100602	100610	the Yard
+1407	LOC	NOM	100696	100705	the world
+1981	PER	NOM	100719	100730	my good man
+94	PER	PROP	100745	100751	Holmes
+1837	PER	NOM	100921	100931	the cabman
+1408	PER	NOM	100984	100987	sir
+105	PER	PROP	101073	101085	John Clayton
+50	FAC	PROP	101089	101102	Turpey Street
+1983	GPE	NOM	101104	101115	the Borough
+51	FAC	PROP	101141	101155	Shipley ’s Yard
+30	GPE	PROP	101162	101178	Waterloo Station
+94	PER	PROP	101190	101205	Sherlock Holmes
+105	PER	PROP	101240	101247	Clayton
+1985	FAC	NOM	101304	101314	this house
+1986	PER	NOM	101374	101391	the two gentlemen
+44	FAC	PROP	101397	101410	Regent Street
+1338	PER	NOM	101422	101429	The man
+213	PER	NOM	101607	101620	the gentleman
+1988	PER	NOM	101648	101659	a detective
+1586	PER	NOM	101710	101716	anyone
+1990	PER	NOM	101729	101743	My good fellow
+1991	PER	NOM	101893	101902	your fare
+1988	PER	NOM	101924	101942	a detective
+94	PER	PROP	102110	102116	Holmes
+1837	PER	NOM	102289	102299	the cabman
+94	PER	PROP	102306	102325	Mr. Sherlock Holmes
+1424	PER	NOM	102355	102364	my friend
+1837	PER	NOM	102408	102418	the cabman
+93	PER	PROP	102532	102538	Watson
+1469	FAC	NOM	102630	102634	home
+94	PER	PROP	102691	102706	Sherlock Holmes
+1408	PER	NOM	102732	102735	sir
+213	PER	NOM	102746	102759	the gentleman
+53	FAC	PROP	102897	102913	Trafalgar Square
+1988	PER	NOM	102942	102953	a detective
+38	FAC	PROP	103117	103141	the Northumberland Hotel
+1410	FAC	NOM	103160	103165	there
+1999	PER	NOM	103172	103185	two gentlemen
+2001	FAC	NOM	103222	103230	the rank
+94	PER	PROP	103334	103340	Holmes
+2003	PER	NOM	103401	103408	my fare
+241	FAC	NOM	103461	103471	the street
+1986	PER	NOM	103515	103532	the two gentlemen
+33	FAC	PROP	103581	103593	Baker Street
+94	PER	PROP	103630	103636	Holmes
+44	FAC	PROP	103681	103694	Regent Street
+2006	PER	NOM	103701	103720	my gentleman
+30	FAC	PROP	103794	103810	Waterloo Station
+2008	FAC	NOM	103983	104001	the station
+94	PER	PROP	104125	104151	Mr. Sherlock Holmes
+2008	FAC	NOM	104270	104281	the station
+94	PER	PROP	104321	104340	Mr. Sherlock Holmes
+1837	PER	NOM	104352	104362	The cabman
+2010	PER	NOM	104423	104440	an easy gentleman
+1408	PER	NOM	104572	104575	sir
+2012	PER	NOM	104597	104603	a toff
+1408	PER	NOM	104855	104858	sir
+2014	PER	NOM	104900	104919	your half - sovereign
+1408	PER	NOM	105045	105048	sir
+105	PER	PROP	105075	105087	John Clayton
+94	PER	PROP	105112	105118	Holmes
+126	PER	PROP	105199	105203	Snap
+2017	PER	NOM	105272	105290	The cunning rascal
+92	PER	PROP	105322	105350	Sir Henry Baskerville
+44	FAC	PROP	105390	105403	Regent Street
+248	PER	NOM	105494	105504	the driver
+93	PER	PROP	105566	105572	Watson
+2020	PER	NOM	105596	105638	a foeman who is worthy of our steel
+10	GPE	PROP	105664	105670	London
+18	GPE	PROP	105714	105724	Devonshire
+93	PER	PROP	105840	105846	Watson
+1349	PER	NOM	105940	105954	my dear fellow
+33	FAC	PROP	106062	106081	Baker Street
+92	PER	PROP	106115	106164	Baskerville Hall Sir Henry Baskerville
+95	PER	PROP	106169	106181	Dr. Mortimer
+18	GPE	PROP	106255	106265	Devonshire
+94	PER	PROP	106267	106293	Mr. Sherlock Holmes
+2008	FAC	NOM	106311	106322	the station
+93	PER	PROP	106464	106470	Watson
+92	PER	PROP	106781	106798	young Baskerville
+1456	PER	NOM	106810	106824	his neighbours
+99	PER	PROP	106881	106892	Sir Charles
+125	PER	PROP	107064	107081	Mr. James Desmond
+2023	PER	NOM	107097	107110	the next heir
+2024	PER	NOM	107115	107172	an elderly gentleman of a very amiable disposition
+2026	PER	NOM	107324	107404	the people who will actually surround Sir Henry Baskerville upon the moor
+92	PER	PROP	107369	107390	Sir Henry Baskerville
+1479	LOC	NOM	107396	107404	the moor
+2028	PER	NOM	107471	107499	this Barrymore couple
+1469	FAC	NOM	107701	107705	home
+2030	PER	NOM	107769	107777	suspects
+2031	PER	NOM	107800	107819	a groom at the Hall
+1471	FAC	NOM	107811	107819	the Hall
+2033	PER	NOM	107852	107879	two moorland farmers
+1716	PER	NOM	107890	107900	our friend
+95	PER	PROP	107901	107913	Dr. Mortimer
+1930	PER	NOM	107973	107981	his wife
+2036	PER	NOM	108024	108039	this naturalist
+112	PER	PROP	108041	108050	Stapleton
+2037	PER	NOM	108072	108082	his sister
+2038	PER	NOM	108102	108129	a young lady of attractions
+111	PER	PROP	108147	108160	Mr. Frankland
+25	FAC	PROP	108165	108176	Lafter Hall
+2039	PER	NOM	108230	108257	one or two other neighbours
+2040	PER	NOM	108269	108320	the folk who must be your very special study
+1820	PER	NOM	108561	108572	Our friends
+302	FAC	NOM	108652	108664	the platform
+95	PER	PROP	108715	108727	Dr. Mortimer
+1424	PER	NOM	108748	108757	my friend
+1618	PER	NOM	108939	108945	no one
+1362	GPE	NOM	109142	109146	town
+2043	FAC	NOM	109165	109209	the Museum of the College of Surgeons
+2044	FAC	NOM	109179	109209	the College of Surgeons
+2045	PER	NOM	109244	109264	the folk in the park
+2046	FAC	NOM	109256	109264	the park
+99	PER	PROP	109272	109283	Baskerville
+94	PER	PROP	109379	109385	Holmes
+92	PER	PROP	109443	109452	Sir Henry
+1408	PER	NOM	109595	109598	sir
+302	FAC	NOM	109731	109743	the platform
+92	PER	PROP	109760	109776	Sir Henry
+95	PER	PROP	109828	109847	Dr. Mortimer
+1479	LOC	NOM	109874	109882	the moor
+302	FAC	NOM	109981	109993	the platform
+94	PER	PROP	110068	110074	Holmes
+308	PER	NOM	110240	110257	my two companions
+95	PER	PROP	110285	110297	Dr. Mortimer
+127	PER	PROP	110561	110578	Young Baskerville
+309	LOC	NOM	110697	110714	the Devon scenery
+2049	LOC	NOM	110741	110765	a good part of the world
+1407	LOC	NOM	110756	110765	the world
+93	PER	PROP	110783	110800	Dr. Watson
+2051	PER	NOM	110893	110941	a Devonshire man who did not swear by his county
+2052	GPE	NOM	110931	110941	his county
+1729	PER	NOM	111002	111005	men
+1544	GPE	NOM	111026	111043	the county
+95	PER	PROP	111051	111063	Dr. Mortimer
+1716	PER	NOM	111078	111088	our friend
+99	PER	PROP	111217	111233	Poor Sir Charles
+5	FAC	PROP	111380	111396	Baskerville Hall
+2057	PER	NOM	111429	111434	a boy
+1450	PER	NOM	111462	111471	my father
+1471	FAC	NOM	111506	111514	the Hall
+2060	FAC	NOM	111532	111574	a little cottage on the South Coast
+2061	LOC	NOM	111552	111574	the South Coast
+2062	PER	NOM	111602	111621	a friend in America
+24	GPE	PROP	111614	111621	America
+93	PER	PROP	111676	111686	Dr. Watson
+1479	LOC	NOM	111730	111738	the moor
+1479	LOC	NOM	111834	111842	the moor
+95	PER	PROP	111850	111862	Dr. Mortimer
+310	LOC	NOM	111922	111953	the green squares of the fields
+311	FAC	NOM	111943	111953	the fields
+312	LOC	NOM	112016	112039	a grey , melancholy hill
+99	PER	PROP	112158	112169	Baskerville
+313	PER	NOM	112330	112347	the men of
+315	PER	NOM	112617	112636	a descendant
+316	PER	NOM	112665	112710	high - blooded , fiery , and masterful men
+317	LOC	NOM	112841	112861	that forbidding moor
+319	PER	NOM	112941	113056	a comrade for whom one might venture to take a risk with the certainty that he would bravely share it
+1529	PER	NOM	112960	112963	one
+322	FAC	NOM	113090	113113	a small wayside station
+324	PER	NOM	113284	113298	station - master
+325	PER	NOM	113303	113310	porters
+326	LOC	NOM	113370	113398	a sweet , simple country spot
+327	PER	NOM	113467	113508	two soldierly men in dark uniforms
+328	PER	NOM	113590	113602	The coachman
+329	PER	NOM	113604	113646	a hard - faced , gnarled little fellow
+92	PER	PROP	113656	113677	Sir Henry Baskerville
+330	FAC	NOM	113735	113756	the broad , white road
+331	LOC	NOM	113765	113786	Rolling pasture lands
+332	FAC	NOM	113827	113851	old gabled houses
+333	FAC	NOM	113916	113951	the peaceful and sunlit countryside
+1479	LOC	NOM	114032	114040	the moor
+335	LOC	NOM	114059	114088	the jagged and sinister hills
+337	FAC	NOM	114130	114141	a side road
+338	FAC	NOM	114179	114217	deep lanes worn by centuries of wheels
+339	FAC	NOM	114440	114470	a narrow granite bridge
+340	FAC	NOM	114576	114592	Both road
+341	LOC	NOM	114597	114603	stream
+342	LOC	NOM	114621	114665	a valley dense with scrub oak and fir
+92	PER	PROP	114681	114692	Baskerville
+343	LOC	NOM	114879	114894	the countryside
+344	FAC	NOM	114977	114986	the lanes
+128	PER	PROP	115168	115174	Nature
+345	PER	NOM	115191	115252	the carriage of the returning heir of the Baskervilles
+346	PER	NOM	115214	115252	the returning heir of the Baskervilles
+98	PER	PROP	115236	115252	the Baskervilles
+116	PER	PROP	115264	115270	Halloa
+95	PER	PROP	115279	115291	Dr. Mortimer
+347	LOC	NOM	115318	115350	A steep curve of heath - clad land
+348	LOC	NOM	115352	115380	an outlying spur of the moor
+1479	LOC	NOM	115372	115380	the moor
+350	PER	NOM	115495	115535	a mounted soldier , dark and stern
+351	FAC	NOM	115601	115634	the road along which we travelled
+114	PER	PROP	115660	115667	Perkins
+95	PER	PROP	115676	115688	Dr. Mortimer
+352	PER	NOM	115699	115709	Our driver
+2065	PER	NOM	115744	115753	a convict
+37	GPE	PROP	115774	115784	Princetown
+1408	PER	NOM	115786	115789	sir
+2067	PER	NOM	115825	115843	the warders
+2068	FAC	NOM	115850	115860	every road
+2069	FAC	NOM	115865	115878	every station
+2070	PER	NOM	115924	115946	The farmers about here
+1408	PER	NOM	115962	115965	sir
+1408	PER	NOM	116102	116105	sir
+2073	PER	NOM	116244	116264	any ordinary convict
+2074	PER	NOM	116274	116314	a man that would stick at nothing
+129	PER	PROP	116361	116367	Selden
+2075	PER	NOM	116369	116394	the Notting Hill murderer
+94	PER	PROP	116458	116464	Holmes
+353	PER	NOM	116618	116630	the assassin
+356	LOC	NOM	116832	116860	the huge expanse of the moor
+1479	LOC	NOM	116852	116860	the moor
+358	LOC	NOM	116998	117017	that desolate plain
+359	PER	NOM	117038	117055	this fiendish man
+92	PER	PROP	117316	117332	Even Baskerville
+360	LOC	NOM	117422	117441	the fertile country
+361	LOC	NOM	117537	117555	the streams
+362	LOC	NOM	117660	117673	the woodlands
+363	FAC	NOM	117675	117690	The road
+364	FAC	NOM	117833	117851	a moorland cottage
+365	LOC	NOM	117970	117990	a cuplike depression
+366	FAC	NOM	118097	118127	Two high , narrow towers
+248	PER	NOM	118149	118159	The driver
+5	FAC	PROP	118200	118216	Baskerville Hall
+368	PER	NOM	118237	118247	Its master
+98	PER	PROP	118542	118558	the Baskervilles
+369	FAC	NOM	118560	118569	The lodge
+370	FAC	NOM	118650	118671	a new building
+99	PER	PROP	118710	118721	Sir Charles
+99	FAC	PROP	118710	118749	Sir Charles ’s South African gold
+371	FAC	NOM	118768	118779	the gateway
+372	FAC	NOM	118795	118805	the avenue
+99	PER	PROP	118946	118957	Baskerville
+373	FAC	NOM	118991	119011	the long , dark drive
+1491	FAC	NOM	119021	119030	the house
+1405	FAC	NOM	119098	119102	here
+1614	FAC	NOM	119148	119161	the yew alley
+375	PER	NOM	119194	119208	The young heir
+1798	PER	NOM	119268	119276	my uncle
+2079	PER	NOM	119379	119386	any man
+130	PER	PROP	119540	119546	Edison
+1471	FAC	NOM	119570	119578	the hall
+372	FAC	NOM	119595	119605	The avenue
+1491	FAC	NOM	119647	119656	the house
+378	FAC	NOM	119731	119792	a heavy block of building from which a porch projected
+379	FAC	NOM	119775	119782	a porch
+380	FAC	NOM	119794	119816	The whole front
+381	FAC	NOM	119958	119976	this central block
+382	FAC	NOM	119982	119997	the twin towers
+383	FAC	NOM	120088	120099	the turrets
+92	PER	PROP	120349	120358	Sir Henry
+5	FAC	PROP	120371	120387	Baskerville Hall
+384	PER	NOM	120399	120409	A tall man
+385	FAC	NOM	120441	120450	the porch
+336	FAC	NOM	120478	120491	the wagonette
+1616	PER	NOM	120507	120514	a woman
+1471	FAC	NOM	120566	120574	the hall
+1338	PER	NOM	120600	120614	the man
+1469	FAC	NOM	120683	120687	home
+92	PER	PROP	120689	120698	Sir Henry
+95	PER	PROP	120706	120725	Dr. Mortimer
+2082	PER	NOM	120728	120735	My wife
+1491	FAC	NOM	120915	120924	the house
+107	PER	PROP	120930	120939	Barrymore
+2084	PER	NOM	120948	120969	a better guide
+390	FAC	NOM	121102	121111	the drive
+92	PER	PROP	121118	121127	Sir Henry
+1471	FAC	NOM	121153	121161	the hall
+393	FAC	NOM	121210	121342	a fine apartment in which we found ourselves , large , lofty , and heavily raftered with huge baulks of age - blackened oak
+92	PER	PROP	121454	121463	Sir Henry
+92	PER	PROP	121808	121817	Sir Henry
+2085	FAC	NOM	121857	121875	an old family home
+2086	FAC	NOM	121906	121979	the same hall in which for five hundred years my people have lived
+2087	PER	NOM	121959	121968	my people
+107	PER	PROP	122251	122260	Barrymore
+394	FAC	NOM	122301	122310	our rooms
+395	PER	NOM	122374	122403	a well - trained servant
+396	PER	NOM	122412	122526	a remarkable - looking man , tall , handsome , with a square black beard and pale , distinguished features
+1408	PER	NOM	122582	122585	sir
+1408	PER	NOM	122645	122648	sir
+2090	FAC	NOM	122677	122694	your rooms
+2082	PER	NOM	122696	122703	My wife
+92	PER	PROP	122725	122734	Sir Henry
+1985	FAC	NOM	122866	122876	this house
+1408	PER	NOM	122976	122979	sir
+99	PER	PROP	122986	122997	Sir Charles
+2095	FAC	NOM	123160	123181	your household
+2096	PER	NOM	123211	123220	your wife
+1408	PER	NOM	123296	123299	sir
+2098	PER	NOM	123316	123327	your family
+1405	FAC	NOM	123428	123432	here
+397	PER	NOM	123535	123545	the butler
+1408	PER	NOM	123595	123598	sir
+2082	PER	NOM	123612	123619	my wife
+1408	PER	NOM	123651	123654	sir
+99	PER	PROP	123691	123702	Sir Charles
+5	FAC	PROP	123860	123876	Baskerville Hall
+1408	PER	NOM	123947	123950	sir
+99	PER	PROP	124025	124036	Sir Charles
+1408	PER	NOM	124099	124102	sir
+2090	FAC	NOM	124142	124152	your rooms
+398	FAC	NOM	124164	124192	A square balustraded gallery
+399	FAC	NOM	124214	124226	the old hall
+400	FAC	NOM	124289	124314	two long corridors
+401	FAC	NOM	124344	124356	the building
+402	FAC	NOM	124376	124392	all the bedrooms
+403	FAC	NOM	124401	124407	My own
+404	FAC	NOM	124415	124479	the same wing as Baskerville ’s and almost next door to it
+92	FAC	PROP	124439	124452	Baskerville ’s
+405	FAC	NOM	124481	124492	These rooms
+406	FAC	NOM	124537	124566	the central part of the house
+1491	FAC	NOM	124557	124566	the house
+409	FAC	NOM	124724	124768	the dining - room which opened out of the hall
+1471	FAC	NOM	124760	124768	the hall
+411	LOC	NOM	124773	124807	a place of shadow and gloom
+1533	PER	NOM	124876	124886	the family
+413	FAC	NOM	124896	124950	the lower portion reserved for their dependents
+414	PER	NOM	124934	124950	their dependents
+415	FAC	NOM	124963	124983	a minstrel ’s gallery
+417	PER	NOM	125251	125278	two black - clothed gentlemen
+1529	PER	NOM	125345	125348	one
+1529	PER	NOM	125382	125385	one
+420	PER	NOM	125404	125461	A dim line of ancestors , in every variety of dress
+421	PER	NOM	125468	125490	the Elizabethan knight
+422	PER	NOM	125494	125524	the buck of the Regency
+423	PER	NOM	125513	125524	the Regency
+424	FAC	NOM	125696	125727	the modern billiard - room
+2106	FAC	NOM	125779	125800	a very cheerful place
+92	PER	PROP	125808	125817	Sir Henry
+1529	PER	NOM	125837	125840	one
+1798	PER	NOM	125937	125945	my uncle
+2109	FAC	NOM	125997	126009	such a house
+1471	FAC	NOM	126302	126310	the hall
+426	LOC	NOM	126549	126568	the melancholy moor
+427	FAC	NOM	126964	126977	the old house
+1616	PER	NOM	127127	127134	a woman
+429	PER	NOM	127175	127218	one who is torn by an uncontrollable sorrow
+1491	FAC	NOM	127333	127342	the house
+174	FAC	NOM	127528	127560	The Stapletons of Merripit House
+6	FAC	PROP	127546	127560	Merripit House
+5	FAC	PROP	127759	127775	Baskerville Hall
+92	PER	PROP	127787	127796	Sir Henry
+1491	FAC	NOM	128222	128231	the house
+228	PER	NOM	128268	128279	the baronet
+2112	GPE	NOM	128372	128381	the place
+1746	PER	NOM	128574	128581	someone
+1616	PER	NOM	128583	128590	a woman
+1616	PER	NOM	128923	128930	a woman
+107	PER	PROP	129013	129022	Barrymore
+397	PER	NOM	129119	129129	the butler
+1396	PER	NOM	129182	129192	his master
+2116	PER	NOM	129230	129252	two women in the house
+1491	FAC	NOM	129243	129252	the house
+92	PER	PROP	129254	129263	Sir Henry
+1529	PER	NOM	129287	129290	One
+2119	PER	NOM	129294	129311	the scullery - maid
+2120	FAC	NOM	129327	129341	the other wing
+269	PER	NOM	129343	129359	The other
+2082	PER	NOM	129363	129370	my wife
+131	PER	PROP	129538	129552	Mrs. Barrymore
+438	FAC	NOM	129556	129573	the long corridor
+439	PER	NOM	129622	129706	a large , impassive , heavy - featured woman with a stern set expression of mouth
+1890	PER	NOM	129857	129868	her husband
+441	PER	NOM	130054	130170	this pale - faced , handsome , black - bearded man there was gathering an atmosphere of mystery and of gloom
+99	PER	PROP	130236	130247	Sir Charles
+443	PER	NOM	130323	130334	the old man
+131	PER	PROP	130379	130388	Barrymore
+44	FAC	PROP	130439	130452	Regent Street
+1837	PER	NOM	130502	130512	The cabman
+446	PER	NOM	130527	130549	a somewhat shorter man
+447	PER	NOM	130710	130732	the Grimpen postmaster
+131	PER	PROP	130801	130810	Barrymore
+94	PER	PROP	130906	130928	Sherlock Holmes
+92	PER	PROP	130939	130948	Sir Henry
+448	LOC	NOM	131104	131124	the edge of the moor
+1479	LOC	NOM	131116	131124	the moor
+450	GPE	NOM	131148	131270	a small grey hamlet , in which two larger buildings , which proved to be the inn and the house of Dr. Mortimer
+451	FAC	NOM	131185	131205	two larger buildings
+452	FAC	NOM	131233	131240	the inn
+453	FAC	NOM	131245	131270	the house of Dr. Mortimer
+95	PER	PROP	131258	131270	Dr. Mortimer
+1922	PER	NOM	131306	131320	The postmaster
+455	PER	NOM	131335	131353	the village grocer
+1408	PER	NOM	131425	131428	sir
+107	PER	PROP	131473	131493	Mr. Barrymore
+2125	PER	NOM	131555	131561	My boy
+95	PER	PROP	131568	131573	James
+107	PER	PROP	131606	131619	Mr. Barrymore
+1471	FAC	NOM	131630	131638	the Hall
+2127	PER	NOM	131679	131685	father
+2128	FAC	NOM	131773	131781	the loft
+131	PER	PROP	131868	131882	Mrs. Barrymore
+107	PER	PROP	131962	131975	Mr. Barrymore
+1408	PER	NOM	131992	131995	sir
+2128	FAC	NOM	132018	132026	the loft
+2128	FAC	NOM	132088	132096	the loft
+2132	PER	NOM	132122	132134	his own wife
+1922	PER	NOM	132168	132189	the postmaster
+107	PER	PROP	132269	132282	Mr. Barrymore
+94	PER	PROP	132409	132415	Holmes
+107	PER	PROP	132451	132460	Barrymore
+10	GPE	PROP	132477	132483	London
+458	PER	NOM	132542	132554	the same man
+459	PER	NOM	132564	132610	the last who had seen Sir Charles alive
+99	PER	PROP	132593	132604	Sir Charles
+460	PER	NOM	132616	132680	the first to dog the new heir when he returned to England
+461	PER	NOM	132633	132645	the new heir
+23	GPE	PROP	132673	132680	England
+462	PER	NOM	132700	132719	the agent of others
+463	PER	NOM	132713	132719	others
+1448	PER	NOM	132820	132842	the Baskerville family
+92	PER	PROP	133124	133133	Sir Henry
+1533	PER	NOM	133143	133160	the family
+466	FAC	NOM	133182	133214	a comfortable and permanent home
+108	PER	PROP	133243	133257	the Barrymores
+210	PER	NOM	133439	133456	the young baronet
+94	PER	PROP	133458	133464	Holmes
+468	FAC	NOM	133629	133657	the grey , lonely road
+1424	PER	NOM	133664	133673	my friend
+95	PER	PROP	133984	133996	Dr. Mortimer
+470	PER	NOM	134024	134061	a stranger who was pursuing me
+471	PER	NOM	134070	134120	a small , slim , clean - shaven , prim - faced man
+93	PER	PROP	134429	134439	Dr. Watson
+1479	LOC	NOM	134506	134514	the moor
+2135	PER	NOM	134529	134540	homely folk
+2136	PER	NOM	134631	134648	our mutual friend
+95	PER	PROP	134650	134658	Mortimer
+112	PER	PROP	134672	134681	Stapleton
+6	FAC	PROP	134686	134700	Merripit House
+112	PER	PROP	134791	134804	Mr. Stapleton
+2137	PER	NOM	134809	134821	a naturalist
+95	PER	PROP	134889	134897	Mortimer
+2138	FAC	NOM	134954	134965	his surgery
+2140	FAC	NOM	134984	134992	our road
+92	PER	PROP	135095	135104	Sir Henry
+99	PER	PROP	135251	135269	Sir Charles
+2141	PER	NOM	135270	135285	the new baronet
+1405	FAC	NOM	135307	135311	here
+2143	PER	NOM	135341	135354	a wealthy man
+2144	LOC	NOM	135388	135415	a place of this kind
+343	LOC	NOM	135483	135498	the countryside
+92	PER	PROP	135500	135509	Sir Henry
+1533	PER	NOM	135687	135704	the family
+2147	PER	NOM	135779	135791	the peasants
+2148	PER	NOM	135815	135833	Any number of them
+1479	LOC	NOM	135901	135909	the moor
+99	PER	PROP	136075	136086	Sir Charles
+1614	FAC	NOM	136390	136403	the yew alley
+443	PER	NOM	136476	136487	the old man
+1424	PER	NOM	136577	136586	My friend
+95	PER	PROP	136587	136595	Mortimer
+99	PER	PROP	136655	136666	Sir Charles
+94	PER	PROP	136823	136842	Mr. Sherlock Holmes
+180	PER	NOM	136960	136972	my companion
+93	PER	PROP	137085	137102	Dr. Watson
+2154	PER	NOM	137130	137144	your detective
+95	PER	PROP	137248	137256	Mortimer
+94	PER	PROP	137353	137379	Mr. Sherlock Holmes
+1362	GPE	NOM	137640	137644	town
+1424	PER	NOM	138175	138184	my friend
+92	PER	PROP	138193	138202	Sir Henry
+112	PER	PROP	138269	138278	Stapleton
+476	FAC	NOM	138519	138539	a narrow grassy path
+363	FAC	NOM	138563	138571	the road
+1479	LOC	NOM	138594	138602	the moor
+479	LOC	NOM	138604	138642	A steep , boulder - sprinkled hill
+480	LOC	NOM	138708	138724	a granite quarry
+2157	LOC	NOM	138946	138955	this moor
+6	FAC	PROP	138974	138995	Merripit House
+2158	PER	NOM	139097	139106	my sister
+92	PER	PROP	139159	139168	Sir Henry
+481	FAC	NOM	139159	139175	Sir Henry ’s side
+94	PER	PROP	139343	139349	Holmes
+482	PER	NOM	139389	139410	the neighbours
+1479	LOC	NOM	139416	139424	the moor
+112	PER	PROP	139437	139446	Stapleton
+1629	FAC	NOM	139496	139504	the path
+2159	LOC	NOM	139522	139539	a wonderful place
+1479	LOC	NOM	139541	139549	the moor
+486	LOC	NOM	139587	139607	the undulating downs
+487	LOC	NOM	139609	139698	long green rollers , with crests of jagged granite foaming up into fantastic surges
+1479	LOC	NOM	139719	139734	the moor
+1405	FAC	NOM	139913	139917	here
+2163	PER	NOM	139929	139942	The residents
+2164	PER	NOM	139957	139974	a newcomer
+99	PER	PROP	139998	140009	Sir Charles
+2165	LOC	NOM	140058	140083	every part of the country
+1363	LOC	NOM	140072	140083	the country
+2167	PER	NOM	140132	140175	few men who know it better than I do
+2168	LOC	NOM	140252	140333	this great plain to the north here with the queer hills breaking out of it
+112	PER	PROP	140677	140686	Stapleton
+2170	FAC	NOM	140705	140727	the great Grimpen Mire
+1902	PER	NOM	140782	140785	man
+2172	PER	NOM	140824	140846	one of the moor ponies
+2173	PER	NOM	140831	140846	the moor ponies
+2174	LOC	NOM	140941	140953	the bog - hole
+2175	LOC	NOM	141084	141105	an awful place
+2176	LOC	NOM	141136	141156	the very heart of it
+132	PER	PROP	141185	141191	George
+2177	PER	NOM	141213	141242	those miserable ponies
+1479	LOC	NOM	141412	141420	the moor
+180	PER	NOM	141457	141476	my companion
+2178	PER	NOM	141551	141559	The mire
+2179	LOC	NOM	141765	141776	a bad place
+66	LOC	PROP	141788	141800	Grimpen Mire
+2180	PER	NOM	141896	141913	a very active man
+2181	LOC	NOM	142046	142062	the hills beyond
+2182	LOC	NOM	142119	142138	the impassable mire
+103	PER	PROP	142392	142395	God
+116	FAC	PROP	142680	142686	Halloa
+1479	LOC	NOM	142771	142779	the moor
+112	PER	PROP	142998	143007	Stapleton
+2183	GPE	NOM	143070	143081	Queer place
+1479	LOC	NOM	143083	143091	the moor
+2147	PER	NOM	143140	143152	The peasants
+98	PER	PROP	143176	143192	the Baskervilles
+492	LOC	NOM	143353	143383	the huge swelling plain
+493	LOC	NOM	143455	143471	the vast expanse
+2186	PER	NOM	143563	143578	an educated man
+23	GPE	PROP	144007	144014	England
+1479	LOC	NOM	144060	144068	the moor
+2188	LOC	NOM	144336	144362	the hillside yonder
+495	LOC	NOM	144401	144422	The whole steep slope
+2189	FAC	NOM	144528	144538	Sheep - pens
+2190	FAC	NOM	144564	144597	the homes of our worthy ancestors
+2191	PER	NOM	144577	144597	our worthy ancestors
+2192	PER	NOM	144599	144614	Prehistoric man
+1479	LOC	NOM	144639	144647	the moor
+2194	PER	NOM	144656	144676	no one in particular
+1410	FAC	NOM	144694	144699	there
+2196	FAC	NOM	144841	144851	his hearth
+2197	FAC	NOM	144856	144865	his couch
+2198	GPE	NOM	144940	144946	a town
+2199	PER	NOM	144982	144995	Neolithic man
+2200	LOC	NOM	145067	145079	these slopes
+2201	LOC	NOM	145189	145226	the great trench in the opposite hill
+2202	LOC	NOM	145209	145226	the opposite hill
+1479	LOC	NOM	145304	145312	the moor
+93	PER	PROP	145314	145331	Dr. Watson
+112	PER	PROP	145470	145479	Stapleton
+497	FAC	NOM	145597	145618	the great mire
+498	LOC	NOM	146014	146041	the treacherous mire
+499	PER	NOM	146108	146137	a woman near me upon the path
+1629	FAC	NOM	146129	146137	the path
+6	FAC	PROP	146239	146253	Merripit House
+1479	LOC	NOM	146270	146278	the moor
+133	PER	PROP	146366	146467	the Miss Stapleton of whom I had been told , since ladies of any sort must be few upon the moor
+502	PER	NOM	146423	146441	ladies of any sort
+1479	LOC	NOM	146459	146467	the moor
+1746	PER	NOM	146510	146517	someone
+505	PER	NOM	146540	146555	a beauty
+506	PER	NOM	146557	146584	The woman who approached me
+507	PER	NOM	146599	146639	that , and of a most uncommon type
+508	PER	NOM	146701	146708	brother
+509	PER	NOM	146713	146719	sister
+133	PER	PROP	146725	146734	Stapleton
+510	PER	NOM	146819	146866	any brunette whom I have seen in England
+23	GPE	PROP	146859	146866	England
+511	FAC	NOM	147158	147187	a lonely moorland path
+512	PER	NOM	147206	147217	her brother
+10	GPE	PROP	147475	147481	London
+103	PER	PROP	147791	147794	God
+1479	LOC	NOM	147860	147868	the moor
+1902	PER	NOM	147925	147928	Man
+1902	PER	NOM	147930	147933	man
+10	GPE	PROP	148020	148026	London
+2207	GPE	NOM	148064	148074	this place
+2208	PER	NOM	148095	148105	my brother
+1479	LOC	NOM	148267	148282	the moor
+2112	GPE	NOM	148353	148362	the place
+133	PER	PROP	148374	148383	Stapleton
+116	PER	PROP	148492	148498	Halloa
+134	PER	PROP	148500	148505	Beryl
+135	PER	PROP	148624	148628	Jack
+515	PER	NOM	148884	148892	the girl
+92	PER	PROP	148983	148992	Sir Henry
+1479	LOC	NOM	149060	149068	the moor
+92	PER	PROP	149149	149170	Sir Henry Baskerville
+2213	PER	NOM	149206	149223	a humble commoner
+2214	PER	NOM	149229	149239	his friend
+93	PER	PROP	149259	149269	Dr. Watson
+512	PER	NOM	149446	149457	her brother
+93	PER	PROP	149531	149541	Dr. Watson
+2215	PER	NOM	149547	149557	a resident
+2216	PER	NOM	149589	149598	a visitor
+6	FAC	PROP	149744	149758	Merripit House
+519	FAC	NOM	149801	149954	a bleak moorland house , once the farm of some grazier in the old prosperous days , but now put into repair and turned into a modern dwelling
+520	FAC	NOM	149830	149954	the farm of some grazier in the old prosperous days , but now put into repair and turned into a modern dwelling
+521	PER	NOM	149849	149888	some grazier in the old prosperous days
+522	FAC	NOM	149937	149954	a modern dwelling
+523	FAC	NOM	149956	149966	An orchard
+1479	LOC	NOM	150021	150029	the moor
+525	LOC	NOM	150081	150096	the whole place
+526	PER	NOM	150149	150241	a strange , wizened , rusty - coated old manservant , who seemed in keeping with the house
+1491	FAC	NOM	150232	150241	the house
+528	FAC	NOM	150278	150376	large rooms furnished with an elegance in which I seemed to recognize the taste of the lady
+529	PER	NOM	150368	150376	the lady
+531	LOC	NOM	150419	150504	the interminable granite - flecked moor rolling unbroken to the farthest horizon
+532	PER	NOM	150562	150586	this highly educated man
+533	PER	NOM	150591	150618	this beautiful woman
+534	FAC	NOM	150630	150642	such a place
+134	PER	PROP	150803	150808	Beryl
+2217	FAC	NOM	150918	150926	a school
+133	PER	PROP	150934	150943	Stapleton
+2218	LOC	NOM	150956	150973	the north country
+2219	PER	NOM	150994	151017	a man of my temperament
+2220	PER	NOM	151092	151097	youth
+2221	PER	NOM	151126	151143	those young minds
+2222	FAC	NOM	151307	151317	the school
+2223	PER	NOM	151322	151346	three of the boys
+2224	PER	NOM	151338	151346	the boys
+2225	FAC	NOM	151406	151416	my capital
+2224	PER	NOM	151526	151534	the boys
+2158	PER	NOM	151692	151701	my sister
+93	PER	PROP	151745	151762	Dr. Watson
+1479	LOC	NOM	151838	151846	the moor
+2229	PER	NOM	151978	151989	your sister
+2230	PER	NOM	152104	152133	interesting neighbours
+95	PER	PROP	152135	152147	Dr. Mortimer
+2231	PER	NOM	152151	152185	a most learned man in his own line
+136	PER	PROP	152194	152210	Poor Sir Charles
+2232	PER	NOM	152220	152242	an admirable companion
+92	PER	PROP	152414	152423	Sir Henry
+1476	FAC	NOM	152700	152708	upstairs
+93	PER	PROP	152710	152720	Dr. Watson
+2234	LOC	NOM	152810	152842	the south - west of England
+23	GPE	PROP	152835	152842	England
+1479	LOC	NOM	152995	153010	the moor
+537	PER	NOM	153025	153045	the unfortunate pony
+98	PER	PROP	153120	153136	the Baskervilles
+133	PER	PROP	153317	153331	Miss Stapleton
+539	PER	NOM	153690	153707	those who knew it
+363	FAC	NOM	153734	153742	the road
+133	PER	PROP	153773	153787	Miss Stapleton
+541	FAC	NOM	153830	153839	the track
+93	PER	PROP	153993	154003	Dr. Watson
+2208	PER	NOM	154089	154099	my brother
+92	PER	PROP	154216	154232	Sir Henry
+133	PER	PROP	154352	154366	Miss Stapleton
+92	PER	PROP	154383	154399	Sir Henry
+2237	PER	NOM	154383	154408	Sir Henry ’s friend
+92	PER	PROP	154513	154522	Sir Henry
+10	GPE	PROP	154547	154553	London
+1616	PER	NOM	154566	154573	A woman
+93	PER	PROP	154582	154592	Dr. Watson
+133	PER	PROP	154839	154853	Miss Stapleton
+1405	FAC	NOM	154889	154893	here
+541	FAC	NOM	155096	155105	the track
+92	PER	PROP	155200	155209	Sir Henry
+93	PER	PROP	155384	155394	Dr. Watson
+2208	PER	NOM	155408	155418	My brother
+136	PER	PROP	155471	155482	Sir Charles
+1479	LOC	NOM	155552	155560	the moor
+2244	FAC	NOM	155564	155580	our house
+1533	PER	NOM	155637	155654	the family
+2246	PER	NOM	155816	155844	another member of the family
+1533	PER	NOM	155834	155844	the family
+1405	FAC	NOM	155870	155874	here
+92	PER	PROP	156170	156179	Sir Henry
+1601	PER	NOM	156246	156256	his family
+1407	LOC	NOM	156258	156274	The world
+2251	LOC	NOM	156369	156388	the place of danger
+92	PER	PROP	156398	156407	Sir Henry
+133	PER	PROP	156684	156698	Miss Stapleton
+2252	PER	NOM	156797	156809	your brother
+1939	PER	NOM	156877	156888	anyone else
+2208	PER	NOM	156915	156925	My brother
+1471	FAC	NOM	156950	156958	the Hall
+2256	PER	NOM	157013	157026	the poor folk
+1479	LOC	NOM	157032	157040	the moor
+92	PER	PROP	157135	157144	Sir Henry
+5	FAC	PROP	157463	157479	Baskerville Hall
+93	PER	PROP	157518	157528	Dr. Watson
+94	PER	PROP	157639	157658	Mr. Sherlock Holmes
+5	FAC	PROP	157933	157949	Baskerville Hall
+1351	PER	NOM	157974	157981	MY DEAR
+94	PER	PROP	157982	157988	HOLMES
+546	LOC	NOM	158108	158157	this most God - forsaken corner of the world
+1407	LOC	NOM	158148	158157	the world
+1405	FAC	NOM	158180	158184	here
+1479	LOC	NOM	158220	158228	the moor
+23	GPE	PROP	158376	158383	England
+550	FAC	NOM	158459	158468	the homes
+551	PER	NOM	158485	158514	the prehistoric people
+552	FAC	NOM	158552	158690	the houses of these forgotten folk , with their graves and the huge monoliths which are supposed to have marked their temples
+553	PER	NOM	158573	158593	these forgotten folk
+554	FAC	NOM	158600	158612	their graves
+555	FAC	NOM	158677	158690	their temples
+556	FAC	NOM	158714	158735	their grey stone huts
+557	PER	NOM	158831	158860	a skin - clad , hairy man
+558	PER	NOM	159163	159177	no antiquarian
+559	PER	NOM	159221	159327	some unwarlike and harried race who were forced to accept that which none other would occupy
+560	PER	NOM	159297	159307	none other
+561	LOC	NOM	159580	159589	the earth
+92	PER	PROP	159675	159703	Sir Henry Baskerville
+562	PER	NOM	160107	160147	the escaped convict upon the moor
+1479	LOC	NOM	160139	160147	the moor
+564	PER	NOM	160256	160303	the lonely householders of this district
+565	GPE	NOM	160290	160303	this district
+1479	LOC	NOM	160496	160504	the moor
+567	FAC	NOM	160607	160641	Any one of these stone huts
+568	FAC	NOM	160625	160641	these stone huts
+570	PER	NOM	160819	160846	the outlying farmers
+571	PER	NOM	160896	160934	four able - bodied men in this household
+572	FAC	NOM	160920	160934	this household
+137	PER	PROP	161064	161078	the Stapletons
+573	PER	NOM	161128	161136	one maid
+574	PER	NOM	161138	161155	an old manservant
+575	PER	NOM	161157	161167	the sister
+576	PER	NOM	161180	161191	the brother
+577	PER	NOM	161193	161225	the latter not a very strong man
+578	PER	NOM	161273	161366	a desperate fellow like this Notting Hill criminal if he could once effect an entrance
+579	PER	NOM	161297	161330	this Notting Hill criminal
+92	PER	PROP	161373	161382	Sir Henry
+114	PER	PROP	161464	161471	Perkins
+580	PER	NOM	161472	161481	the groom
+133	PER	PROP	161524	161533	Stapleton
+1716	PER	NOM	161582	161592	our friend
+228	PER	NOM	161594	161605	the baronet
+584	PER	NOM	161659	161677	our fair neighbour
+585	PER	NOM	161761	161790	an active man like him
+586	PER	NOM	161803	161848	a very fascinating and beautiful woman
+587	PER	NOM	161941	161973	her cool and unemotional brother
+92	PER	PROP	162456	162467	Baskerville
+590	LOC	NOM	162547	162633	the spot where the legend of the wicked Hugo is supposed to have had its origin
+591	PER	NOM	162583	162598	the wicked Hugo
+1479	LOC	NOM	162683	162691	the moor
+593	LOC	NOM	162778	162819	a short valley between rugged tors
+594	LOC	NOM	162808	162819	rugged tors
+595	LOC	NOM	162833	162902	an open , grassy space flecked over with the white cotton grass
+92	PER	PROP	163148	163157	Sir Henry
+133	PER	PROP	163188	163197	Stapleton
+1729	PER	NOM	163334	163337	men
+133	PER	PROP	163424	163433	Stapleton
+228	PER	NOM	163621	163639	the baronet
+598	PER	NOM	163676	163684	families
+6	FAC	PROP	163870	163884	Merripit House
+92	PER	PROP	163915	163924	Sir Henry
+133	PER	PROP	163950	163964	Miss Stapleton
+1469	FAC	NOM	164171	164175	home
+600	PER	NOM	164265	164287	the brother and sister
+1405	FAC	NOM	164299	164303	here
+1529	PER	NOM	164375	164378	One
+133	PER	PROP	164443	164452	Stapleton
+92	PER	PROP	164561	164570	Sir Henry
+2037	PER	NOM	164612	164622	his sister
+92	PER	PROP	165092	165101	Sir Henry
+95	PER	PROP	165367	165379	Dr. Mortimer
+606	FAC	NOM	165427	165448	a barrow at Long Down
+59	LOC	PROP	165439	165448	Long Down
+137	PER	PROP	165582	165596	The Stapletons
+607	PER	NOM	165628	165643	the good doctor
+1614	FAC	NOM	165659	165672	the yew alley
+92	PER	PROP	165683	165692	Sir Henry
+1614	FAC	NOM	165803	165816	the yew alley
+610	FAC	NOM	165937	165975	an old tumble - down summer - house
+611	PER	NOM	166014	166038	the old gentleman
+613	LOC	NOM	166121	166134	the wide moor
+443	PER	NOM	166229	166247	the old man
+1479	LOC	NOM	166291	166299	the moor
+617	LOC	NOM	166449	166472	the long , gloomy tunnel
+1479	LOC	NOM	166530	166538	the moor
+107	PER	PROP	166642	166677	the pale , watchful Barrymore
+619	PER	NOM	166815	166834	One other neighbour
+111	PER	PROP	166874	166894	Mr. Frankland
+25	FAC	PROP	166899	166910	Lafter Hall
+620	LOC	NOM	166941	166963	the south of us
+622	PER	NOM	166971	167031	an elderly man , red - faced , white - haired , and choleric
+623	FAC	NOM	167363	167380	the parish
+625	PER	NOM	167456	167470	some other man
+1410	FAC	NOM	167521	167526	there
+1958	PER	NOM	167557	167566	the owner
+628	PER	NOM	167722	167749	the villagers of Fernworthy
+60	GPE	PROP	167739	167749	Fernworthy
+629	FAC	NOM	167843	167868	the village street
+630	PER	NOM	168172	168208	a kindly , good - natured person
+632	PER	NOM	168307	168333	the people who surround us
+634	PER	NOM	168390	168411	an amateur astronomer
+1745	FAC	NOM	168494	168507	his own house
+1479	LOC	NOM	168519	168527	the moor
+637	PER	NOM	168580	168599	the escaped convict
+95	PER	PROP	168726	168738	Dr. Mortimer
+1582	PER	NOM	168789	168804	the next of kin
+639	FAC	NOM	168853	168876	the barrow on Long Down
+61	FAC	PROP	168867	168876	Long Down
+637	PER	NOM	169050	169069	the escaped convict
+137	PER	PROP	169078	169092	the Stapletons
+95	PER	PROP	169094	169106	Dr. Mortimer
+111	PER	PROP	169112	169121	Frankland
+25	FAC	PROP	169126	169137	Lafter Hall
+108	PER	PROP	169220	169234	the Barrymores
+10	GPE	PROP	169373	169379	London
+107	PER	PROP	169414	169423	Barrymore
+1405	FAC	NOM	169435	169439	here
+1922	PER	NOM	169495	169509	the postmaster
+92	PER	PROP	169613	169622	Sir Henry
+107	PER	PROP	169698	169707	Barrymore
+107	PER	PROP	169778	169787	Barrymore
+2258	PER	NOM	169820	169827	the boy
+92	PER	PROP	169867	169876	Sir Henry
+107	PER	PROP	169887	169896	Barrymore
+2259	FAC	NOM	169983	169995	the box - room
+2082	PER	NOM	170013	170020	my wife
+2082	PER	NOM	170110	170117	my wife
+92	PER	PROP	170331	170340	Sir Henry
+92	PER	PROP	170454	170463	Sir Henry
+10	GPE	PROP	170582	170588	London
+131	PER	PROP	170636	170650	Mrs. Barrymore
+644	PER	NOM	170680	170708	a heavy , solid person
+1405	FAC	NOM	170889	170893	here
+131	PER	PROP	171160	171169	Barrymore
+647	PER	NOM	171179	171203	a domestic tyrant
+648	PER	NOM	171285	171293	this man
+649	PER	NOM	171472	171492	a very sound sleeper
+1985	FAC	NOM	171535	171545	this house
+651	FAC	NOM	171680	171687	my room
+652	FAC	NOM	171774	171786	the corridor
+653	PER	NOM	171805	171852	a man who walked softly down the passage
+131	PER	PROP	172033	172042	Barrymore
+652	FAC	NOM	172211	172223	the corridor
+1471	FAC	NOM	172273	172281	the hall
+658	FAC	NOM	172428	172439	the balcony
+659	FAC	NOM	172473	172493	the farther corridor
+660	FAC	NOM	172585	172601	one of the rooms
+661	FAC	NOM	172592	172601	the rooms
+405	FAC	NOM	172619	172630	these rooms
+663	FAC	NOM	172806	172824	the passage
+131	PER	PROP	172908	172917	Barrymore
+1479	LOC	NOM	173135	173143	the moor
+651	FAC	NOM	173321	173328	my room
+667	FAC	NOM	173661	173687	this house of gloom
+92	PER	PROP	173871	173887	Sir Henry
+7	LOC	PROP	174123	174131	the Moor
+93	PER	PROP	174150	174160	Dr. Watson
+5	FAC	PROP	174173	174189	Baskerville Hall
+62	FAC	PROP	174191	174200	Oct. 15th
+94	PER	PROP	174219	174225	HOLMES
+131	PER	PROP	174511	174520	Barrymore
+652	FAC	NOM	175006	175018	the corridor
+671	FAC	NOM	175032	175095	the room in which Barrymore had been on the night before
+131	PER	PROP	175050	175059	Barrymore
+1491	FAC	NOM	175229	175238	the house
+1479	LOC	NOM	175284	175292	the moor
+675	PER	NOM	175346	175380	one from this point of view
+131	PER	PROP	175536	175545	Barrymore
+676	PER	NOM	175653	175661	somebody
+1479	LOC	NOM	175667	175675	the moor
+1586	PER	NOM	175769	175775	anyone
+1930	PER	NOM	175957	175965	his wife
+1338	PER	NOM	175967	175974	The man
+681	PER	NOM	175978	176010	a striking - looking fellow
+682	PER	NOM	176060	176074	a country girl
+651	FAC	NOM	176217	176224	my room
+131	PER	PROP	176516	176525	Barrymore
+228	PER	NOM	176705	176716	the baronet
+686	FAC	NOM	176720	176729	his study
+131	PER	PROP	176862	176871	Barrymore
+663	FAC	NOM	177006	177017	the passage
+1426	PER	NOM	177298	177309	your friend
+94	PER	PROP	177310	177316	Holmes
+1405	FAC	NOM	177344	177348	here
+131	PER	PROP	177451	177460	Barrymore
+1338	PER	NOM	177574	177581	The man
+651	FAC	NOM	177670	177677	my room
+92	PER	PROP	177720	177729	Sir Henry
+1479	LOC	NOM	177868	177876	the moor
+228	PER	NOM	177887	177898	The baronet
+689	PER	NOM	177930	178031	the architect who prepared the plans for Sir Charles , and with a contractor from London
+136	PER	PROP	177978	177989	Sir Charles
+690	PER	NOM	178000	178031	a contractor from London
+10	GPE	PROP	178025	178031	London
+1405	FAC	NOM	178078	178082	here
+693	PER	NOM	178112	178122	decorators
+63	GPE	PROP	178146	178154	Plymouth
+1716	PER	NOM	178186	178196	our friend
+1601	PER	NOM	178286	178296	his family
+1491	FAC	NOM	178310	178319	the house
+697	PER	NOM	178387	178393	a wife
+529	PER	NOM	178502	178510	the lady
+1615	PER	NOM	178553	178558	a man
+1616	PER	NOM	178580	178594	a woman
+701	PER	NOM	178611	178634	our beautiful neighbour
+133	PER	PROP	178636	178650	Miss Stapleton
+1529	PER	NOM	178732	178735	one
+1716	PER	NOM	178877	178887	our friend
+131	PER	PROP	178985	178994	Barrymore
+92	PER	PROP	178996	179012	Sir Henry
+93	PER	PROP	179131	179137	Watson
+1479	LOC	NOM	179240	179248	the moor
+94	PER	PROP	179390	179396	Holmes
+1479	LOC	NOM	179491	179506	the moor
+92	PER	PROP	179518	179527	Sir Henry
+1349	PER	NOM	179591	179605	My dear fellow
+94	PER	PROP	179618	179624	Holmes
+1479	LOC	NOM	179723	179738	the moor
+2273	PER	NOM	179782	179814	the last man in the world
+1407	LOC	NOM	179805	179814	the world
+2275	PER	NOM	179836	179849	a spoil - sport
+6	FAC	PROP	180543	180564	Merripit House
+363	FAC	NOM	180591	180599	the road
+92	PER	PROP	180657	180666	Sir Henry
+706	LOC	NOM	180700	180720	the moor path
+707	LOC	NOM	180825	180872	a hill from which I could command a view
+708	LOC	NOM	180873	180920	the same hill which is cut into the dark quarry
+709	LOC	NOM	180905	180920	the dark quarry
+138	PER	PROP	180929	180935	Thence
+706	FAC	NOM	180965	180978	the moor path
+711	PER	NOM	181021	181027	a lady
+133	PER	PROP	181062	181083	Miss Stapleton
+1975	PER	NOM	181745	181752	the spy
+1755	PER	NOM	181758	181766	a friend
+715	LOC	NOM	181862	181870	the hill
+1716	PER	NOM	182208	182218	Our friend
+92	PER	PROP	182220	182229	Sir Henry
+529	PER	NOM	182235	182243	the lady
+1629	FAC	NOM	182258	182266	the path
+721	PER	NOM	182544	182595	a man who was moving among the broken ground
+133	PER	PROP	182604	182613	Stapleton
+722	PER	NOM	182672	182680	the pair
+92	PER	PROP	182772	182781	Sir Henry
+133	PER	PROP	182796	182810	Miss Stapleton
+133	PER	PROP	183088	183097	Stapleton
+723	PER	NOM	183288	183298	the lovers
+133	PER	PROP	183374	183383	Stapleton
+92	PER	PROP	183396	183412	Sir Henry
+269	PER	NOM	183467	183483	the other
+529	PER	NOM	183508	183516	The lady
+133	PER	PROP	183561	183570	Stapleton
+2037	PER	NOM	183635	183645	his sister
+92	PER	PROP	183689	183698	Sir Henry
+512	PER	NOM	183726	183737	her brother
+1593	PER	NOM	183739	183760	The naturalist
+529	PER	NOM	183790	183798	the lady
+228	PER	NOM	183839	183850	The baronet
+1424	PER	NOM	184138	184147	my friend
+715	LOC	NOM	184179	184187	the hill
+733	PER	NOM	184206	184238	the baronet at the bottom
+116	FAC	PROP	184364	184370	Halloa
+93	PER	PROP	184372	184378	Watson
+1615	PER	NOM	184892	184897	a man
+1551	LOC	NOM	184941	184969	the whole countryside
+2278	LOC	NOM	185114	185123	that hill
+512	PER	NOM	185167	185178	her brother
+2282	PER	NOM	185316	185336	this brother of hers
+93	PER	PROP	185624	185630	Watson
+2283	PER	NOM	185714	185728	a good husband
+2284	PER	NOM	185732	185759	a woman that I loved
+1902	PER	NOM	185939	185942	man
+2286	PER	NOM	185946	185951	woman
+93	PER	PROP	186128	186134	Watson
+1616	PER	NOM	186340	186347	a woman
+2290	FAC	NOM	186770	186787	a place of danger
+2282	PER	NOM	187139	187166	this brother of hers
+2293	PER	NOM	187206	187214	a madman
+529	PER	NOM	187333	187341	the lady
+2295	PER	NOM	187452	187461	a baronet
+512	PER	NOM	187513	187524	her brother
+2037	PER	NOM	187624	187634	his sister
+2082	PER	NOM	187738	187745	my wife
+1615	PER	NOM	188027	188032	a man
+2301	GPE	NOM	188043	188054	this county
+93	PER	PROP	188095	188101	Watson
+1716	PER	NOM	188257	188267	Our friend
+1601	PER	NOM	188443	188460	his family
+529	PER	NOM	188544	188552	the lady
+529	PER	NOM	188575	188583	the lady
+133	PER	PROP	188717	188726	Stapleton
+92	PER	PROP	188881	188890	Sir Henry
+686	FAC	NOM	188894	188903	his study
+6	FAC	PROP	189015	189029	Merripit House
+2302	PER	NOM	189099	189110	a crazy man
+92	PER	PROP	189118	189127	Sir Henry
+2303	PER	NOM	189234	189240	no man
+2037	PER	NOM	189367	189377	His sister
+2306	PER	NOM	189583	189629	a very lonely man with only her as a companion
+280	PER	NOM	189618	189629	a companion
+2308	PER	NOM	190138	190208	a beautiful woman like his sister to himself for her whole life
+2037	PER	NOM	190168	190178	his sister
+2310	PER	NOM	190265	190295	a neighbour like myself
+1939	PER	NOM	190304	190315	anyone else
+529	PER	NOM	190599	190607	the lady
+741	LOC	NOM	190840	190883	this bog in which we are floundering
+133	PER	PROP	190901	190910	Stapleton
+2037	PER	NOM	190945	190955	his sister
+744	PER	NOM	190945	190964	his sister ’s suitor
+745	PER	NOM	190975	190986	that suitor
+92	PER	PROP	191019	191028	Sir Henry
+131	PER	PROP	191196	191210	Mrs. Barrymore
+397	PER	NOM	191244	191254	the butler
+1351	PER	NOM	191310	191317	my dear
+94	PER	PROP	191318	191324	Holmes
+748	PER	NOM	191381	191389	an agent
+92	PER	PROP	191711	191720	Sir Henry
+750	FAC	NOM	191724	191733	his rooms
+751	PER	NOM	192288	192298	the hunter
+663	FAC	NOM	192641	192652	the passage
+228	PER	NOM	192750	192761	the baronet
+1821	PER	NOM	192827	192834	our man
+264	FAC	NOM	192850	192861	the gallery
+652	FAC	NOM	192866	192885	the corridor
+2120	FAC	NOM	192959	192973	the other wing
+758	PER	NOM	193025	193055	the tall , black - bearded figure
+663	FAC	NOM	193105	193116	the passage
+652	FAC	NOM	193286	193298	the corridor
+1338	PER	NOM	193648	193662	the man
+228	PER	NOM	194029	194040	the baronet
+764	PER	NOM	194044	194111	a man to whom the most direct way is always the most natural
+186	FAC	NOM	194135	194143	the room
+131	PER	PROP	194162	194171	Barrymore
+92	PER	PROP	194413	194422	Sir Henry
+1405	FAC	NOM	194459	194463	here
+131	PER	PROP	194465	194474	Barrymore
+1408	PER	NOM	194496	194499	sir
+1408	PER	NOM	194658	194661	sir
+2316	FAC	NOM	194735	194751	the second floor
+1408	PER	NOM	194769	194772	sir
+131	PER	PROP	194813	194822	Barrymore
+92	PER	PROP	194830	194839	Sir Henry
+766	PER	NOM	195058	195068	The fellow
+768	PER	NOM	195145	195204	one who is in the last extremity of doubt and misery
+1408	PER	NOM	195237	195240	sir
+92	PER	PROP	195365	195374	Sir Henry
+1408	PER	NOM	195409	195412	sir
+1618	PER	NOM	195497	195503	no one
+397	PER	NOM	195648	195658	the butler
+1479	LOC	NOM	195931	195939	the moor
+1408	PER	NOM	196244	196247	sir
+397	PER	NOM	196280	196290	the butler
+1408	PER	NOM	196323	196326	sir
+93	PER	PROP	196374	196380	Watson
+228	PER	NOM	196389	196400	the baronet
+2324	PER	NOM	196442	196452	you rascal
+2325	PER	NOM	196517	196533	your confederate
+1338	PER	NOM	196609	196616	The man
+1408	PER	NOM	196780	196783	sir
+2098	PER	NOM	196894	196905	Your family
+1408	PER	NOM	197056	197059	sir
+1616	PER	NOM	197090	197097	a woman
+131	PER	PROP	197118	197132	Mrs. Barrymore
+1890	PER	NOM	197168	197179	her husband
+106	PER	PROP	197369	197374	Eliza
+397	PER	NOM	197437	197447	the butler
+105	PER	PROP	197463	197467	John
+105	PER	PROP	197469	197473	John
+92	PER	PROP	197519	197535	Sir Henry
+2330	PER	NOM	197675	197693	My unhappy brother
+1479	LOC	NOM	197709	197717	the moor
+2252	PER	NOM	197924	197936	your brother
+637	PER	NOM	197952	197971	The escaped convict
+1408	PER	NOM	197973	197976	sir
+129	PER	PROP	197977	197983	Selden
+2335	PER	NOM	197985	197997	the criminal
+1408	PER	NOM	198028	198031	sir
+131	PER	PROP	198039	198048	Barrymore
+92	PER	PROP	198350	198359	Sir Henry
+777	PER	NOM	198388	198397	the woman
+778	PER	NOM	198433	198472	this stolidly respectable person
+779	PER	NOM	198498	198555	one of the most notorious criminals in the country
+780	PER	NOM	198505	198555	the most notorious criminals in the country
+1363	GPE	NOM	198544	198555	the country
+1408	PER	NOM	198572	198575	sir
+129	PER	PROP	198589	198595	Selden
+2338	PER	NOM	198607	198625	my younger brother
+2340	PER	NOM	198671	198676	a lad
+1407	LOC	NOM	198751	198760	the world
+2342	PER	NOM	198873	198890	wicked companions
+2343	PER	NOM	198945	198954	my mother
+103	PER	PROP	199085	199088	God
+1408	PER	NOM	199149	199152	sir
+2345	PER	NOM	199168	199261	the little curly - headed boy that I had nursed and played with as an elder sister would
+2346	PER	NOM	199240	199255	an elder sister
+2347	FAC	NOM	199292	199298	prison
+1408	PER	NOM	199300	199303	sir
+1405	FAC	NOM	199324	199328	here
+1405	FAC	NOM	199402	199406	here
+2067	PER	NOM	199450	199461	the warders
+1408	PER	NOM	199578	199581	sir
+2208	PER	NOM	199587	199597	my brother
+1479	LOC	NOM	199634	199642	the moor
+1410	FAC	NOM	199787	199792	there
+2356	PER	NOM	199861	199871	my husband
+1410	FAC	NOM	199975	199980	there
+2358	PER	NOM	200046	200078	an honest Christian woman
+2356	PER	NOM	200161	200171	my husband
+777	PER	NOM	200246	200255	The woman
+131	PER	PROP	200364	200373	Barrymore
+92	PER	PROP	200391	200400	Sir Henry
+2361	PER	NOM	200472	200485	your own wife
+1395	FAC	NOM	200525	200534	your room
+2363	PER	NOM	200536	200543	you two
+92	PER	PROP	200677	200686	Sir Henry
+92	PER	PROP	200897	200906	Sir Henry
+2364	FAC	NOM	201041	201054	the Cleft Tor
+131	PER	PROP	201170	201179	Barrymore
+2365	PER	NOM	201239	201251	this villain
+93	PER	PROP	201292	201298	Watson
+1851	PER	NOM	201323	201331	that man
+108	PER	PROP	201402	201423	the Barrymores
+1338	PER	NOM	201507	201514	The man
+786	PER	NOM	201531	201544	the community
+787	PER	NOM	201546	201620	an unmitigated scoundrel for whom there was neither pity nor excuse
+463	PER	NOM	201776	201782	others
+789	PER	NOM	201864	201878	our neighbours
+137	PER	PROP	201879	201893	the Stapletons
+92	PER	PROP	201986	201995	Sir Henry
+766	PER	NOM	202154	202164	the fellow
+791	LOC	NOM	202314	202332	the dark shrubbery
+1479	LOC	NOM	202626	202634	the moor
+2368	PER	NOM	202851	202876	a desperate fellow
+93	PER	PROP	202981	202987	Watson
+228	PER	NOM	202995	203006	the baronet
+94	PER	PROP	203020	203026	Holmes
+1479	LOC	NOM	203216	203224	the moor
+795	LOC	NOM	203280	203317	the borders of the great Grimpen Mire
+2170	FAC	NOM	203295	203317	the great Grimpen Mire
+228	PER	NOM	203580	203591	The baronet
+2369	PER	NOM	203677	203683	My God
+93	PER	PROP	203698	203704	Watson
+1479	LOC	NOM	203757	203765	the moor
+93	PER	PROP	203929	203935	Watson
+228	PER	NOM	203943	203954	the baronet
+2372	PER	NOM	204198	204225	The folk on the countryside
+343	LOC	NOM	204210	204225	the countryside
+2374	PER	NOM	204251	204266	ignorant people
+93	PER	PROP	204334	204340	Watson
+172	PER	NOM	204459	204488	the Hound of the Baskervilles
+98	PER	PROP	204472	204488	the Baskervilles
+2170	LOC	NOM	204775	204804	the great Grimpen Mire
+66	LOC	PROP	204792	204804	Grimpen Mire
+93	PER	PROP	204873	204879	Watson
+2377	PER	NOM	204955	204962	a child
+133	PER	PROP	205020	205029	Stapleton
+2369	PER	NOM	205162	205168	My God
+93	PER	PROP	205324	205330	Watson
+10	GPE	PROP	205408	205414	London
+1479	LOC	NOM	205478	205486	the moor
+1798	PER	NOM	205530	205538	my uncle
+2381	PER	NOM	205659	205667	a coward
+93	PER	PROP	205669	205675	Watson
+1821	PER	NOM	206015	206022	our man
+2384	PER	NOM	206059	206070	the convict
+2385	PER	NOM	206158	206190	all the fiends of the pit
+1479	LOC	NOM	206207	206215	the moor
+801	LOC	NOM	206299	206315	the craggy hills
+5	FAC	PROP	206927	206943	Baskerville Hall
+802	LOC	NOM	206945	206965	A boulder of granite
+803	LOC	NOM	207124	207153	the middle of the moor
+1479	LOC	NOM	207145	207153	the moor
+92	PER	PROP	207315	207324	Sir Henry
+806	PER	NOM	207794	207867	one of those old savages who dwelt in the burrows on the hillsides
+807	PER	NOM	207801	207867	those old savages who dwelt in the burrows on the hillsides
+808	LOC	NOM	207854	207867	the hillsides
+809	PER	NOM	208073	208084	the hunters
+131	PER	PROP	208172	208181	Barrymore
+766	PER	NOM	208248	208258	the fellow
+92	PER	PROP	208496	208505	Sir Henry
+2384	PER	NOM	208546	208557	the convict
+812	PER	NOM	208705	208751	his short , squat , strongly built figure
+813	LOC	NOM	208897	208917	the brow of the hill
+715	LOC	NOM	208909	208917	the hill
+1821	PER	NOM	208933	208940	our man
+816	PER	NOM	209059	209074	a mountain goat
+817	PER	NOM	209220	209262	an unarmed man who was running away
+818	PER	NOM	209286	209327	swift runners and in fairly good training
+819	LOC	NOM	209524	209557	the side of a distant hill
+820	LOC	NOM	209536	209557	a distant hill
+1469	FAC	NOM	209926	209930	home
+823	PER	NOM	210216	210234	a man upon the tor
+94	PER	PROP	210280	210286	Holmes
+824	PER	NOM	210390	210400	the figure
+825	PER	NOM	210420	210436	a tall , thin man
+826	GPE	NOM	210668	210694	that terrible place
+2384	PER	NOM	210707	210718	the convict
+648	PER	NOM	210720	210728	This man
+829	PER	NOM	210809	210833	a much taller man
+228	PER	NOM	210879	210897	the baronet
+1338	PER	NOM	210968	210975	the man
+832	PER	NOM	211112	211145	that silent and motionless figure
+833	LOC	NOM	211203	211210	the tor
+228	PER	NOM	211250	211261	The baronet
+1601	PER	NOM	211347	211357	his family
+836	PER	NOM	211431	211453	this lonely man
+833	LOC	NOM	211459	211466	the tor
+2387	PER	NOM	211577	211592	A warder
+1479	PER	NOM	211615	211623	The moor
+2390	PER	NOM	211662	211673	this fellow
+839	PER	NOM	211834	211907	the Princetown people where they should look for their missing man
+840	PER	NOM	211890	211907	their missing man
+841	PER	NOM	212003	212026	our own prisoner
+1351	PER	NOM	212100	212107	my dear
+94	PER	PROP	212108	212114	Holmes
+108	PER	PROP	212502	212523	the Barrymores
+1479	LOC	NOM	212630	212638	the moor
+93	PER	PROP	213000	213010	Dr. Watson
+94	PER	PROP	213129	213144	Sherlock Holmes
+2384	PER	NOM	213570	213588	the convict
+1479	LOC	NOM	213628	213636	the moor
+1491	FAC	NOM	213717	213726	The house
+1479	LOC	NOM	213821	213829	the moor
+849	LOC	NOM	213880	213889	the hills
+228	FAC	NOM	214018	214029	The baronet
+851	PER	NOM	214483	214519	the last occupant of the Hall
+852	PER	NOM	214634	214642	peasants
+1479	LOC	NOM	214688	214696	the moor
+133	PER	PROP	215034	215043	Stapleton
+95	PER	PROP	215093	215101	Mortimer
+854	PER	NOM	215288	215440	these poor peasants , who are not content with a mere fiend dog but must needs describe him with hell - fire shooting from his mouth and eyes
+855	PER	NOM	215334	215357	a mere fiend dog
+94	PER	PROP	215442	215448	Holmes
+856	PER	NOM	215499	215508	his agent
+1479	LOC	NOM	215578	215586	the moor
+859	PER	NOM	215823	215843	no one saw it
+860	PER	NOM	216020	216053	the human agency in London
+10	GPE	PROP	216047	216053	London
+861	PER	NOM	216055	216073	the man in the cab
+92	PER	PROP	216103	216112	Sir Henry
+1479	LOC	NOM	216128	216136	the moor
+863	PER	NOM	216204	216223	a protecting friend
+864	PER	NOM	216240	216248	an enemy
+865	PER	NOM	216266	216277	that friend
+866	PER	NOM	216281	216286	enemy
+10	GPE	PROP	216311	216317	London
+868	PER	NOM	216380	216423	the stranger whom I saw upon the tor
+833	LOC	NOM	216416	216423	the tor
+870	PER	NOM	216562	216602	no one whom I have seen down here
+871	PER	NOM	216623	216648	all the neighbours
+133	PER	PROP	216689	216698	Stapleton
+111	PER	PROP	216732	216741	Frankland
+131	PER	PROP	216743	216752	Barrymore
+872	PER	NOM	216880	216895	A stranger then
+873	PER	NOM	216932	216942	a stranger
+10	GPE	PROP	216956	216962	London
+1851	PER	NOM	217030	217038	that man
+92	PER	PROP	217220	217229	Sir Henry
+875	PER	NOM	217244	217275	My second and wisest one
+1586	PER	NOM	217341	217347	anyone
+1479	LOC	NOM	217440	217448	the moor
+131	PER	PROP	217619	217628	Barrymore
+92	PER	PROP	217662	217671	Sir Henry
+686	FAC	NOM	217706	217715	his study
+880	FAC	NOM	217745	217762	the billiard - room
+228	PER	NOM	217924	217935	the baronet
+131	PER	PROP	217972	217981	Barrymore
+2391	PER	NOM	218091	218109	his brother - in - law
+397	PER	NOM	218187	218197	The butler
+1408	PER	NOM	218291	218294	sir
+2393	PER	NOM	218427	218444	you two gentlemen
+129	PER	PROP	218513	218519	Selden
+2394	PER	NOM	218521	218536	The poor fellow
+228	PER	NOM	218715	218726	the baronet
+2096	PER	NOM	218764	218773	your wife
+92	PER	PROP	218920	218936	Sir Henry
+1338	PER	NOM	218965	218972	The man
+2397	FAC	NOM	219003	219047	lonely houses scattered over the moor
+1479	LOC	NOM	219039	219047	the moor
+2399	PER	NOM	219059	219094	a fellow who would stick at nothing
+112	PER	PROP	219167	219187	Mr. Stapleton
+2400	FAC	NOM	219167	219195	Mr. Stapleton ’s house
+1618	PER	NOM	219215	219221	no one
+1586	PER	NOM	219277	219283	anyone
+2403	FAC	NOM	219344	219352	no house
+1408	PER	NOM	219354	219357	sir
+1586	PER	NOM	219429	219435	anyone
+2406	GPE	NOM	219439	219451	this country
+92	PER	PROP	219480	219489	Sir Henry
+64	GPE	PROP	219605	219618	South America
+1408	PER	NOM	219636	219639	sir
+2408	PER	NOM	219665	219682	the police
+1479	LOC	NOM	219708	219716	the moor
+2082	PER	NOM	219860	219867	my wife
+1408	PER	NOM	219907	219910	sir
+2408	PER	NOM	219930	219940	the police
+93	PER	PROP	219970	219976	Watson
+1363	GPE	NOM	220039	220050	the country
+2415	PER	NOM	220075	220088	the tax - payer
+1746	PER	NOM	220153	220160	someone
+1408	PER	NOM	220231	220234	sir
+92	PER	PROP	220385	220394	Sir Henry
+131	PER	PROP	220403	220412	Barrymore
+1408	PER	NOM	220440	220443	sir
+2419	PER	NOM	220502	220514	my poor wife
+93	PER	PROP	220596	220602	Watson
+1338	PER	NOM	220673	220680	the man
+131	PER	PROP	220729	220738	Barrymore
+1338	PER	NOM	220799	220806	the man
+1408	PER	NOM	220896	220899	sir
+92	PER	PROP	220985	220994	Sir Henry
+2422	PER	NOM	221157	221167	mortal man
+136	PER	PROP	221185	221196	Sir Charles
+228	PER	NOM	221216	221227	The baronet
+1408	PER	NOM	221307	221310	sir
+1616	PER	NOM	221423	221437	a woman
+1616	PER	NOM	221458	221465	a woman
+1408	PER	NOM	221487	221490	sir
+777	PER	NOM	221507	221516	the woman
+1408	PER	NOM	221563	221566	sir
+131	PER	PROP	221665	221674	Barrymore
+92	PER	PROP	221693	221702	Sir Henry
+1910	PER	NOM	221704	221714	your uncle
+2430	PER	NOM	221797	221809	a public man
+2431	PER	NOM	221860	221887	everyone who was in trouble
+139	PER	PROP	222044	222057	Coombe Tracey
+1616	PER	NOM	222083	222090	a woman
+1408	PER	NOM	222133	222136	sir
+2082	PER	NOM	222224	222231	my wife
+136	PER	PROP	222282	222293	Sir Charles
+2435	FAC	NOM	222282	222301	Sir Charles ’s study
+1701	PER	NOM	222732	222743	a gentleman
+1408	PER	NOM	222904	222907	sir
+136	PER	PROP	222967	222978	Sir Charles
+1408	PER	NOM	223044	223047	sir
+140	PER	PROP	223204	223209	L. L.
+1408	PER	NOM	223229	223232	sir
+2441	PER	NOM	223308	223317	that lady
+136	PER	PROP	223344	223355	Sir Charles
+131	PER	PROP	223404	223413	Barrymore
+1408	PER	NOM	223491	223494	sir
+1408	PER	NOM	223577	223580	sir
+136	PER	PROP	223614	223632	Sir Charles
+2444	PER	NOM	223732	223747	our poor master
+2445	PER	NOM	223799	223817	a lady in the case
+1408	PER	NOM	223919	223922	sir
+131	PER	PROP	224131	224140	Barrymore
+397	PER	NOM	224160	224170	the butler
+92	PER	PROP	224190	224199	Sir Henry
+93	PER	PROP	224221	224227	Watson
+140	PER	PROP	224391	224396	L. L.
+94	PER	PROP	224603	224609	Holmes
+651	FAC	NOM	224786	224793	my room
+94	PER	PROP	224857	224863	Holmes
+33	FAC	PROP	224960	224972	Baker Street
+1405	FAC	NOM	225291	225295	here
+2384	PER	NOM	225429	225440	the convict
+893	LOC	NOM	225457	225490	the bleak , cold , shelterless moor
+894	PER	NOM	225492	225502	Poor devil
+895	PER	NOM	225606	225640	that other one — the face in the cab
+896	PER	NOM	225642	225676	the figure against the moon
+897	PER	NOM	225709	225727	the unseen watcher
+898	PER	NOM	225729	225755	the man of darkness
+899	LOC	NOM	225824	225839	the sodden moor
+497	LOC	NOM	225979	225993	the great mire
+901	LOC	NOM	226008	226031	the firm uplands
+902	LOC	NOM	226045	226053	a morass
+903	LOC	NOM	226063	226126	the black tor upon which I had seen the solitary watcher
+904	PER	NOM	226106	226126	the solitary watcher
+905	LOC	NOM	226189	226209	the melancholy downs
+906	LOC	NOM	226323	226336	the landscape
+907	LOC	NOM	226388	226407	the fantastic hills
+908	LOC	NOM	226412	226449	the distant hollow on the left
+909	FAC	NOM	226476	226522	the two thin towers of Baskerville Hall
+5	FAC	PROP	226499	226522	Baskerville Hall
+910	FAC	NOM	226620	226696	those prehistoric huts which lay thickly upon the slopes of the hills
+911	LOC	NOM	226673	226696	the slopes of the hills
+849	LOC	NOM	226687	226696	the hills
+913	PER	NOM	226736	226809	that lonely man whom I had seen on the same spot two nights before
+95	PER	PROP	226856	226868	Dr. Mortimer
+915	FAC	NOM	226905	226984	a rough moorland track which led from the outlying farmhouse of Foulmire
+916	FAC	NOM	226943	226984	the outlying farmhouse of Foulmire
+36	GPE	PROP	226976	226984	Foulmire
+1471	FAC	NOM	227081	227089	the Hall
+919	PER	NOM	227274	227292	his little spaniel
+1479	LOC	NOM	227323	227331	the moor
+66	LOC	PROP	227433	227456	the Grimpen Mire
+95	PER	PROP	227538	227546	Mortimer
+922	FAC	NOM	227575	227589	the rough road
+2448	PER	NOM	227619	227696	few people living within driving distance of this whom you do not know
+2449	PER	NOM	227776	227817	any woman whose initials are L. L.
+2450	PER	NOM	227894	227907	a few gipsies
+2451	PER	NOM	227912	227926	labouring folk
+2452	PER	NOM	227969	227980	the farmers
+2453	PER	NOM	227984	227990	gentry
+2454	PER	NOM	228000	228038	no one whose initials are those
+139	PER	PROP	228101	228112	Laura Lyons
+139	GPE	PROP	228160	228173	Coombe Tracey
+111	PER	PROP	228225	228234	Frankland
+2455	PER	NOM	228225	228245	Frankland ’s daughter
+141	PER	PROP	228264	228277	Old Frankland
+2456	PER	NOM	228321	228381	an artist named Lyons , who came sketching on the moor
+139	PER	PROP	228337	228342	Lyons
+1479	LOC	NOM	228373	228381	the moor
+2458	PER	NOM	228399	228411	a blackguard
+1467	PER	NOM	228511	228521	Her father
+2460	PER	NOM	228682	228696	the old sinner
+2461	PER	NOM	228701	228714	the young one
+515	PER	NOM	228715	228730	the girl
+111	PER	PROP	228807	228820	old Frankland
+1529	PER	NOM	228959	228962	one
+2464	PER	NOM	229044	229070	several of the people here
+2465	PER	NOM	229055	229070	the people here
+112	PER	PROP	229132	229141	Stapleton
+136	PER	PROP	229166	229177	Sir Charles
+1586	PER	NOM	229451	229457	anyone
+139	PER	PROP	229526	229539	Coombe Tracey
+139	PER	PROP	229570	229586	Mrs. Laura Lyons
+95	PER	PROP	229786	229794	Mortimer
+111	PER	PROP	229884	229893	Frankland
+94	PER	PROP	230021	230036	Sherlock Holmes
+131	PER	PROP	230179	230188	Barrymore
+95	PER	PROP	230288	230296	Mortimer
+228	PER	NOM	230330	230341	the baronet
+397	PER	NOM	230375	230385	The butler
+928	FAC	NOM	230412	230430	the library
+2466	PER	NOM	230512	230543	this precious relation of yours
+1408	PER	NOM	230621	230624	sir
+1408	PER	NOM	230855	230858	sir
+1408	PER	NOM	230980	230983	sir
+2470	PER	NOM	230999	231031	the other man who took it
+131	PER	PROP	231108	231117	Barrymore
+2471	PER	NOM	231152	231163	another man
+1408	PER	NOM	231186	231189	sir
+2473	PER	NOM	231200	231225	another man upon the moor
+1479	LOC	NOM	231217	231225	the moor
+1408	PER	NOM	231272	231275	sir
+129	PER	PROP	231328	231334	Selden
+1408	PER	NOM	231351	231354	sir
+2065	PER	NOM	231417	231426	a convict
+93	PER	PROP	231477	231487	Dr. Watson
+1408	PER	NOM	231509	231512	sir
+131	PER	PROP	231620	231629	Barrymore
+2479	PER	NOM	231684	231695	your master
+131	PER	PROP	231816	231825	Barrymore
+1408	PER	NOM	231985	231988	sir
+1479	LOC	NOM	232075	232083	the moor
+1408	PER	NOM	232208	232211	sir
+92	PER	PROP	232220	232229	Sir Henry
+10	GPE	PROP	232256	232262	London
+136	PER	PROP	232332	232343	Sir Charles
+1580	PER	NOM	232394	232405	the coroner
+1479	LOC	NOM	232434	232442	the moor
+1615	PER	NOM	232472	232477	a man
+2485	PER	NOM	232545	232558	this stranger
+2486	PER	NOM	232680	232713	anyone of the name of Baskerville
+20	GPE	PROP	232702	232713	Baskerville
+92	PER	PROP	232784	232793	Sir Henry
+2487	PER	NOM	232784	232808	Sir Henry ’s new servants
+1471	FAC	NOM	232839	232847	the Hall
+2485	PER	NOM	232870	232883	this stranger
+129	PER	PROP	232947	232953	Selden
+2490	PER	NOM	233065	233075	a deep one
+2408	PER	NOM	233139	233149	the police
+2492	PER	NOM	233209	233228	A kind of gentleman
+2493	FAC	NOM	233384	233414	the old houses on the hillside
+2494	LOC	NOM	233402	233414	the hillside
+2495	FAC	NOM	233415	233468	the stone huts where the old folk used to live
+2496	PER	NOM	233436	233455	the old folk
+129	PER	PROP	233516	233522	Selden
+2497	PER	NOM	233549	233603	a lad who works for him and brings all he needs
+139	PER	PROP	233627	233640	Coombe Tracey
+131	PER	PROP	233689	233698	Barrymore
+397	PER	NOM	233758	233768	the butler
+933	FAC	NOM	233995	234020	a stone hut upon the moor
+1479	LOC	NOM	234012	234020	the moor
+1615	PER	NOM	234074	234079	a man
+936	FAC	NOM	234220	234249	that hut upon the moor
+1479	LOC	NOM	234241	234249	the moor
+1851	PER	NOM	234410	234418	that man
+176	PER	NOM	234490	234508	The Man on the Tor
+833	FAC	NOM	234501	234508	the Tor
+139	PER	PROP	235047	235087	Mrs. Laura Lyons of Coombe Tracey
+99	PER	PROP	235103	235126	Sir Charles Baskerville
+941	PER	NOM	235239	235268	the lurking man upon the moor
+1479	LOC	NOM	235260	235268	the moor
+943	FAC	NOM	235298	235330	the stone huts upon the hillside
+2494	LOC	NOM	235318	235330	the hillside
+945	LOC	NOM	235503	235520	these dark places
+228	PER	NOM	235560	235571	the baronet
+139	PER	PROP	235604	235614	Mrs. Lyons
+95	PER	PROP	235644	235656	Dr. Mortimer
+139	PER	PROP	235841	235854	Coombe Tracey
+92	PER	PROP	236089	236098	Sir Henry
+139	GPE	PROP	236231	236244	Coombe Tracey
+114	PER	PROP	236252	236259	Perkins
+948	PER	NOM	236314	236353	the lady whom I had come to interrogate
+949	FAC	NOM	236393	236402	her rooms
+950	PER	NOM	236450	236456	A maid
+205	FAC	NOM	236512	236528	the sitting - room
+711	PER	NOM	236529	236535	a lady
+873	PER	NOM	236690	236700	a stranger
+139	PER	PROP	236807	236817	Mrs. Lyons
+954	PER	NOM	237484	237505	a very handsome woman
+2499	PER	NOM	237701	237712	your father
+529	PER	NOM	237758	237766	the lady
+1450	PER	NOM	237827	237836	my father
+1364	PER	NOM	237887	237898	his friends
+99	PER	PROP	237939	237971	the late Sir Charles Baskerville
+1450	PER	NOM	238040	238049	my father
+99	PER	PROP	238090	238113	Sir Charles Baskerville
+529	PER	NOM	238193	238201	the lady
+529	PER	NOM	238614	238622	The lady
+99	PER	PROP	239149	239160	Sir Charles
+139	GPE	PROP	239413	239426	Coombe Tracey
+2505	PER	NOM	239435	239461	a very retiring man
+2506	PER	NOM	239753	239823	several gentlemen who knew my sad history and united to help me
+112	PER	PROP	239833	239846	Mr. Stapleton
+2507	PER	NOM	239848	239903	a neighbour and intimate friend of Sir Charles ’s
+99	PER	PROP	239890	239901	Sir Charles
+99	PER	PROP	239965	239976	Sir Charles
+99	PER	PROP	240033	240056	Sir Charles Baskerville
+112	PER	PROP	240066	240075	Stapleton
+959	PER	NOM	240083	240094	his almoner
+529	PER	NOM	240122	240130	the lady
+99	PER	PROP	240217	240228	Sir Charles
+139	PER	PROP	240283	240293	Mrs. Lyons
+1408	PER	NOM	240329	240332	sir
+2509	PER	NOM	240403	240408	madam
+99	PER	PROP	240507	240518	Sir Charles
+1701	PER	NOM	240830	240848	a gentleman
+1701	PER	NOM	241036	241047	a gentleman
+99	PER	PROP	241079	241090	Sir Charles
+10	GPE	PROP	241646	241652	London
+1410	FAC	NOM	241745	241750	there
+2513	FAC	NOM	241795	241805	the garden
+1491	FAC	NOM	241828	241844	the house
+1616	PER	NOM	241870	241877	a woman
+2516	PER	NOM	241909	241919	a bachelor
+2517	FAC	NOM	241909	241934	a bachelor ’s house
+1410	FAC	NOM	241984	241989	there
+139	PER	PROP	242027	242037	Mrs. Lyons
+99	PER	PROP	242304	242322	Sir Charles
+139	PER	PROP	242564	242574	Mrs. Lyons
+2408	PER	NOM	242850	242860	the police
+99	PER	PROP	243011	243022	Sir Charles
+99	PER	PROP	243228	243239	Sir Charles
+99	PER	PROP	243600	243611	Sir Charles
+2520	PER	NOM	244066	244095	a husband whom I abhor
+99	PER	PROP	244260	244271	Sir Charles
+99	PER	PROP	244478	244489	Sir Charles
+2521	PER	NOM	244697	244711	another source
+99	PER	PROP	244755	244766	Sir Charles
+777	PER	NOM	244887	244896	The woman
+1890	PER	NOM	245083	245094	her husband
+5	FAC	PROP	245223	245239	Baskerville Hall
+1410	FAC	NOM	245313	245318	there
+139	FAC	PROP	245358	245371	Coombe Tracey
+529	PER	NOM	245799	245807	the lady
+966	FAC	NOM	246333	246368	the stone huts upon the moor
+1479	LOC	NOM	246360	246368	the moor
+968	PER	NOM	246500	246525	the ancient people
+131	PER	PROP	246527	246536	Barrymore
+969	PER	NOM	246569	246581	the stranger
+970	FAC	NOM	246598	246625	one of these abandoned huts
+971	FAC	NOM	246605	246625	these abandoned huts
+1479	LOC	NOM	246711	246719	the moor
+973	PER	NOM	246760	246767	a guide
+1338	PER	NOM	246790	246797	the man
+975	LOC	NOM	246827	246854	the summit of the Black Tor
+69	LOC	PROP	246841	246854	the Black Tor
+976	FAC	NOM	246945	246968	every hut upon the moor
+1479	LOC	NOM	246960	246968	the moor
+978	FAC	NOM	246990	247003	the right one
+648	PER	NOM	247015	247023	this man
+981	PER	NOM	247207	247240	the crowd of Regent Street
+44	FAC	PROP	247227	247240	Regent Street
+982	LOC	NOM	247280	247302	the lonely moor
+983	FAC	NOM	247340	247347	the hut
+984	PER	NOM	247352	247362	its tenant
+94	PER	PROP	247465	247471	Holmes
+10	GPE	PROP	247490	247496	London
+1809	LOC	NOM	247563	247568	earth
+986	PER	NOM	247582	247591	my master
+987	PER	NOM	247717	247746	the messenger of good fortune
+988	PER	NOM	247758	247938	none other than Mr. Frankland , who was standing , grey - whiskered and red - faced , outside the gate of his garden , which opened on to the highroad along which I travelled
+111	PER	PROP	247774	247787	Mr. Frankland
+989	FAC	NOM	247864	247874	his garden
+990	FAC	NOM	247902	247938	the highroad along which I travelled
+93	PER	PROP	247960	247970	Dr. Watson
+991	PER	NOM	248242	248254	his daughter
+114	PER	PROP	248289	248296	Perkins
+1469	FAC	NOM	248315	248319	home
+92	PER	PROP	248397	248413	Sir Henry
+111	PER	PROP	248481	248490	Frankland
+994	FAC	NOM	248496	248511	his dining - room
+1408	PER	NOM	248549	248552	sir
+2524	PER	NOM	248750	248791	a man here who does not fear to invoke it
+2525	LOC	NOM	248842	248883	the centre of old Middleton ’s park
+2526	FAC	NOM	248856	248883	old Middleton ’s park
+1408	PER	NOM	248901	248904	sir
+2529	PER	NOM	248998	249012	these magnates
+2530	PER	NOM	249071	249084	the commoners
+2531	PER	NOM	249139	249158	the Fernworthy folk
+2532	PER	NOM	249182	249203	These infernal people
+93	PER	PROP	249367	249384	Dr. Watson
+142	PER	PROP	249453	249469	Sir John Morland
+2533	FAC	NOM	249502	249523	his own warren
+1408	PER	NOM	249602	249605	sir
+111	PER	PROP	249629	249638	Frankland
+70	GPE	PROP	249651	249658	Morland
+2536	FAC	NOM	249660	249682	Court of Queen ’s Bench
+1408	PER	NOM	249782	249785	sir
+2538	PER	NOM	249942	249963	the Fernworthy people
+2408	PER	NOM	250010	250020	the police
+1408	PER	NOM	250160	250163	sir
+111	PER	PROP	250257	250266	Frankland
+143	PER	PROP	250272	250278	Regina
+2541	PER	NOM	250332	250342	the public
+443	PER	NOM	250508	250519	The old man
+2542	PER	NOM	250660	250671	the rascals
+2460	PER	NOM	250880	250894	the old sinner
+2125	PER	NOM	251106	251112	my boy
+2384	PER	NOM	251177	251188	the convict
+1479	LOC	NOM	251192	251200	the moor
+2408	PER	NOM	251365	251375	the police
+1851	PER	NOM	251456	251464	that man
+1479	LOC	NOM	251688	251696	the moor
+131	PER	PROP	251829	251838	Barrymore
+998	PER	NOM	251892	251918	this spiteful old busybody
+2377	PER	NOM	252046	252060	a child
+2550	FAC	NOM	252141	252154	the same path
+2384	PER	NOM	252221	252232	the convict
+2377	PER	NOM	252322	252329	A child
+131	PER	PROP	252331	252340	Barrymore
+2057	PER	NOM	252390	252395	a boy
+2384	PER	NOM	252431	252449	the convict
+111	PER	PROP	252458	252467	Frankland
+2552	PER	NOM	252697	252775	the son of one of the moorland shepherds taking out his father ’s dinner
+2553	PER	NOM	252722	252744	the moorland shepherds
+2554	PER	NOM	252756	252766	his father
+1003	PER	NOM	252841	252864	the old autocrat
+1408	PER	NOM	252985	252988	sir
+1004	LOC	NOM	253018	253049	the wide - stretching moor
+69	LOC	PROP	253068	253089	Black Tor over yonder
+2556	LOC	NOM	253115	253161	the low hill beyond with the thornbush upon it
+2557	LOC	NOM	253169	253211	the stoniest part of the whole moor
+2558	LOC	NOM	253197	253211	the whole moor
+2559	LOC	NOM	253221	253288	a place where a shepherd would be likely to take his station
+2560	PER	NOM	253235	253245	a shepherd
+1408	PER	NOM	253307	253310	sir
+1408	PER	NOM	253521	253524	sir
+2258	PER	NOM	253604	253611	the boy
+93	PER	PROP	253733	253743	Dr. Watson
+2564	LOC	NOM	253831	253844	that hillside
+1408	PER	NOM	253982	253985	sir
+111	PER	PROP	254000	254009	Frankland
+1476	FAC	NOM	254019	254027	upstairs
+1491	FAC	NOM	254201	254210	the house
+111	PER	PROP	254212	254221	Frankland
+93	PER	PROP	254300	254310	Dr. Watson
+715	LOC	NOM	254341	254349	the hill
+1008	PER	NOM	254388	254476	a small urchin with a little bundle upon his shoulder , toiling slowly up the hill
+715	LOC	NOM	254468	254476	the hill
+1010	LOC	NOM	254501	254510	the crest
+715	LOC	NOM	254717	254725	the hill
+2567	PER	NOM	254786	254828	a boy who seems to have some secret errand
+2568	PER	NOM	254869	254887	a county constable
+93	PER	PROP	254989	254999	Dr. Watson
+111	GPE	PROP	255147	255156	Frankland
+1363	LOC	NOM	255241	255252	the country
+2408	PER	NOM	255293	255303	the police
+2571	PER	NOM	255393	255406	these rascals
+1469	FAC	NOM	255667	255671	home
+363	FAC	NOM	255695	255703	the road
+1479	LOC	NOM	255770	255778	the moor
+1016	LOC	NOM	255792	255848	the stony hill over which the boy had disappeared
+2258	PER	NOM	255818	255825	the boy
+1018	LOC	NOM	256092	256121	the summit of the hill
+715	LOC	NOM	256106	256121	the hill
+1020	LOC	NOM	256127	256153	the long slopes beneath me
+144	PER	PROP	256326	256334	Belliver
+74	LOC	PROP	256339	256348	Vixen Tor
+1021	LOC	NOM	256355	256371	the wide expanse
+1022	LOC	NOM	256583	256601	the desert beneath
+2258	PER	NOM	256736	256743	The boy
+1024	LOC	NOM	256798	256825	a cleft of the hills
+849	LOC	NOM	256809	256825	the hills
+1026	FAC	NOM	256836	256866	a circle of the old stone huts
+1027	FAC	NOM	256848	256866	the old stone huts
+969	PER	NOM	257069	257081	the stranger
+1029	FAC	NOM	257137	257153	his hiding place
+983	FAC	NOM	257218	257225	the hut
+112	PER	PROP	257248	257257	Stapleton
+1031	FAC	NOM	257308	257329	the settled butterfly
+2112	FAC	NOM	257362	257371	the place
+1033	LOC	NOM	257396	257415	a habitation
+1034	FAC	NOM	257417	257451	A vague pathway among the boulders
+1035	PER	NOM	257544	257555	The unknown
+1479	LOC	NOM	257614	257622	the moor
+2112	FAC	NOM	257817	257826	The place
+1338	PER	NOM	257946	257953	the man
+2199	PER	NOM	258053	258066	Neolithic man
+2112	FAC	NOM	258254	258263	the place
+983	FAC	NOM	258468	258482	the hut
+2258	PER	NOM	258662	258669	the boy
+93	PER	PROP	258994	259004	Dr. Watson
+139	FAC	PROP	259017	259037	Coombe Tracey
+92	PER	PROP	259181	259197	Sir Henry
+1043	PER	NOM	259223	259238	this secret man
+748	PER	NOM	259294	259302	an agent
+2258	PER	NOM	259303	259310	the boy
+1479	LOC	NOM	259425	259433	the moor
+1529	PER	NOM	259681	259684	one
+983	FAC	NOM	259827	259834	the hut
+1051	PER	NOM	260004	260140	the man who lived in this singular place , save that he must be of Spartan habits and cared little for the comforts of life
+1052	FAC	NOM	260300	260330	that inhospitable abode
+1053	PER	NOM	260339	260358	our malignant enemy
+1054	PER	NOM	260387	260405	our guardian angel
+983	FAC	NOM	260438	260445	the hut
+2170	FAC	NOM	260652	260674	the great Grimpen Mire
+1058	FAC	NOM	260694	260728	the two towers of Baskerville Hall
+5	FAC	PROP	260712	260728	Baskerville Hall
+1059	GPE	NOM	260784	260806	the village of Grimpen
+715	LOC	NOM	260839	260847	the hill
+1061	FAC	NOM	260853	260880	the house of the Stapletons
+137	PER	PROP	260866	260880	the Stapletons
+1063	FAC	NOM	261210	261236	the dark recess of the hut
+983	FAC	NOM	261229	261236	the hut
+984	PER	NOM	261294	261304	its tenant
+969	PER	NOM	261650	261662	the stranger
+983	FAC	NOM	261822	261829	the hut
+1351	PER	NOM	261865	261872	my dear
+93	PER	PROP	261873	261879	Watson
+7	LOC	PROP	262020	262028	the Moor
+1068	PER	NOM	262329	262353	one man in all the world
+1069	LOC	NOM	262340	262353	all the world
+94	PER	PROP	262365	262371	Holmes
+1070	PER	NOM	262803	262841	any other tourist upon the moor
+1479	LOC	NOM	262833	262841	the moor
+33	FAC	PROP	263047	263059	Baker Street
+1586	PER	NOM	263100	263106	anyone
+93	PER	PROP	263500	263506	Watson
+1407	LOC	NOM	263604	263613	the world
+115	PER	PROP	263747	263754	Bradley
+43	FAC	PROP	263756	263769	Oxford Street
+1424	PER	NOM	263790	263799	my friend
+93	PER	PROP	263800	263806	Watson
+2577	FAC	NOM	263813	263830	the neighbourhood
+1629	FAC	NOM	263868	263876	the path
+2579	FAC	NOM	263959	263972	the empty hut
+2580	PER	NOM	264157	264167	the tenant
+2335	PER	NOM	264221	264233	the criminal
+93	PER	PROP	264331	264337	Watson
+2582	FAC	NOM	264571	264583	all the huts
+2583	FAC	NOM	264602	264617	this one
+2584	PER	NOM	264634	264642	your boy
+2585	PER	NOM	264720	264756	The old gentleman with the telescope
+983	FAC	NOM	264882	264889	the hut
+118	PER	PROP	264907	264917	Cartwright
+139	FAC	PROP	265001	265014	Coombe Tracey
+139	PER	PROP	265060	265076	Mrs. Laura Lyons
+33	FAC	PROP	265562	265574	Baker Street
+94	PER	PROP	265819	265825	Holmes
+1349	PER	NOM	265838	265852	My dear fellow
+92	PER	PROP	266219	266228	Sir Henry
+2589	PER	NOM	266358	266387	our very formidable opponents
+1471	FAC	NOM	266519	266527	the Hall
+118	PER	PROP	266978	266988	Cartwright
+2591	PER	NOM	267015	267059	the little chap at the express office
+2592	FAC	NOM	267034	267059	the express office
+1902	PER	NOM	267152	267155	man
+94	PER	PROP	267437	267443	Holmes
+1349	PER	NOM	267518	267532	my dear fellow
+94	PER	PROP	267921	267927	Holmes
+1479	LOC	NOM	268135	268143	the moor
+139	PER	PROP	268269	268285	Mrs. Laura Lyons
+2596	PER	NOM	268414	268496	the one person in Coombe Tracey who might be of service to us in the matter
+1479	LOC	NOM	268661	268669	the moor
+983	FAC	NOM	268724	268731	the hut
+94	PER	PROP	268799	268805	Holmes
+529	PER	NOM	268837	268845	the lady
+2597	PER	NOM	269167	269176	this lady
+2598	PER	NOM	269181	269198	the man Stapleton
+1930	PER	NOM	269477	269485	his wife
+1930	PER	NOM	269498	269506	His wife
+2602	PER	NOM	269606	269652	The lady who has passed here as Miss Stapleton
+133	PER	PROP	269638	269652	Miss Stapleton
+1930	PER	NOM	269674	269682	his wife
+94	PER	PROP	269709	269715	Holmes
+92	PER	PROP	269782	269791	Sir Henry
+92	PER	PROP	269829	269838	Sir Henry
+1586	PER	NOM	269877	269883	anyone
+92	PER	PROP	269898	269907	Sir Henry
+92	PER	PROP	269938	269947	Sir Henry
+529	PER	NOM	270026	270041	the lady
+1930	PER	NOM	270045	270053	his wife
+2037	PER	NOM	270062	270072	his sister
+2608	PER	NOM	270223	270235	a free woman
+1593	PER	NOM	270339	270353	the naturalist
+1080	PER	NOM	270358	270394	that impassive colourless man
+1081	PER	NOM	270480	270571	a creature of infinite patience and craft , with a smiling face and a murderous heart
+2610	PER	NOM	270606	270615	our enemy
+10	GPE	PROP	270649	270655	London
+1082	PER	NOM	270788	270811	some monstrous villainy
+94	PER	PROP	270936	270942	Holmes
+777	PER	NOM	270965	270974	the woman
+1930	PER	NOM	270985	270993	his wife
+2613	PER	NOM	271205	271250	a schoolmaster in the north of England
+2614	LOC	NOM	271230	271250	the north of England
+23	GPE	PROP	271243	271250	England
+2615	PER	NOM	271266	271298	no one more easy to trace
+2616	PER	NOM	271304	271318	a schoolmaster
+2617	PER	NOM	271383	271421	any man who has been in the profession
+2217	FAC	NOM	271468	271476	a school
+2619	PER	NOM	271542	271596	the man who had owned it — the name was different
+1930	PER	NOM	271618	271626	his wife
+2621	PER	NOM	271628	271651	The descriptions
+2622	PER	NOM	271680	271695	the missing man
+2623	PER	NOM	271859	271869	this woman
+1930	PER	NOM	271882	271890	his wife
+139	PER	PROP	271903	271919	Mrs. Laura Lyons
+529	PER	NOM	272059	272067	the lady
+1890	PER	NOM	272180	272191	her husband
+133	PER	PROP	272224	272233	Stapleton
+2627	PER	NOM	272237	272253	an unmarried man
+1930	PER	NOM	272297	272305	his wife
+2630	PER	NOM	272379	272398	the lady of service
+2631	PER	NOM	272444	272454	both of us
+93	PER	PROP	272482	272488	Watson
+2632	FAC	NOM	272545	272555	Your place
+5	FAC	PROP	272576	272592	Baskerville Hall
+1479	LOC	NOM	272686	272694	the moor
+94	PER	PROP	272781	272787	Holmes
+94	PER	PROP	272937	272943	Holmes
+93	PER	PROP	272997	273003	Watson
+92	PER	PROP	273142	273151	Sir Henry
+2634	PER	NOM	273448	273461	a fond mother
+2635	PER	NOM	273477	273493	her ailing child
+1479	LOC	NOM	273718	273726	the moor
+2369	PER	NOM	273805	273811	my God
+94	PER	PROP	273866	273872	Holmes
+983	FAC	NOM	273956	273963	the hut
+1086	LOC	NOM	274211	274228	the shadowy plain
+94	PER	PROP	274330	274336	Holmes
+1088	PER	NOM	274404	274419	the man of iron
+93	PER	PROP	274466	274472	Watson
+1089	LOC	NOM	274808	274815	the sea
+94	PER	PROP	274845	274851	Holmes
+93	PER	PROP	274860	274866	Watson
+1479	LOC	NOM	274962	274970	the moor
+1091	LOC	NOM	275041	275092	the broken ground immediately in front of us
+94	PER	PROP	275277	275283	Holmes
+1092	PER	NOM	275318	275334	a man distracted
+93	PER	PROP	275408	275414	Watson
+93	PER	PROP	275517	275523	Watson
+94	PER	PROP	275900	275906	Holmes
+1479	LOC	NOM	275972	275980	the moor
+1094	LOC	NOM	276282	276302	a stone - strewn slope
+1096	PER	NOM	276462	276514	a prostrate man face downward upon the ground
+94	PER	PROP	276903	276909	Holmes
+1097	PER	NOM	277149	277159	the victim
+92	PER	PROP	277269	277290	Sir Henry Baskerville
+33	FAC	PROP	277469	277481	Baker Street
+94	PER	PROP	277623	277629	Holmes
+2637	PER	NOM	277707	277716	The brute
+2637	PER	NOM	277718	277727	The brute
+94	PER	PROP	277763	277769	Holmes
+93	PER	PROP	277880	277886	Watson
+2639	PER	NOM	277978	277994	my client
+1479	LOC	NOM	278149	278157	the moor
+2369	PER	NOM	278246	278252	my God
+2643	PER	NOM	278323	278380	this brute of a hound which drove him to his death
+133	PER	PROP	278446	278455	Stapleton
+2644	PER	NOM	278549	278554	Uncle
+2645	PER	NOM	278559	278565	nephew
+2646	PER	NOM	278592	278619	the one frightened to death
+1338	PER	NOM	278821	278828	the man
+195	PER	NOM	278917	278927	the latter
+92	PER	PROP	278942	278951	Sir Henry
+766	PER	NOM	279028	279038	the fellow
+1099	PER	NOM	279388	279403	our poor friend
+1100	LOC	NOM	279461	279477	the shadowy moor
+1101	LOC	NOM	279538	279562	the direction of Grimpen
+11	GPE	PROP	279555	279562	Grimpen
+1102	FAC	NOM	279637	279678	the lonely abode of the Stapletons
+137	PER	PROP	279657	279678	the Stapletons
+766	PER	NOM	279818	279828	The fellow
+2651	PER	NOM	279956	279967	the villain
+1099	PER	NOM	280124	280139	our poor friend
+1104	PER	NOM	280225	280278	the body , black and clear against the silvered stones
+94	PER	PROP	280425	280431	Holmes
+1471	FAC	NOM	280475	280483	the Hall
+1106	PER	NOM	280642	280680	my stern , self - contained friend
+1338	PER	NOM	280743	280750	The man
+228	PER	NOM	280805	280816	the baronet
+2656	PER	NOM	280834	280846	my neighbour
+2384	PER	NOM	280848	280866	the convict
+1107	LOC	NOM	281187	281195	the rock
+129	PER	PROP	281208	281214	Selden
+2335	PER	NOM	281216	281235	the criminal
+228	PER	NOM	281306	281324	the baronet
+131	PER	PROP	281383	281392	Barrymore
+131	PER	PROP	281394	281403	Barrymore
+129	PER	PROP	281438	281444	Selden
+92	PER	PROP	281496	281505	Sir Henry
+1110	FAC	NOM	281496	281507	Sir Henry ’s
+648	PER	NOM	281556	281564	this man
+1112	GPE	NOM	281615	281626	his country
+94	PER	PROP	281635	281641	Holmes
+2658	PER	NOM	281758	281772	the poor devil
+145	PER	PROP	281879	281890	Sir Henry’s
+1785	FAC	NOM	281924	281933	the hotel
+648	PER	NOM	281972	281980	this man
+129	PER	PROP	282046	282052	Selden
+1479	LOC	NOM	282176	282184	the moor
+2662	PER	NOM	282200	282235	a hard man like this convict
+2663	PER	NOM	282223	282235	this convict
+2664	PER	NOM	282490	282500	this hound
+1479	LOC	NOM	282706	282714	the moor
+133	PER	PROP	282716	282725	Stapleton
+92	PER	PROP	282788	282797	Sir Henry
+1410	FAC	NOM	282814	282819	there
+2669	FAC	NOM	283178	283193	one of the huts
+2670	FAC	NOM	283185	283193	the huts
+2408	PER	NOM	283231	283241	the police
+116	PER	PROP	283324	283330	Halloa
+93	PER	PROP	283332	283338	Watson
+1338	PER	NOM	283358	283365	the man
+1113	PER	NOM	283520	283528	A figure
+1479	LOC	NOM	283553	283561	the moor
+1593	PER	NOM	283702	283716	the naturalist
+93	PER	PROP	283791	283801	Dr. Watson
+2673	PER	NOM	283834	283933	the last man that I should have expected to see out on the moor at this time of night
+1479	LOC	NOM	283896	283904	the moor
+2675	PER	NOM	283962	283975	Somebody hurt
+1716	PER	NOM	284013	284023	our friend
+92	PER	PROP	284024	284033	Sir Henry
+1117	PER	NOM	284079	284091	the dead man
+129	PER	PROP	284231	284237	Selden
+2677	PER	NOM	284239	284274	the man who escaped from Princetown
+37	GPE	PROP	284264	284274	Princetown
+133	PER	PROP	284286	284295	Stapleton
+94	PER	PROP	284442	284448	Holmes
+1424	PER	NOM	284600	284609	My friend
+1479	LOC	NOM	284634	284642	the moor
+92	PER	PROP	284751	284760	Sir Henry
+92	PER	PROP	284783	284792	Sir Henry
+1479	LOC	NOM	285016	285024	the moor
+94	PER	PROP	285163	285169	Holmes
+2147	PER	NOM	285272	285284	the peasants
+1479	LOC	NOM	285368	285376	the moor
+2684	PER	NOM	285547	285563	this poor fellow
+1479	LOC	NOM	285683	285691	the moor
+133	PER	PROP	285825	285834	Stapleton
+94	PER	PROP	285935	285954	Mr. Sherlock Holmes
+1424	PER	NOM	285966	285975	My friend
+93	PER	PROP	286108	286118	Dr. Watson
+1424	PER	NOM	286216	286225	my friend
+10	GPE	PROP	286322	286328	London
+94	PER	PROP	286528	286534	Holmes
+1529	PER	NOM	286569	286572	One
+1529	PER	NOM	286614	286617	one
+2691	PER	NOM	286625	286647	An investigator
+1424	PER	NOM	286742	286751	My friend
+133	PER	PROP	286810	286819	Stapleton
+2684	PER	NOM	286903	286919	this poor fellow
+1914	FAC	NOM	286923	286931	my house
+2158	PER	NOM	286958	286967	my sister
+146	PER	PROP	287150	287169	Resisting Stapleton
+94	PER	PROP	287201	287207	Holmes
+5	FAC	PROP	287225	287241	Baskerville Hall
+1593	PER	NOM	287258	287272	the naturalist
+824	PER	NOM	287310	287320	the figure
+1125	LOC	NOM	287352	287366	the broad moor
+1126	LOC	NOM	287415	287433	the silvered slope
+1338	PER	NOM	287453	287460	the man
+94	PER	PROP	287561	287567	Holmes
+1479	LOC	NOM	287604	287612	the moor
+2695	PER	NOM	287620	287627	a nerve
+766	PER	NOM	287628	287638	the fellow
+1898	PER	NOM	287762	287775	the wrong man
+10	GPE	PROP	287830	287836	London
+93	PER	PROP	287838	287844	Watson
+2699	PER	NOM	287902	287935	a foeman more worthy of our steel
+1405	FAC	NOM	288148	288152	here
+2701	PER	NOM	288266	288287	most clever criminals
+1351	PER	NOM	288457	288464	My dear
+93	PER	PROP	288465	288471	Watson
+2703	PER	NOM	288493	288508	a man of action
+2704	LOC	NOM	288653	288680	earth the better off
+2705	PER	NOM	288816	288829	a human agent
+368	PER	NOM	288987	288997	its master
+99	PER	PROP	289209	289220	Sir Charles
+2707	PER	NOM	289396	289417	twelve stolid jurymen
+2708	PER	NOM	289556	289567	a dead body
+99	PER	PROP	289577	289588	Sir Charles
+1338	PER	NOM	289864	289871	the man
+648	PER	NOM	289980	289988	this man
+1349	PER	NOM	290048	290062	my dear fellow
+139	PER	PROP	290307	290323	Mrs. Laura Lyons
+20	GPE	PROP	290655	290666	Baskerville
+93	PER	PROP	290786	290792	Watson
+92	PER	PROP	290822	290831	Sir Henry
+129	PER	PROP	290859	290865	Selden
+146	PER	PROP	290881	290890	Stapleton
+1913	PER	NOM	291085	291097	these people
+147	PER	PROP	291341	291377	Fixing the Nets Sir Henry
+94	PER	PROP	291417	291432	Sherlock Holmes
+10	GPE	PROP	291533	291539	London
+1424	PER	NOM	291603	291612	my friend
+228	PER	NOM	291775	291786	the baronet
+131	PER	PROP	291938	291947	Barrymore
+1930	PER	NOM	291952	291960	his wife
+1069	LOC	NOM	292055	292068	all the world
+1135	PER	NOM	292083	292130	the man of violence , half animal and half demon
+1136	PER	NOM	292169	292210	the little wilful boy of her own girlhood
+1137	PER	NOM	292212	292254	the child who had clung to her hand
+1138	PER	NOM	292271	292320	the man who has not one woman to mourn him
+1139	PER	NOM	292294	292307	not one woman
+1491	FAC	NOM	292352	292361	the house
+93	PER	PROP	292376	292382	Watson
+228	PER	NOM	292421	292432	the baronet
+146	PER	PROP	292624	292633	Stapleton
+94	PER	PROP	292743	292749	Holmes
+147	PER	PROP	292882	292891	Sir Henry
+2715	PER	NOM	292935	292951	This poor wretch
+2716	PER	NOM	292988	293028	your servant who gave them to him
+2408	PER	NOM	293055	293072	the police
+2719	PER	NOM	293329	293354	a conscientious detective
+2720	PER	NOM	293393	293412	the whole household
+93	PER	PROP	293414	293420	Watson
+228	PER	NOM	293514	293525	the baronet
+93	PER	PROP	293595	293601	Watson
+93	PER	PROP	293979	293985	Watson
+1479	LOC	NOM	294038	294046	the moor
+42	LOC	PROP	294163	294167	West
+2723	PER	NOM	294289	294330	the greatest detective of all time
+1143	PER	NOM	294963	295009	a personification of alertness and expectation
+2724	PER	NOM	295260	295273	a connoisseur
+93	PER	PROP	295383	295389	Watson
+147	PER	PROP	295620	295629	Sir Henry
+1424	PER	NOM	295669	295678	my friend
+2725	PER	NOM	295748	295809	a better judge of a horse or a steer than of a picture
+2726	PER	NOM	295940	295956	a Kneller
+2727	PER	NOM	295970	296008	that lady in the blue silk over yonder
+2728	PER	NOM	296021	296053	the stout gentleman with the wig
+2729	PER	NOM	296066	296076	a Reynolds
+2730	PER	NOM	296138	296147	Every one
+131	PER	PROP	296194	296203	Barrymore
+2731	PER	NOM	296305	296337	the gentleman with the telescope
+148	PER	PROP	296358	296382	Rear - Admiral Baskerville
+149	PER	PROP	296401	296407	Rodney
+76	LOC	PROP	296411	296433	the West Indies
+2732	PER	NOM	296435	296483	The man with the blue coat and the roll of paper
+150	PER	PROP	296494	296517	Sir William Baskerville
+151	PER	PROP	296587	296591	Pitt
+2734	PER	NOM	296608	296621	this Cavalier
+2735	PER	NOM	296637	296686	the one with the black velvet and the lace
+2736	PER	NOM	296785	296850	the wicked Hugo , who started the Hound of the Baskervilles
+101	PER	PROP	296796	296800	Hugo
+98	PER	PROP	296827	296850	the Baskervilles
+94	PER	PROP	296978	296984	Holmes
+2738	PER	NOM	296996	297022	a quiet , meek - mannered man
+2739	PER	NOM	297126	297160	a more robust and ruffianly person
+94	PER	PROP	297295	297301	Holmes
+1146	PER	NOM	297339	297356	the old roysterer
+147	PER	PROP	297504	297513	Sir Henry
+240	FAC	NOM	297526	297534	his room
+1148	FAC	NOM	297616	297642	the banqueting - hall
+1586	PER	NOM	298118	298124	anyone
+147	PER	PROP	298168	298177	Sir Henry
+146	PER	PROP	298475	298484	Stapleton
+2741	PER	NOM	298647	298677	a criminal investigator
+1615	PER	NOM	298952	298957	a man
+766	PER	NOM	298992	299009	The fellow
+20	GPE	PROP	299015	299026	Baskerville
+2744	PER	NOM	299055	299087	With designs upon the succession
+93	PER	PROP	299216	299222	Watson
+676	PER	NOM	299622	299630	somebody
+94	PER	PROP	299678	299684	Holmes
+390	FAC	NOM	299755	299764	the drive
+1479	LOC	NOM	300116	300124	the moor
+11	PER	PROP	300171	300178	Grimpen
+37	GPE	PROP	300182	300192	Princetown
+129	PER	PROP	300219	300225	Selden
+2747	PER	NOM	300339	300434	my faithful Cartwright , who would certainly have pined away at the door of my hut
+2748	FAC	NOM	300428	300434	my hut
+1396	PER	NOM	300453	300463	his master
+2750	FAC	NOM	300453	300471	his master ’s grave
+147	PER	PROP	300583	300592	Sir Henry
+94	PER	PROP	300635	300641	Holmes
+228	PER	NOM	300649	300660	the baronet
+2751	PER	NOM	300677	300746	a general who is planning a battle with his chief of the staff
+2752	PER	NOM	300724	300746	his chief of the staff
+2753	PER	NOM	300737	300746	the staff
+93	PER	PROP	300788	300794	Watson
+1820	PER	NOM	300911	300929	our friends
+137	PER	PROP	300930	300944	the Stapletons
+2756	PER	NOM	301006	301028	very hospitable people
+93	PER	PROP	301115	301121	Watson
+10	GPE	PROP	301139	301145	London
+10	GPE	PROP	301161	301167	London
+1410	GPE	NOM	301223	301228	there
+228	PER	NOM	301271	301282	The baronet
+1471	FAC	NOM	301385	301400	The Hall
+1479	LOC	NOM	301405	301413	the moor
+1529	PER	NOM	301448	301451	one
+1349	PER	NOM	301480	301494	My dear fellow
+2762	PER	NOM	301577	301589	your friends
+1362	GPE	NOM	301704	301708	town
+18	GPE	PROP	301741	301751	Devonshire
+228	PER	NOM	301908	301919	the baronet
+139	FAC	PROP	302117	302130	Coombe Tracey
+93	PER	PROP	302143	302149	Watson
+93	PER	PROP	302222	302228	Watson
+146	PER	PROP	302254	302263	Stapleton
+10	GPE	PROP	302360	302366	London
+228	PER	NOM	302383	302394	the baronet
+6	FAC	PROP	302668	302682	Merripit House
+1469	FAC	NOM	302770	302774	home
+1479	LOC	NOM	302802	302810	the moor
+1479	LOC	NOM	303191	303199	the moor
+6	FAC	PROP	303270	303291	Merripit House
+2768	FAC	NOM	303295	303311	the Grimpen Road
+1469	FAC	NOM	303337	303341	home
+10	GPE	PROP	303493	303499	London
+94	PER	PROP	303600	303606	Holmes
+146	PER	PROP	303619	303628	Stapleton
+1158	PER	NOM	303986	304003	our rueful friend
+1159	FAC	NOM	304056	304084	the station of Coombe Tracey
+139	FAC	PROP	304071	304084	Coombe Tracey
+1160	PER	NOM	304145	304156	A small boy
+302	FAC	NOM	304181	304193	the platform
+1408	PER	NOM	304217	304220	sir
+1362	GPE	NOM	304261	304265	town
+118	PER	PROP	304267	304277	Cartwright
+92	PER	PROP	304332	304353	Sir Henry Baskerville
+33	FAC	PROP	304480	304492	Baker Street
+1408	PER	NOM	304510	304513	sir
+2774	FAC	NOM	304537	304555	the station office
+2258	PER	NOM	304596	304603	The boy
+94	PER	PROP	304636	304642	Holmes
+152	PER	PROP	304757	304765	Lestrade
+2775	PER	NOM	304838	304862	the professionals
+93	PER	PROP	304917	304923	Watson
+139	PER	PROP	305018	305034	Mrs. Laura Lyons
+228	PER	NOM	305116	305127	the baronet
+137	PER	PROP	305149	305163	the Stapletons
+10	GPE	PROP	305304	305310	London
+92	PER	PROP	305335	305344	Sir Henry
+137	PER	PROP	305348	305362	the Stapletons
+139	PER	PROP	305514	305530	Mrs. Laura Lyons
+1165	FAC	NOM	305538	305548	her office
+94	PER	PROP	305554	305569	Sherlock Holmes
+99	PER	PROP	305750	305782	the late Sir Charles Baskerville
+1424	PER	NOM	305795	305804	My friend
+93	PER	PROP	305811	305828	Dr. Watson
+99	PER	PROP	306050	306061	Sir Charles
+139	PER	PROP	306482	306492	Mrs. Lyons
+1426	PER	NOM	306579	306590	your friend
+112	PER	PROP	306591	306604	Mr. Stapleton
+1930	PER	NOM	306609	306624	his wife
+529	PER	NOM	306644	306652	The lady
+1930	PER	NOM	306686	306694	His wife
+2782	PER	NOM	306750	306797	The person who has passed for his sister
+2037	PER	NOM	306787	306797	his sister
+1930	PER	NOM	306808	306816	his wife
+139	PER	PROP	306828	306838	Mrs. Lyons
+1930	PER	NOM	307010	307018	His wife
+1930	PER	NOM	307038	307046	His wife
+2787	PER	NOM	307058	307071	a married man
+94	PER	PROP	307083	307098	Sherlock Holmes
+94	PER	PROP	307300	307306	Holmes
+2788	PER	NOM	307380	307390	the couple
+77	GPE	PROP	307407	307411	York
+2789	PER	PROP	307444	307447	Mr.
+153	PER	PROP	307452	307466	Mrs. Vandeleur
+2790	PER	NOM	307621	307726	trustworthy witnesses of Mr. and Mrs. Vandeleur , who at that time kept St. Oliver ’s private school
+2791	PER	PROP	307646	307649	Mr.
+153	PER	PROP	307654	307668	Mrs. Vandeleur
+154	PER	PROP	307699	307709	St. Oliver
+2792	FAC	NOM	307699	307726	St. Oliver ’s private school
+1913	PER	NOM	307786	307798	these people
+1169	PER	NOM	307891	307908	a desperate woman
+94	PER	PROP	307920	307930	Mr. Holmes
+648	PER	NOM	307944	307952	this man
+2356	PER	NOM	308029	308039	my husband
+2651	PER	NOM	308067	308078	the villain
+2798	PER	NOM	308632	308681	the old gentleman , who had been my kindest friend
+2509	PER	NOM	308718	308723	madam
+94	PER	PROP	308731	308746	Sherlock Holmes
+112	PER	PROP	309002	309011	Stapleton
+99	PER	PROP	309129	309140	Sir Charles
+2800	PER	NOM	309387	309407	any other man
+2801	PER	NOM	309480	309490	a poor man
+99	PER	PROP	309824	309835	Sir Charles
+94	PER	PROP	310311	310326	Sherlock Holmes
+139	PER	PROP	310531	310541	Mrs. Lyons
+94	PER	PROP	310729	310735	Holmes
+1362	GPE	NOM	310799	310803	town
+2803	PER	NOM	310979	311002	Students of criminology
+78	GPE	PROP	311051	311056	Godno
+79	GPE	PROP	311061	311074	Little Russia
+155	PER	PROP	311128	311136	Anderson
+80	GPE	PROP	311148	311162	North Carolina
+2804	PER	NOM	311283	311301	this very wily man
+10	GPE	PROP	311424	311430	London
+2008	FAC	NOM	311457	311468	the station
+1175	PER	NOM	311474	311511	a small , wiry bulldog of a man
+152	PER	PROP	311644	311652	Lestrade
+180	PER	NOM	311662	311674	my companion
+1179	PER	NOM	311827	311839	the reasoner
+1180	PER	NOM	311870	311887	the practical man
+94	PER	PROP	311970	311976	Holmes
+152	PER	PROP	312105	312113	Lestrade
+10	GPE	PROP	312132	312138	London
+12	GPE	PROP	312224	312232	Dartmoor
+1410	FAC	NOM	312245	312250	there
+172	PER	NOM	312342	312371	The Hound of the Baskervilles
+98	PER	PROP	312355	312371	the Baskervilles
+94	PER	PROP	312390	312405	Sherlock Holmes
+1182	PER	NOM	312534	312550	any other person
+1184	PER	NOM	312696	312721	those who were around him
+1185	PER	NOM	312864	312921	those who were acting as his agents and assistants
+1186	PER	NOM	312896	312906	his agents
+1187	PER	NOM	312911	312921	assistants
+94	PER	PROP	313131	313137	Holmes
+1189	FAC	NOM	313361	313383	the narrow road
+1479	LOC	NOM	313415	313423	the moor
+1191	PER	NOM	313611	313651	the driver of the hired wagonette
+111	PER	PROP	313860	313869	Frankland
+1193	FAC	NOM	313860	313877	Frankland ’s house
+1471	FAC	NOM	313923	313931	the Hall
+372	FAC	NOM	314029	314039	the avenue
+139	GPE	PROP	314100	314113	Coombe Tracey
+6	FAC	PROP	314160	314174	Merripit House
+152	PER	PROP	314201	314209	Lestrade
+1197	PER	NOM	314221	314241	The little detective
+1424	PER	NOM	314393	314402	My friend
+94	PER	PROP	314491	314501	Mr. Holmes
+1198	PER	NOM	314624	314644	the detective
+1199	LOC	NOM	314682	314718	the gloomy slopes of the hill
+715	LOC	NOM	314710	314718	the hill
+1201	LOC	NOM	314726	314746	the huge lake of fog
+66	LOC	PROP	314762	314785	the Grimpen Mire
+2807	FAC	NOM	314808	314815	a house
+6	FAC	PROP	314848	314862	Merripit House
+541	FAC	NOM	315004	315013	the track
+1491	FAC	NOM	315038	315054	the house
+94	PER	PROP	315060	315066	Holmes
+2808	LOC	NOM	315320	315331	this hollow
+152	PER	PROP	315340	315348	Lestrade
+1491	FAC	NOM	315371	315380	the house
+93	PER	PROP	315396	315402	Watson
+661	FAC	NOM	315440	315449	the rooms
+2811	FAC	NOM	315638	315653	the dining - room
+2812	LOC	NOM	315705	315713	the land
+1629	FAC	NOM	315874	315882	the path
+1206	FAC	NOM	315939	315958	the stunted orchard
+1207	PER	NOM	316101	316120	two men in the room
+186	FAC	NOM	316112	316120	the room
+92	PER	PROP	316122	316131	Sir Henry
+112	PER	PROP	316136	316145	Stapleton
+1209	PER	NOM	316236	316248	Both of them
+112	PER	PROP	316320	316329	Stapleton
+228	PER	NOM	316369	316380	the baronet
+1211	FAC	NOM	316461	316480	the ill - omened moor
+112	PER	PROP	316551	316560	Stapleton
+186	FAC	NOM	316575	316583	the room
+92	PER	PROP	316591	316607	Sir Henry
+1593	PER	NOM	316887	316901	the naturalist
+1214	FAC	NOM	316923	316971	an out - house in the corner of the orchard
+1215	FAC	NOM	316960	316971	the orchard
+1491	FAC	NOM	317193	317202	the house
+1217	PER	NOM	317221	317230	his guest
+1218	PER	NOM	317273	317286	my companions
+93	PER	PROP	317356	317362	Watson
+529	PER	NOM	317369	317377	the lady
+94	PER	PROP	317393	317399	Holmes
+2814	FAC	NOM	317520	317541	any other room
+2815	FAC	NOM	317549	317560	the kitchen
+2170	FAC	NOM	317634	317656	the great Grimpen Mire
+94	PER	PROP	317987	317993	Holmes
+93	PER	PROP	318127	318133	Watson
+1221	FAC	NOM	318608	318634	the dark bulk of the house
+1491	FAC	NOM	318625	318634	the house
+1215	FAC	NOM	318812	318823	the orchard
+1479	LOC	NOM	318828	318836	the moor
+1225	FAC	NOM	318838	318849	One of them
+1227	PER	NOM	318880	318892	The servants
+2815	FAC	NOM	318902	318913	the kitchen
+2811	FAC	NOM	318954	318969	the dining - room
+1230	PER	NOM	318976	318987	the two men
+1231	PER	NOM	318989	319014	the murderous host
+1232	PER	NOM	319019	319040	the unconscious guest
+1233	LOC	NOM	319104	319169	that white woolly plain which covered one - half of the moor
+1479	LOC	NOM	319161	319169	the moor
+1491	FAC	NOM	319204	319213	the house
+1215	FAC	NOM	319345	319356	the orchard
+1491	FAC	NOM	319530	319539	the house
+1239	LOC	NOM	319663	319676	a shadowy sea
+94	PER	PROP	319678	319684	Holmes
+1240	LOC	NOM	320065	320077	the fog - bank
+1491	FAC	NOM	320153	320162	the house
+94	PER	PROP	320320	320326	Holmes
+103	PER	PROP	320543	320546	God
+1479	LOC	NOM	320641	320649	the moor
+1243	PER	NOM	320840	320869	the man whom we were awaiting
+1629	FAC	NOM	320989	320997	the path
+1245	PER	NOM	321147	321178	a man who is ill at ease
+94	PER	PROP	321203	321209	Holmes
+1246	LOC	NOM	321362	321400	the heart of that crawling bank
+94	PER	PROP	321570	321576	Holmes
+152	PER	PROP	321839	321847	Lestrade
+1247	PER	NOM	322617	322640	the huge black creature
+541	FAC	NOM	322658	322674	the track
+1716	PER	NOM	322713	322723	our friend
+1250	PER	NOM	322756	322770	the apparition
+94	PER	PROP	322846	322852	Holmes
+1251	PER	NOM	322891	322903	the creature
+1629	FAC	NOM	323042	323050	the path
+92	PER	PROP	323058	323067	Sir Henry
+1615	PER	NOM	323421	323426	a man
+94	PER	PROP	323434	323440	Holmes
+1254	PER	NOM	323469	323491	reckoned fleet of foot
+1255	PER	NOM	323541	323564	the little professional
+541	FAC	NOM	323602	323611	the track
+92	PER	PROP	323646	323655	Sir Henry
+1258	PER	NOM	323745	323755	its victim
+94	PER	PROP	323834	323840	Holmes
+92	PER	PROP	324247	324256	Sir Henry
+94	PER	PROP	324329	324335	Holmes
+1716	PER	NOM	324473	324483	our friend
+152	PER	PROP	324547	324555	Lestrade
+228	PER	NOM	324588	324606	the baronet
+2369	PER	NOM	324673	324679	My God
+94	PER	PROP	324793	324799	Holmes
+2818	PER	NOM	324813	324836	the family ghost
+1262	PER	NOM	324973	324990	a pure bloodhound
+1263	PER	NOM	325013	325027	a pure mastiff
+156	PER	PROP	325446	325456	Phosphorus
+94	PER	PROP	325512	325518	Holmes
+92	PER	PROP	325662	325671	Sir Henry
+2819	PER	NOM	326215	326233	one or other of us
+1471	FAC	NOM	326266	326274	the Hall
+94	PER	PROP	326514	326520	Holmes
+1821	PER	NOM	326646	326653	our man
+1491	FAC	NOM	326715	326724	the house
+1629	FAC	NOM	326785	326793	the path
+1491	FAC	NOM	327064	327080	the house
+1267	FAC	NOM	327164	327168	room
+1268	PER	NOM	327204	327264	a doddering old manservant , who met us in the passage
+663	FAC	NOM	327253	327264	the passage
+2811	FAC	NOM	327293	327308	the dining - room
+94	PER	PROP	327321	327327	Holmes
+1491	FAC	NOM	327369	327378	the house
+1272	PER	NOM	327422	327450	the man whom we were chasing
+1273	FAC	NOM	327462	327477	the upper floor
+1746	PER	NOM	327543	327550	someone
+1405	FAC	NOM	327554	327558	here
+152	PER	PROP	327567	327575	Lestrade
+94	PER	PROP	327681	327687	Holmes
+186	FAC	NOM	327822	327830	the room
+1275	PER	NOM	327876	327941	that desperate and defiant villain whom we expected to see
+186	FAC	NOM	328085	328093	The room
+1277	FAC	NOM	328118	328132	a small museum
+1278	PER	NOM	328313	328343	this complex and dangerous man
+1763	FAC	NOM	328369	328378	this room
+1529	PER	NOM	328654	328657	one
+1615	PER	NOM	328718	328723	a man
+1616	PER	NOM	328727	328734	a woman
+157	PER	PROP	329048	329069	Mrs. Stapleton
+2637	PER	NOM	329228	329237	The brute
+94	PER	PROP	329246	329252	Holmes
+152	PER	PROP	329261	329269	Lestrade
+2509	PER	NOM	329494	329499	madam
+2356	PER	NOM	329535	329545	my husband
+92	PER	PROP	329547	329556	Sir Henry
+103	PER	PROP	329699	329702	God
+103	PER	PROP	329710	329713	God
+2365	PER	NOM	329719	329731	this villain
+2509	PER	NOM	330303	330308	madam
+94	PER	PROP	330316	330322	Holmes
+2833	LOC	NOM	330561	330582	the heart of the mire
+2178	LOC	NOM	330574	330582	the mire
+1410	GPE	NOM	330598	330603	there
+1240	LOC	NOM	330751	330763	The fog - bank
+94	PER	PROP	330804	330810	Holmes
+1618	PER	NOM	330870	330876	No one
+66	LOC	PROP	330901	330917	the Grimpen Mire
+2178	LOC	NOM	331218	331226	the mire
+152	PER	PROP	331452	331460	Lestrade
+1491	FAC	NOM	331478	331487	the house
+94	PER	PROP	331501	331507	Holmes
+228	PER	NOM	331529	331540	the baronet
+5	FAC	PROP	331544	331567	Baskerville Hall
+137	PER	PROP	331582	331596	the Stapletons
+1288	PER	NOM	331710	331737	the woman whom he had loved
+95	PER	PROP	331889	331901	Dr. Mortimer
+1289	PER	NOM	331903	331925	The two of them
+1407	LOC	NOM	331965	331974	the world
+92	PER	PROP	331989	331998	Sir Henry
+1291	PER	NOM	332020	332114	the hale , hearty man that he had been before he became master of that ill - omened estate
+1292	FAC	NOM	332092	332114	that ill - omened estate
+1293	PER	NOM	332231	332241	the reader
+157	PER	PROP	332455	332469	Mrs. Stapleton
+1295	LOC	NOM	332511	332536	a pathway through the bog
+1296	LOC	NOM	332529	332536	the bog
+2623	PER	NOM	332583	332593	this woman
+1890	PER	NOM	332668	332679	her husband
+1299	LOC	NOM	332791	332809	the widespread bog
+969	PER	NOM	333021	333040	the stranger
+1746	PER	NOM	333600	333607	someone
+94	PER	PROP	333761	333767	Holmes
+1303	LOC	NOM	333921	333930	firm land
+158	PER	PROP	333984	333990	Meyers
+159	PER	PROP	333992	333999	Toronto
+1716	PER	NOM	334095	334105	our friend
+92	PER	PROP	334106	334115	Sir Henry
+157	PER	PROP	334166	334175	Stapleton
+2178	LOC	NOM	334629	334637	the mire
+1307	LOC	NOM	334740	334750	the morass
+561	LOC	NOM	334849	334858	the earth
+157	PER	PROP	334883	334892	Stapleton
+1309	LOC	NOM	334914	335006	that island of refuge towards which he struggled through the fog upon that last night
+1311	LOC	NOM	335021	335063	the heart of the great Grimpen Mire
+2170	GPE	NOM	335041	335063	the great Grimpen Mire
+1313	LOC	NOM	335073	335137	the foul slime of the huge morass which had sucked him in
+1314	LOC	NOM	335091	335106	the huge morass
+1315	PER	NOM	335139	335170	this cold and cruel - hearted man
+1316	LOC	NOM	335237	335256	the bog - girt island
+1317	PER	NOM	335281	335296	his savage ally
+1318	FAC	NOM	335386	335403	an abandoned mine
+1319	FAC	NOM	335452	335478	the cottages of the miners
+1320	PER	NOM	335468	335478	the miners
+1321	LOC	NOM	335528	335549	the surrounding swamp
+94	PER	PROP	335783	335789	Holmes
+96	PER	PROP	335795	335799	Jove
+1398	PER	NOM	335801	335823	a curly - haired spaniel
+95	PER	PROP	335825	335845	Poor Mortimer
+2840	PER	NOM	335861	335868	his pet
+2207	LOC	NOM	335908	335918	this place
+2842	FAC	NOM	336174	336206	the out - house at Merripit
+81	GPE	PROP	336198	336206	Merripit
+99	PER	PROP	336568	336579	Sir Charles
+2843	PER	NOM	336600	336634	the poor devil of a convict
+2065	PER	NOM	336625	336634	a convict
+1716	PER	NOM	336661	336671	our friend
+2846	PER	NOM	336733	336812	such a creature bounding through the darkness of the moor upon his track
+1479	LOC	NOM	336789	336797	the moor
+2849	PER	NOM	336884	336902	your victim
+2850	PER	NOM	336922	336929	peasant
+2851	PER	NOM	336979	336994	such a creature
+2852	PER	NOM	337025	337029	many
+1479	LOC	NOM	337053	337061	the moor
+10	GPE	PROP	337076	337082	London
+93	PER	PROP	337084	337090	Watson
+2854	PER	NOM	337166	337393	a more dangerous man than he who is lying yonder”—he swept his long arm towards the huge mottled expanse of green - splotched bog which stretched away until it merged into the russet slopes of the moor
+1323	LOC	NOM	337357	337393	the russet slopes of the moor
+1479	LOC	NOM	337378	337393	the moor
+160	PER	PROP	337462	337470	November
+94	PER	PROP	337476	337482	Holmes
+1326	FAC	NOM	337565	337604	our sitting - room in Baker Street
+33	FAC	PROP	337592	337604	Baker Street
+18	GPE	PROP	337653	337663	Devonshire
+161	PER	PROP	337801	337815	Colonel Upwood
+162	PER	PROP	337932	337964	the unfortunate Mme . Montpensier
+1327	PER	NOM	338050	338074	her step - daughter
+163	PER	PROP	338076	338080	Mlle
+1328	PER	NOM	338090	338141	the young lady who , as it will be remembered
+82	GPE	PROP	338191	338206	New York
+1424	PER	NOM	338208	338217	My friend
+20	GPE	PROP	338410	338421	Baskerville
+92	PER	PROP	338669	338678	Sir Henry
+95	PER	PROP	338690	338702	Dr. Mortimer
+10	GPE	PROP	338721	338727	London
+94	PER	PROP	339022	339028	Holmes
+2855	PER	NOM	339064	339100	the man who called himself Stapleton
+157	PER	PROP	339091	339100	Stapleton
+157	PER	PROP	339368	339382	Mrs. Stapleton
+2857	PER	NOM	339908	340030	The barrister who has his case at his fingers ’ ends and is able to argue with an expert upon his own subject
+2858	PER	NOM	339993	340030	an expert upon his own subject
+2859	FAC	NOM	340059	340069	the courts
+163	PER	PROP	340173	340177	Mlle
+5	FAC	PROP	340217	340240	Baskerville Hall
+2860	PER	NOM	340344	340364	the fair French lady
+161	PER	PROP	340369	340395	the infamous Upwood
+2390	PER	NOM	340675	340686	this fellow
+92	PER	PROP	340698	340711	a Baskerville
+2863	PER	NOM	340727	340759	a son of that Rodger Baskerville
+104	PER	PROP	340736	340759	that Rodger Baskerville
+2864	PER	NOM	340761	340905	the younger brother of Sir Charles , who fled with a sinister reputation to South America , where he was said to have died unmarried
+99	PER	PROP	340784	340802	Sir Charles
+64	GPE	PROP	340843	340856	South America
+2865	PER	NOM	340958	340967	one child
+2390	PER	NOM	340969	340980	this fellow
+2554	PER	NOM	341020	341030	his father
+134	PER	PROP	341045	341057	Beryl Garcia
+2868	PER	NOM	341059	341099	one of the beauties of Costa Rica
+2869	PER	NOM	341066	341099	the beauties of Costa Rica
+83	GPE	PROP	341089	341099	Costa Rica
+153	PER	PROP	341189	341198	Vandeleur
+23	GPE	PROP	341218	341225	England
+2870	FAC	NOM	341248	341281	a school in the east of Yorkshire
+2871	LOC	NOM	341260	341281	the east of Yorkshire
+84	GPE	PROP	341272	341281	Yorkshire
+2872	PER	NOM	341400	341419	a consumptive tutor
+1469	FAC	NOM	341443	341447	home
+648	PER	NOM	341470	341478	this man
+164	PER	PROP	341531	341537	Fraser
+2875	PER	NOM	341539	341548	the tutor
+165	PER	PROP	341647	341661	The Vandeleurs
+157	PER	PROP	341713	341722	Stapleton
+2878	LOC	NOM	341834	341861	the south of England
+23	GPE	PROP	341854	341861	England
+2879	FAC	NOM	341876	341894	the British Museum
+2880	PER	NOM	341907	341953	a recognized authority upon the subject
+153	PER	PROP	341976	341985	Vandeleur
+84	GPE	PROP	342069	342078	Yorkshire
+766	PER	NOM	342225	342235	The fellow
+2883	FAC	NOM	342334	342351	a valuable estate
+18	GPE	PROP	342369	342379	Devonshire
+1930	PER	NOM	342522	342530	his wife
+2037	PER	NOM	342567	342577	his sister
+2886	PER	NOM	342604	342611	a decoy
+1943	FAC	NOM	342779	342789	the estate
+2888	FAC	NOM	342918	342936	his ancestral home
+99	PER	PROP	343007	343030	Sir Charles Baskerville
+482	PER	NOM	343047	343061	the neighbours
+228	PER	NOM	343073	343084	The baronet
+2891	PER	NOM	343108	343124	the family hound
+157	PER	PROP	343176	343185	Stapleton
+443	PER	NOM	343236	343247	the old man
+95	PER	PROP	343333	343345	Dr. Mortimer
+99	PER	PROP	343377	343388	Sir Charles
+228	PER	NOM	343522	343533	the baronet
+2894	PER	NOM	343635	343652	the real murderer
+2895	PER	NOM	343753	343772	An ordinary schemer
+10	GPE	PROP	343965	343971	London
+166	PER	PROP	343977	343981	Ross
+167	PER	PROP	343986	343993	Mangles
+2896	PER	NOM	343995	344028	the dealers in Fulham Road
+85	FAC	PROP	344017	344028	Fulham Road
+86	GPE	PROP	344121	344132	North Devon
+1479	LOC	NOM	344178	344186	the moor
+1469	FAC	NOM	344203	344207	home
+66	LOC	PROP	344308	344324	the Grimpen Mire
+611	PER	NOM	344478	344495	The old gentleman
+2901	FAC	NOM	344535	344546	his grounds
+157	PER	PROP	344571	344580	Stapleton
+2902	PER	NOM	344699	344707	his ally
+852	PER	NOM	344728	344736	peasants
+1930	PER	NOM	344829	344837	his wife
+99	PER	PROP	344849	344860	Sir Charles
+611	PER	NOM	344970	344987	the old gentleman
+2906	PER	NOM	345055	345064	his enemy
+157	PER	PROP	345197	345206	Stapleton
+99	PER	PROP	345313	345324	Sir Charles
+2908	PER	NOM	345375	345409	the minister of his charity
+2909	PER	NOM	345425	345447	this unfortunate woman
+139	PER	PROP	345456	345472	Mrs. Laura Lyons
+2910	PER	NOM	345501	345513	a single man
+1890	PER	NOM	345649	345667	her husband
+99	PER	PROP	345759	345770	Sir Charles
+1471	FAC	NOM	345790	345805	the Hall
+95	PER	PROP	345823	345835	Dr. Mortimer
+2913	PER	NOM	345921	345931	his victim
+139	PER	PROP	345998	346008	Mrs. Lyons
+443	PER	NOM	346048	346059	the old man
+10	GPE	PROP	346132	346138	London
+139	GPE	PROP	346303	346316	Coombe Tracey
+611	PER	NOM	346501	346518	the old gentleman
+368	PER	NOM	346548	346565	its master
+2918	PER	NOM	346607	346637	the unfortunate baronet
+1614	FAC	NOM	346663	346676	the yew alley
+2920	FAC	NOM	346681	346706	that gloomy tunnel
+1568	FAC	NOM	346890	346899	the alley
+2922	LOC	NOM	346962	346979	the grassy border
+228	PER	NOM	346993	347004	the baronet
+1629	FAC	NOM	347018	347026	the path
+1338	PER	NOM	347049	347063	the man
+95	PER	PROP	347290	347302	Dr. Mortimer
+2926	LOC	NOM	347356	347384	its lair in the Grimpen Mire
+66	LOC	PROP	347368	347384	the Grimpen Mire
+2927	PER	NOM	347430	347445	the authorities
+343	LOC	NOM	347455	347470	the countryside
+99	PER	PROP	347580	347603	Sir Charles Baskerville
+2894	PER	NOM	347724	347741	the real murderer
+2932	PER	NOM	347743	347769	His only accomplice
+2933	PER	NOM	347916	347955	Both of the women concerned in the case
+2934	PER	NOM	347924	347955	the women concerned in the case
+157	PER	PROP	347957	347978	Mrs. Stapleton
+139	PER	PROP	347983	347999	Mrs. Laura Lyons
+157	PER	PROP	348050	348059	Stapleton
+157	PER	PROP	348061	348075	Mrs. Stapleton
+443	PER	NOM	348113	348124	the old man
+139	PER	PROP	348166	348176	Mrs. Lyons
+1209	PER	NOM	348354	348366	both of them
+157	PER	PROP	348578	348587	Stapleton
+2937	PER	NOM	348628	348635	an heir
+28	GPE	PROP	348639	348645	Canada
+2214	PER	NOM	348699	348709	his friend
+95	PER	PROP	348710	348722	Dr. Mortimer
+195	PER	NOM	348743	348753	the latter
+92	PER	PROP	348794	348811	Henry Baskerville
+157	PER	PROP	348813	348822	Stapleton
+2940	PER	NOM	348852	348883	this young stranger from Canada
+28	GPE	PROP	348877	348883	Canada
+10	GPE	PROP	348926	348932	London
+18	GPE	PROP	348956	348966	Devonshire
+1930	PER	NOM	348996	349004	his wife
+443	PER	NOM	349072	349083	the old man
+10	GPE	PROP	349239	349245	London
+2944	FAC	NOM	349287	349315	the Mexborough Private Hotel
+87	FAC	PROP	349320	349340	Craven Street
+2945	PER	NOM	349389	349397	my agent
+1930	PER	NOM	349441	349449	his wife
+2947	FAC	NOM	349464	349479	her room
+95	PER	PROP	349521	349533	Dr. Mortimer
+33	FAC	PROP	349544	349556	Baker Street
+2008	FAC	NOM	349575	349586	the station
+1752	FAC	NOM	349594	349625	the Northumberland Hotel
+1930	PER	NOM	349627	349635	His wife
+1890	PER	NOM	349701	349712	her husband
+2952	PER	NOM	349793	349837	the man whom she knew to be in danger
+157	PER	PROP	349870	349879	Stapleton
+228	PER	NOM	350111	350122	the baronet
+157	PER	PROP	350213	350222	Stapleton
+92	PER	PROP	350246	350262	Sir Henry
+2955	PER	NOM	350511	350536	chamber - maid of the hotel
+1785	FAC	NOM	350527	350536	the hotel
+1820	PER	NOM	351320	351331	our friends
+157	PER	PROP	351372	351381	Stapleton
+247	FAC	NOM	351385	351392	the cab
+394	FAC	NOM	351416	351425	our rooms
+157	PER	PROP	351527	351536	Stapleton
+20	GPE	PROP	351606	351617	Baskerville
+2960	FAC	NOM	351699	351754	four considerable burglaries in the west country
+2961	LOC	NOM	351738	351754	the west country
+2962	PER	NOM	351785	351797	any criminal
+88	FAC	PROP	351835	351858	Folkestone Court
+2963	PER	NOM	351925	351933	the page
+2964	PER	NOM	351949	351980	the masked and solitary burglar
+157	PER	PROP	352009	352018	Stapleton
+2965	PER	NOM	352105	352141	a desperate and dangerous man
+1837	PER	NOM	352336	352346	the cabman
+10	GPE	PROP	352420	352426	London
+1410	GPE	NOM	352482	352487	there
+12	GPE	PROP	352511	352519	Dartmoor
+228	PER	NOM	352547	352558	the baronet
+368	PER	NOM	352757	352767	its master
+10	GPE	PROP	352782	352788	London
+157	PER	PROP	352918	352927	Stapleton
+2970	PER	NOM	352932	352950	a confidant
+2971	PER	NOM	353067	353109	an old manservant at Merripit House
+6	FAC	PROP	353095	353109	Merripit House
+168	PER	PROP	353126	353133	Anthony
+137	PER	PROP	353162	353176	the Stapletons
+1396	PER	NOM	353303	353313	his master
+2973	PER	NOM	353318	353326	mistress
+2974	PER	NOM	353339	353346	husband
+2975	PER	NOM	353358	353362	wife
+648	PER	NOM	353364	353372	This man
+1363	LOC	NOM	353410	353421	the country
+168	PER	PROP	353452	353459	Anthony
+23	GPE	PROP	353484	353491	England
+169	PER	PROP	353506	353513	Antonio
+2978	GPE	NOM	353523	353534	all Spanish
+2979	GPE	NOM	353538	353564	Spanish - American countries
+1338	PER	NOM	353573	353580	The man
+157	PER	PROP	353587	353601	Mrs. Stapleton
+2981	PER	NOM	353692	353704	this old man
+66	LOC	PROP	353718	353734	the Grimpen Mire
+157	PER	PROP	353753	353762	Stapleton
+1396	PER	NOM	353841	353858	his master
+137	PER	PROP	353984	353998	The Stapletons
+18	GPE	PROP	354017	354027	Devonshire
+92	PER	PROP	354071	354080	Sir Henry
+2984	PER	NOM	354534	354558	a criminal expert
+1592	PER	NOM	354594	354604	each other
+711	PER	NOM	354751	354757	a lady
+137	PER	PROP	354812	354826	the Stapletons
+2335	PER	NOM	354892	354911	the criminal
+2961	LOC	NOM	354935	354951	the west country
+157	PER	PROP	354987	354996	Stapleton
+2990	PER	NOM	355132	355141	everybody
+10	GPE	PROP	355234	355240	London
+139	FAC	PROP	355425	355438	Coombe Tracey
+983	FAC	NOM	355454	355461	the hut
+1479	LOC	NOM	355474	355482	the moor
+118	PER	PROP	355544	355554	Cartwright
+2993	PER	NOM	355608	355621	a country boy
+157	PER	PROP	355734	355743	Stapleton
+118	PER	PROP	355752	355762	Cartwright
+33	FAC	PROP	355966	355978	Baker Street
+139	GPE	PROP	355982	355995	Coombe Tracey
+157	PER	PROP	356113	356122	Stapleton
+1338	PER	NOM	356173	356180	the man
+777	PER	NOM	356185	356194	the woman
+637	PER	NOM	356314	356333	the escaped convict
+108	PER	PROP	356375	356389	the Barrymores
+1479	LOC	NOM	356581	356589	the moor
+2999	PER	NOM	356693	356699	a jury
+157	PER	PROP	356706	356715	Stapleton
+92	PER	PROP	356731	356740	Sir Henry
+3000	PER	NOM	356787	356810	the unfortunate convict
+1821	PER	NOM	356865	356872	our man
+92	PER	PROP	356978	356987	Sir Henry
+3003	PER	NOM	357089	357106	our client
+157	PER	PROP	357155	357164	Stapleton
+92	PER	PROP	357197	357206	Sir Henry
+3004	PER	NOM	357569	357583	the specialist
+95	PER	PROP	357595	357607	Dr. Mortimer
+1716	PER	NOM	357676	357686	our friend
+529	PER	NOM	357789	357797	the lady
+157	PER	PROP	358049	358058	Stapleton
+2037	PER	NOM	358320	358330	his sister
+92	PER	PROP	358481	358490	Sir Henry
+1890	PER	NOM	358538	358549	her husband
+157	PER	PROP	358598	358607	Stapleton
+228	PER	NOM	358679	358690	the baronet
+529	PER	NOM	358714	358722	the lady
+92	PER	PROP	358994	359003	Sir Henry
+6	FAC	PROP	359029	359043	Merripit House
+1930	PER	NOM	359165	359173	his wife
+2384	PER	NOM	359259	359270	the convict
+3014	FAC	NOM	359318	359337	the outhouse
+92	PER	PROP	359358	359367	Sir Henry
+1890	PER	NOM	359407	359418	her husband
+3016	PER	NOM	359535	359561	a rival in his love
+92	PER	PROP	359735	359744	Sir Henry
+1551	PER	NOM	359787	359808	the whole countryside
+228	PER	NOM	359825	359836	the baronet
+1601	PER	NOM	359861	359871	his family
+1930	PER	NOM	359921	359929	his wife
+1410	GPE	NOM	360114	360119	there
+3023	PER	NOM	360168	360199	A woman of Spanish blood
+1351	PER	NOM	360260	360267	my dear
+93	PER	PROP	360268	360274	Watson
+92	PER	PROP	360491	360500	Sir Henry
+3025	PER	NOM	360532	360545	the old uncle
+157	PER	PROP	360813	360822	Stapleton
+1657	PER	NOM	360895	360910	the heir
+1959	FAC	NOM	360978	360990	the property
+1615	PER	NOM	361251	361256	a man
+157	PER	PROP	361315	361329	Mrs. Stapleton
+1890	PER	NOM	361340	361358	her husband
+64	GPE	PROP	361476	361496	South America
+3030	PER	NOM	361528	361564	the British authorities there
+23	GPE	PROP	361614	361621	England
+10	GPE	PROP	361725	361731	London
+3031	PER	NOM	361761	361781	an accomplice
+3032	PER	NOM	361828	361832	heir
+1351	PER	NOM	362020	362027	my dear
+93	PER	PROP	362028	362034	Watson
+170	PER	PROP	362229	362243	the De Reszkes
+171	PER	PROP	362332	362339	Marcini
+3035	FAC	NOM	362332	362341	Marcini ’s
+1333	PER	NOM	362380	362387	THE END

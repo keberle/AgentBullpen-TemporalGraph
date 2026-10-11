@@ -1,0 +1,30 @@
+# Line endings: text files are stored with LF and checked out as the platform likes; the exceptions below keep a few files
+# byte-for-byte. Binary formats are never converted or diffed as text.
+* text=auto
+*.sqlite binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+
+# Source texts are kept byte-for-byte as downloaded from Project Gutenberg (CRLF): no line-ending conversion.
+data/books/source/*.txt -text
+
+# LitBank files are kept byte-for-byte: the .ann offsets point into the .txt (LF).
+data/crosscheck/litbank/*.ann -text
+data/crosscheck/litbank/*.txt -text
+data/crosscheck/litbank/*.tsv -text
+data/crosscheck/litbank/coref/*.ann -text
+data/crosscheck/litbank/coref/*.txt -text
+data/crosscheck/litbank/coref/*.tsv -text
+
+# Reviewed gold files are kept byte-for-byte: the gold JSON records their SHA-256.
+gold/**/*.review.md -text
+
+# The openCypher grammar is kept byte-for-byte as downloaded.
+src/TemporalGraph.Query/grammar/Cypher.g4 -text
+
+# Shell scripts keep LF so they run under sh.
+*.sh text eol=lf

@@ -1,0 +1,513 @@
+{
+  "book": "hound-of-the-baskervilles",
+  "source": {
+    "file": "ch08.review.md",
+    "sha256": "0f0b90cde774f8a443f53345c700f2f95669e59ae91156a86fd5f4eff285b873"
+  },
+  "importedAt": "2026-10-07T13:02:01.4698171+00:00",
+  "entities": [
+    {
+      "type": "Character",
+      "name": "Dr. Watson",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Dr. Watson"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Sherlock Holmes",
+      "aliases": [
+        "Mr. Sherlock Holmes"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Mr. Sherlock Holmes which lie before me on the table. One…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Baskerville Hall",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Baskerville Hall, October 13th."
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Sir Henry Baskerville",
+      "aliases": [
+        "Sir Henry",
+        "the baronet"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Sir Henry Baskerville."
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "the escaped convict",
+      "aliases": [
+        "escaped convict",
+        "Notting Hill criminal"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "the escaped convict upon the moor. There is strong reason…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "the moor",
+      "aliases": [
+        "moor",
+        "the wide moor"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "the moor. There is strong reason now to believe that he has…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Notting Hill",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Notting Hill criminal if he could once effect an entrance.…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Perkins",
+      "aliases": [
+        "Perkins the groom"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Perkins the groom should go over to sleep there, but…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Mr. Stapleton",
+      "aliases": [
+        "Stapleton"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Stapleton would not hear of it."
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Hugo Baskerville",
+      "aliases": [
+        "Hugo"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Hugo is supposed to have had its origin. It was an excursion…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Merripit House",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Merripit House, and it was there that Sir Henry made the…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Miss Stapleton",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Miss Stapleton. From the first moment that he saw her he…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Dr. James Mortimer",
+      "aliases": [
+        "Dr. Mortimer"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Dr. Mortimer lunched with us. He has been excavating a…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Long Down",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Long Down and has got a prehistoric skull which fills him…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "the yew alley",
+      "aliases": [
+        "yew alley"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "yew alley, between two high walls of clipped hedge, with a…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "the moor-gate",
+      "aliases": [
+        "moor-gate"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "moor-gate, where the old gentleman left his cigar-ash. It is…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Barrymore",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Barrymore know more than he cared to say? It was all dim and…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Mr. Frankland",
+      "aliases": [
+        "Frankland"
+      ],
+      "first": {
+        "chapter": 8,
+        "quote": "Mr. Frankland, of Lafter Hall, who lives some four miles to…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Lafter Hall",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Lafter Hall, who lives some four miles to the south of us.…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Fernworthy",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Fernworthy and sometimes against them, so that he is…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "London",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "London in order to make sure that Barrymore was really here.…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Mrs. Barrymore",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "Mrs. Barrymore is of interest to me. She is a heavy, solid…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "England",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "traces of modern England behind you"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Location",
+      "name": "summer-house",
+      "aliases": [],
+      "first": {
+        "chapter": 8,
+        "quote": "an old tumble-down summer-house"
+      },
+      "status": "added"
+    }
+  ],
+  "rejected": [
+    {
+      "type": "Character",
+      "name": "moor sheep"
+    },
+    {
+      "type": "Character",
+      "name": "Stapletons"
+    },
+    {
+      "type": "Character",
+      "name": "maid"
+    },
+    {
+      "type": "Character",
+      "name": "old manservant"
+    },
+    {
+      "type": "Character",
+      "name": "the baronet"
+    },
+    {
+      "type": "Character",
+      "name": "brother"
+    },
+    {
+      "type": "Character",
+      "name": "Notting Hill criminal"
+    },
+    {
+      "type": "Character",
+      "name": "baronet"
+    },
+    {
+      "type": "Character",
+      "name": "our fair neighbour"
+    },
+    {
+      "type": "Character",
+      "name": "wicked Hugo"
+    },
+    {
+      "type": "Character",
+      "name": "families"
+    },
+    {
+      "type": "Character",
+      "name": "sister"
+    },
+    {
+      "type": "Character",
+      "name": "the Barrymores"
+    }
+  ],
+  "mergeReview": [
+    {
+      "mark": "accept",
+      "line": "merge · Sir Henry Baskerville + Sir Henry → Sir Henry Baskerville · reason: Sir Henry is the short titled form of Sir Henry Baskerville, and the context in chapter 8 shows both refer to the same person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · escaped convict + the escaped convict → escaped convict · reason: Both mentions refer to the entity described as the escaped convict, with evidence pointing to the same person since the phrases 'escaped convict' and 'the escaped convict' uniquely identify one character."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Stapletons + The Stapletons → The Stapletons · reason: Both groups refer to 'The Stapletons' as the same family or group of people, with matching context and chapter references."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · the sister + brother and sister → the sister · reason: Group B's 'brother and sister' includes 'the sister' from Group A, both referring to the same siblings mentioned together."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · the brother + the baronet → the baronet · reason: The brother and the baronet are both likely referring to the same male individual, with 'the baronet' being a titled form fitting the 'brother' in context."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · the brother + brother and sister → the brother · reason: Both mentions refer to a male sibling in a brother and sister pair; 'brother and sister' collectively includes 'the brother'."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Frankland + Frankland → Mr. Frankland · reason: Frankland and Mr. Frankland, of Lafter Hall, refer to the same character, as both mention the same location and Frankland is the shorter form of Mr. Frankland."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Sir Henry Baskerville + Baskerville → Sir Henry Baskerville · reason: Baskerville is a shorter form referring to Sir Henry Baskerville, and the context supports they are the same character."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Stapletons + The Stapletons → Stapletons · reason: Both groups refer to the Stapletons mentioned together as a family or group in chapter 8, indicating the same entity in plural form."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · moor + the moor → moor · reason: Both mentions refer to the same location, 'moor' and 'the moor' are the same place with and without the definite article."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · the moor + moor → the moor · reason: 'moor' and 'the moor' refer to the same location in the context of the quotes, both describing the same geographic area."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · the moor + the wide moor → the moor · reason: The terms 'the moor' and 'the wide moor' refer to the same geographic area, with 'the wide moor' being a descriptive extension of 'the moor'."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · sister + brother and sister → sister · reason: Group B's 'brother and sister' includes the sister mentioned alone in Group A, suggesting they refer to the same female character."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · brother + brother and sister → brother · reason: Group B refers collectively to the same brother and sister mentioned individually in Group A, indicating the same entities."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · moor + the wide moor → the wide moor · reason: The terms 'moor' and 'the wide moor' refer to the same location, with the second being a fuller form used in the text."
+    }
+  ],
+  "crosscheckReview": [
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Mr. Sherlock Holmes · ch1 \"Mr. Sherlock Holmes\" · LitBank PER ×2"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · James Mortimer, M.R.C.S. · ch1 \"James Mortimer, M.R.C.S., from his…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Watson · ch1 \"Watson, what do you make of it?”\" · LitBank PER ×9"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Holmes · ch1 \"Holmes was sitting with his back to me,…\" · LitBank PER ×6"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Dr. Mortimer · ch1 \"Dr. Mortimer is a successful, elderly…\" · LitBank PER ×2"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Location · London · ch1 \"London practice could hold such a…\" · LitBank GPE ×2"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Sherlock Holmes · ch1 \"Sherlock Holmes leaned back in his…\" · LitBank PER ×2"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Mortimer, James, M.R.C.S. · ch1 \"Mortimer, James, M.R.C.S., 1882,…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · House-surgeon · ch1 \"House-surgeon, from 1882 to 1884, at…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Location · Charing Cross Hospital · ch1 \"Charing Cross Hospital. Winner of the…\" · LitBank FAC ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Corresponding member of the Swedish Pathological Society · ch1 \"Corresponding member of the Swedish…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Author of ‘ Some Freaks of Atavism’ (Lancet 1882) · ch1 \"Author of ‘Some Freaks of Atavism’…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Medical Officer for the parishes of Grimpen, Thorsley, and High Barrow · ch1 \"Medical Officer for the parishes of…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Location · Grimpen · ch1 \"Grimpen, Thorsley, and High Barrow.”\" · LitBank GPE ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Location · Thorsley · ch1 \"Thorsley, and High Barrow.”\" · LitBank GPE ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Location · High Barrow · ch1 \"High Barrow.”\" · LitBank GPE ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Jove · ch1 \"Jove, it _is_ a curly-haired spaniel.”\" · LitBank PER ×1"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Dr. James Mortimer · ch1 \"Dr. James Mortimer, the man of science,…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Mr. Sherlock Holmes · ch8 \"Mr. Sherlock Holmes which lie before me…\" · BookNLP cluster(s) 94 also use: HOLMES; our aliases: Mr. Sherlock Holmes"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · not in ours · Location · England · ch8 \"England behind you, but, on the other…\" · BookNLP GPE cluster 23 ×1; names: England"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Sir Henry Baskerville · ch8 \"Sir Henry Baskerville.\" · BookNLP cluster(s) 92 also use: Baskerville; our aliases: Sir Henry, Sir Henry Baskerville"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · not in theirs · Character · moor sheep · ch8 \"moor sheep. We think, therefore, that he…\" · 1 mention(s) in the slice, none tagged by BookNLP"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Perkins the groom · ch8 \"Perkins the groom should go over to…\" · BookNLP cluster(s) 114, 580 also use: Perkins; our aliases: Perkins the groom"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Stapleton · ch8 \"Stapleton would not hear of it.\" · BookNLP cluster(s) 133 also use: Miss Stapleton; our aliases: Stapleton"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Miss Stapleton · ch8 \"Miss Stapleton. From the first moment…\" · BookNLP cluster(s) 133 also use: Stapleton; our aliases: Miss Stapleton"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Barrymore · ch8 \"Barrymore know more than he cared to…\" · BookNLP cluster(s) 107, 131 also use: the pale , watchful Barrymore, Mrs. Barrymore; our aliases: Barrymore"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · alias difference · Character · Mrs. Barrymore · ch8 \"Mrs. Barrymore is of interest to me. She…\" · BookNLP cluster(s) 131 also use: Barrymore; our aliases: Mrs. Barrymore"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · not in ours · Character · the Barrymores · ch8 \"the Barrymores, and especially about the…\" · BookNLP PER cluster 108 ×1; names: the Barrymores"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · not in ours · Location · London · ch8 \"London in order to make sure that…\" · BookNLP GPE cluster 10 ×2; names: London"
+    },
+    {
+      "mark": "accept",
+      "line": "BookNLP · not in theirs · Location · moor-gate · ch8 \"moor-gate, where the old gentleman left…\" · 1 mention(s) in the slice, none tagged by BookNLP"
+    }
+  ]
+}

@@ -1,0 +1,983 @@
+{
+  "book": "hound-of-the-baskervilles",
+  "source": {
+    "file": "ch01-03.review.md",
+    "sha256": "349b3f714b53e077ee18b8c1ee388dd78c8a3c99ef17b22b89ea59bdb13ac745"
+  },
+  "importedAt": "2026-10-07T13:01:58.53177+00:00",
+  "entities": [
+    {
+      "type": "Character",
+      "name": "Sherlock Holmes",
+      "aliases": [
+        "Holmes",
+        "Mr. Holmes",
+        "Mr. Sherlock Holmes"
+      ],
+      "first": {
+        "chapter": 1,
+        "quote": "Mr. Sherlock Holmes"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Dr. James Mortimer",
+      "aliases": [
+        "Dr. Mortimer",
+        "Mortimer",
+        "James Mortimer"
+      ],
+      "first": {
+        "chapter": 1,
+        "quote": "James Mortimer, M.R.C.S., from his friends of the C.C.H.,”…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Dr. Watson",
+      "aliases": [
+        "Watson"
+      ],
+      "first": {
+        "chapter": 1,
+        "quote": "Watson, what do you make of it?”"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Charing Cross Hospital",
+      "aliases": [
+        "Charing Cross"
+      ],
+      "first": {
+        "chapter": 1,
+        "quote": "Charing Cross’ very naturally suggest themselves.”"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Grimpen",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "Grimpen, Dartmoor, Devon. House-surgeon, from 1882 to 1884,…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Dartmoor",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "Dartmoor, Devon. House-surgeon, from 1882 to 1884, at…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Devon",
+      "aliases": [
+        "Devonshire"
+      ],
+      "first": {
+        "chapter": 1,
+        "quote": "Devon. House-surgeon, from 1882 to 1884, at Charing Cross…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Thorsley",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "Thorsley, and High Barrow.”"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "High Barrow",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "High Barrow.”"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Shipping Office",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "Shipping Office. I would not lose that stick for the world.”"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Monsieur Bertillon",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "Monsieur Bertillon must always appeal strongly.”"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Sir Charles Baskerville",
+      "aliases": [
+        "Sir Charles"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "Sir Charles Baskerville, whose sudden and tragic death some…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Baskerville Hall",
+      "aliases": [
+        "the Hall"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "Baskerville Hall,” and below in large, scrawling figures:…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "the hound",
+      "aliases": [
+        "Hound of the Baskervilles",
+        "the hell-hound of the legend",
+        "Baskerville demon"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "Hound of the Baskervilles there have been many statements,…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Hugo Baskerville",
+      "aliases": [
+        "Hugo"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "Hugo Baskerville, and as I had the story from my father, who…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Lord Clarendon",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Lord Clarendon I most earnestly commend to your attention)…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "the maiden",
+      "aliases": [
+        "the maid",
+        "the daughter",
+        "the wench"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "the maiden was placed in an upper chamber, while Hugo and…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "the moor",
+      "aliases": [
+        "moor",
+        "moorlands",
+        "the moorlands"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "the moor, there being three leagues betwixt the Hall and her…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "the goyal",
+      "aliases": [
+        "goyal"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "goyal, as we call it, upon the moor, some slinking away and…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Rodger",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Rodger and John, with instructions that they say nothing…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "John",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "John, with instructions that they say nothing thereof to…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Elizabeth",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Elizabeth.]”"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Mid-Devon",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Mid-Devon at the next election, has cast a gloom over the…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "South Africa",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "South African speculation. More wise than those who go on…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "England",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "England with them. It is only two years since he took up his…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Barrymore",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Barrymore, the husband acting as butler and the wife as…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Murphy",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "One Murphy, a gipsy horse-dealer, was on the moor at no…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Sir Henry Baskerville",
+      "aliases": [
+        "Henry",
+        "Mr. Henry Baskerville",
+        "Sir Henry"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "Mr. Henry Baskerville, if he be still alive, the son of Sir…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Character",
+      "name": "Mr. Frankland",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Mr. Frankland, of Lafter Hall, and Mr. Stapleton, the…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Mr. Stapleton",
+      "aliases": [
+        "Stapleton"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "Mr. Stapleton, the naturalist, there are no other men of…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Perkins",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Perkins the groom on horseback to me, and as I was sitting…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "the moor-gate",
+      "aliases": [
+        "wicket-gate",
+        "the wicket-gate"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "moor-gate, and that he appeared from thence onward to have"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "summer-house",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "summer-house at the far end.”"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Waterloo Station",
+      "aliases": [
+        "Waterloo"
+      ],
+      "first": {
+        "chapter": 3,
+        "quote": "Waterloo Station”—Dr. Mortimer looked at his watch—“in…"
+      },
+      "status": "edited"
+    },
+    {
+      "type": "Location",
+      "name": "Canada",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Canada. From the accounts which have reached us he is an…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Central America",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Central America, and died there in 1876 of yellow fever.…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Southampton",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Southampton this morning. Now, Mr. Holmes, what would you…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "London",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "London as easily as in Devonshire. A devil with merely local…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Character",
+      "name": "Bradley",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Bradley’s, would you ask him to send up a pound of the…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Stamford’s",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Stamford’s for the Ordnance map of this portion of the moor,…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "High Tor",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "High Tor and Foulmire. Then fourteen miles away the great…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Foulmire",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Foulmire. Then fourteen miles away the great convict prison…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Princetown",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Princetown. Between and around these scattered points…"
+      },
+      "status": "accepted"
+    },
+    {
+      "type": "Location",
+      "name": "Lafter Hall",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "Frankland, of Lafter Hall, and Mr. Stapleton, the naturalist,"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Character",
+      "name": "Rodger Baskerville",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Rodger Baskerville, the youngest of three brothers of whom poor"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Location",
+      "name": "the yew alley",
+      "aliases": [
+        "yew alley"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "the famous yew alley of Baskerville Hall"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Character",
+      "name": "Mrs. Barrymore",
+      "aliases": [
+        "the wife"
+      ],
+      "first": {
+        "chapter": 2,
+        "quote": "the wife as housekeeper"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Location",
+      "name": "Baker Street",
+      "aliases": [],
+      "first": {
+        "chapter": 3,
+        "quote": "Baker Street until evening"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Character",
+      "name": "the Pope",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "to oblige the Pope"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Location",
+      "name": "Europe",
+      "aliases": [],
+      "first": {
+        "chapter": 1,
+        "quote": "expert in Europe"
+      },
+      "status": "added"
+    },
+    {
+      "type": "Location",
+      "name": "America",
+      "aliases": [],
+      "first": {
+        "chapter": 2,
+        "quote": "was in America, and inquiries"
+      },
+      "status": "added"
+    }
+  ],
+  "rejected": [
+    {
+      "type": "Character",
+      "name": "C.C.H."
+    },
+    {
+      "type": "Character",
+      "name": "house-surgeon"
+    },
+    {
+      "type": "Character",
+      "name": "house-physician"
+    },
+    {
+      "type": "Location",
+      "name": "Medical Directory"
+    },
+    {
+      "type": "Location",
+      "name": "Charing Cross Hospital"
+    },
+    {
+      "type": "Character",
+      "name": "Jackson"
+    },
+    {
+      "type": "Character",
+      "name": "Swedish Pathological Society"
+    },
+    {
+      "type": "Character",
+      "name": "Lancet"
+    },
+    {
+      "type": "Character",
+      "name": "Journal of Psychology"
+    },
+    {
+      "type": "Character",
+      "name": "the daughter"
+    },
+    {
+      "type": "Character",
+      "name": "yeoman"
+    },
+    {
+      "type": "Character",
+      "name": "the company"
+    },
+    {
+      "type": "Character",
+      "name": "the wench"
+    },
+    {
+      "type": "Character",
+      "name": "the revellers"
+    },
+    {
+      "type": "Character",
+      "name": "the rest"
+    },
+    {
+      "type": "Character",
+      "name": "his grooms"
+    },
+    {
+      "type": "Character",
+      "name": "his mare"
+    },
+    {
+      "type": "Character",
+      "name": "night shepherds"
+    },
+    {
+      "type": "Character",
+      "name": "shepherd"
+    },
+    {
+      "type": "Character",
+      "name": "the hunt"
+    },
+    {
+      "type": "Character",
+      "name": "the hell-hound of the legend"
+    },
+    {
+      "type": "Character",
+      "name": "black mare"
+    },
+    {
+      "type": "Character",
+      "name": "drunken squires"
+    },
+    {
+      "type": "Location",
+      "name": "stones"
+    },
+    {
+      "type": "Character",
+      "name": "forgotten peoples"
+    },
+    {
+      "type": "Location",
+      "name": "clearing"
+    },
+    {
+      "type": "Character",
+      "name": "sons"
+    },
+    {
+      "type": "Character",
+      "name": "Barrymores"
+    },
+    {
+      "type": "Character",
+      "name": "the coroner"
+    },
+    {
+      "type": "Character",
+      "name": "Sir Charles’s heir"
+    },
+    {
+      "type": "Location",
+      "name": "the Vatican cameos"
+    },
+    {
+      "type": "Character",
+      "name": "the Bushman and the Hottentot"
+    },
+    {
+      "type": "Character",
+      "name": "doctor"
+    },
+    {
+      "type": "Character",
+      "name": "Baskerville demon"
+    },
+    {
+      "type": "Character",
+      "name": "one of them a hard-headed countryman"
+    },
+    {
+      "type": "Character",
+      "name": "one a farrier"
+    },
+    {
+      "type": "Character",
+      "name": "one a moorland farmer"
+    }
+  ],
+  "mergeReview": [
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Sherlock Holmes + Sherlock Holmes → Mr. Sherlock Holmes · reason: Sherlock Holmes is the shorter form of Mr. Sherlock Holmes, and both groups clearly refer to the same detective character."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Sherlock Holmes + Holmes → Mr. Sherlock Holmes · reason: Holmes is the shorter form of Mr. Sherlock Holmes, and both refer to the same detective character in the evidence quotes."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Sherlock Holmes + Mr. Holmes → Mr. Sherlock Holmes · reason: Mr. Holmes is the short titled form of Mr. Sherlock Holmes, both refer to the same character in the narrative."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · James Mortimer, M.R.C.S. + Dr. Mortimer → James Mortimer, M.R.C.S. · reason: Dr. Mortimer is the titled form referring to James Mortimer, M.R.C.S., and both sets of quotes describe the same medical professional."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · James Mortimer, M.R.C.S. + Mortimer, James → James Mortimer, M.R.C.S. · reason: Both groups refer to the same individual using full and shorter formal names, with consistent professional title M.R.C.S."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · James Mortimer, M.R.C.S. + Mortimer, James, M.R.C.S. → James Mortimer, M.R.C.S. · reason: Mortimer, James, M.R.C.S. is a full surname, first name, and title variant of James Mortimer, M.R.C.S., and both mentions refer to the same person with the medical qualification."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · James Mortimer, M.R.C.S. + Dr. James Mortimer → Dr. James Mortimer · reason: James Mortimer, M.R.C.S. and Dr. James Mortimer refer to the same character, with Dr. being a titled form and the evidence fitting one person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · James Mortimer, M.R.C.S. + Mortimer → James Mortimer, M.R.C.S. · reason: Mortimer is a shorter form of James Mortimer, M.R.C.S., and both groups refer to the same character."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Watson + my dear Watson → Watson · reason: The phrase 'my dear Watson' is a familiar form of address to the character named Watson, referring to the same person in both groups."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Watson + Dr. Watson → Dr. Watson · reason: 'Watson' is a shorter form of 'Dr. Watson', and both refer to the same character introduced as Holmes's friend in the evidence."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Dr. Mortimer + Mortimer, James → Dr. Mortimer · reason: Mortimer, James is the full name of Dr. Mortimer, and the context shows the same medical professional."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Dr. Mortimer + Mortimer, James, M.R.C.S. → Dr. Mortimer · reason: Dr. Mortimer and Mortimer, James, M.R.C.S. refer to the same medical person, with the latter providing full name and credentials, fitting one individual."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Dr. Mortimer + Dr. James Mortimer → Dr. James Mortimer · reason: Dr. Mortimer is a short titled form of Dr. James Mortimer, and both quotes refer to a medical professional involved in the narrative."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Dr. Mortimer + Mortimer → Dr. Mortimer · reason: Mortimer is a shorter form of Dr. Mortimer, and both names refer to the same medical character mentioned in the text."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · my dear Watson + Dr. Watson → Dr. Watson · reason: 'my dear Watson' is a familiar way to address Dr. Watson, and both quotes clearly refer to the same character named Watson."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Sherlock Holmes + Holmes → Sherlock Holmes · reason: Holmes is a shorter surname form of Sherlock Holmes, and all quotes refer to the same detective character."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Sherlock Holmes + Mr. Holmes → Sherlock Holmes · reason: Mr. Holmes is the formal address of Sherlock Holmes, and all quotes refer to the same character in the evidence."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mortimer, James + Mortimer, James, M.R.C.S. → Mortimer, James, M.R.C.S. · reason: Group B gives the fuller named form with the title M.R.C.S., which matches the information in Group A; both refer to the same person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mortimer, James + Dr. James Mortimer → Dr. James Mortimer · reason: Mortimer, James and Dr. James Mortimer are the same person, with 'Dr.' as a title added; the evidence refers consistently to one individual."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mortimer, James + Mortimer → Mortimer, James · reason: Mortimer is the surname and short form used for Mortimer, James; both quotes refer to the same person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mortimer, James, M.R.C.S. + Dr. James Mortimer → Dr. James Mortimer · reason: Mortimer, James, M.R.C.S. and Dr. James Mortimer refer to the same character, with Dr. and M.R.C.S. both indicating his medical qualification, and the evidence aligns with one person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mortimer, James, M.R.C.S. + Mortimer → Mortimer, James, M.R.C.S. · reason: The full name Mortimer, James, M.R.C.S. includes the surname Mortimer, and the evidence indicates both mentions refer to the same person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Devon + Devonshire → Devon · reason: Devonshire is an older or formal name for Devon, and all evidence refers to the same geographic region."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Holmes + Mr. Holmes → Mr. Holmes · reason: 'Mr. Holmes' is the full titled form of 'Holmes', and both sets of quotes clearly refer to the same character Holmes."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Dr. James Mortimer + Mortimer → Dr. James Mortimer · reason: Mortimer is the surname-only form referring to Dr. James Mortimer used in group A, and both groups depict one character who interacts with Sherlock Holmes."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Sir Charles Baskerville + Sir Charles → Sir Charles Baskerville · reason: Sir Charles is the short titled form of Sir Charles Baskerville, and both groups describe the same man's death and background in Devonshire."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Baskerville Hall + Baskerville → Baskerville Hall · reason: 'Baskerville' refers to the manor associated with Baskerville Hall, and the evidence suggests both refer to the same estate or place."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Baskerville Hall + Baskerville estate → Baskerville Hall · reason: Both groups refer to locations related to the Baskerville family; the estate likely includes or refers to the area around Baskerville Hall, so they are the same entity with Baskerville Hall being the fuller proper name."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Baskerville Hall + the Hall → Baskerville Hall · reason: The Hall is used as a shorter form for Baskerville Hall, both referring to the same large residence described in chapter 2."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Hugo Baskerville + Hugo → Hugo Baskerville · reason: Hugo is a shorter form of Hugo Baskerville and both groups describe the same wild man associated with the Baskerville estate."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Baskerville + Baskerville estate → Baskerville · reason: Baskerville estate is a fuller or alternative form referring to the same location as Baskerville, with both quotes describing the land associated with Hugo and the estate."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · the Hall + Lafter Hall → Lafter Hall · reason: The Hall is a short form of Lafter Hall, both are locations mentioned in similar contexts, indicating they refer to the same place."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · the maiden + the maid → the maiden · reason: The terms 'the maiden' and 'the maid' both refer to a young female servant or woman, and the context suggests they are the same person mentioned in chapter 2."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · the moor + the moorlands → the moor · reason: the terms 'the moor' and 'the moorlands' both refer to the same geographic area, with 'the moor' being the shorter name and 'the moorlands' a descriptive variant."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · the moor + moor → the moor · reason: Both groups refer to the same geographic location, with 'moor' being a shorter form of 'the moor' and the context describing the same type of landscape."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · the revellers + revellers → the revellers · reason: Both groups refer to the same plural noun 'revellers' in the same chapter context, indicating the same group of people or characters."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · the moorlands + moorlands → the moorlands · reason: The terms 'moorlands' and 'the moorlands' refer to the same location, with one being a definite form of the other, evidenced by similar context in the same chapter."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · moorlands + moor → moorlands · reason: Both 'moorlands' and 'moor' refer to the same type of location and the contexts describe similar open, moor-like landscapes, indicating they are the same entity."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · hounds + hound → hounds · reason: The mention of 'hound' in Group B is singular but semantically consistent with the plural 'hounds' in Group A, both referring to large black beasts; thus, they are the same entity group."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · drunken squires + squires → drunken squires · reason: Group B's 'squires' is a shorter form of 'drunken squires' in Group A, and both quotes are identical, referring to the same entity."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · hound + the hell-hound of the legend → the hell-hound of the legend · reason: The term 'hound' and 'the hell-hound of the legend' both refer to the same black beast apparition described similarly in the quotes."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Rodger + Rodger Baskerville → Rodger Baskerville · reason: Rodger from group A is likely the same person as Rodger Baskerville in group B, as both are sons or brothers of members of the Baskerville family."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Sir Charles + Sir Charles’s health → Sir Charles · reason: Sir Charles's health clearly refers to the health of Sir Charles, indicating the same person with a possessive form in Group B."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Sir Charles + Sir Charles’s footmarks → Sir Charles · reason: The phrase \"Sir Charles’s footmarks\" refers to the same individual called \"Sir Charles,\" using the possessive form of the name seen in Group A."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · South African + South Africa → South Africa · reason: South African refers adjectivally to South Africa, indicating the same location entity in both groups."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Sir Charles’s health + Sir Charles’s footmarks → Sir Charles · reason: Both groups refer to Sir Charles with possessive forms related to him, indicating the same person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Henry Baskerville + Sir Henry Baskerville → Sir Henry Baskerville · reason: Mr. Henry Baskerville and Sir Henry Baskerville refer to the same person, with 'Sir Henry Baskerville' being the fuller titled form and the evidence indicating the same individual."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Henry Baskerville + Henry → Mr. Henry Baskerville · reason: Henry is a short form of Mr. Henry Baskerville, and both references indicate the same person related to the Baskerville family."
+    },
+    {
+      "mark": "reject",
+      "line": "merge · Mr. Henry Baskerville + Baskerville → Mr. Henry Baskerville · reason: Baskerville is used as a surname, which matches Mr. Henry Baskerville, and the context refers to the same family or individual."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Mr. Stapleton + Stapleton → Mr. Stapleton · reason: Stapleton is the surname form of Mr. Stapleton, and the evidence consistently refers to the same naturalist person."
+    },
+    {
+      "mark": "accept",
+      "line": "merge · Sir Henry Baskerville + Henry → Sir Henry Baskerville · reason: Henry is a short form of Sir Henry Baskerville, and both quotes refer to the same character connected to the Baskerville family."
+    },
+    {
+      "mark": "accept",
+      "line": "conflict · \"Sir Henry Baskerville\" and \"Baskerville\" were judged different (Group A refers specifically to Sir Henry Baskerville, a particular individual, while group B uses 'Baskerville' to refer to the Baskerville family in general, indicating a broader group rather than the specific person.) but are merged through other pairs"
+    }
+  ],
+  "crosscheckReview": [
+    {
+      "mark": "accept",
+      "line": "LitBank · not in ours · Location · London · ch1 \"London practice could hold such a…\" · LitBank GPE ×2"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · not in theirs · Location · Medical Directory · ch1 \"Medical Directory and turned up the…\" · 1 mention(s) in the slice, none annotated by LitBank"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · alias difference · Location · Grimpen · ch1 \"Grimpen, Dartmoor, Devon. House-surgeon,…\" · LitBank span \"Medical Officer for the parishes of Grimpen, Thorsley, and High Barrow\" overlaps; our aliases: Grimpen"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · not in theirs · Location · Dartmoor · ch1 \"Dartmoor, Devon. House-surgeon, from…\" · 1 mention(s) in the slice, none annotated by LitBank"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · not in theirs · Location · Devon · ch1 \"Devon. House-surgeon, from 1882 to 1884,…\" · 1 mention(s) in the slice, none annotated by LitBank"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · House-surgeon · ch1 \"House-surgeon, from 1882 to 1884, at…\" · LitBank PER ×1"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · not in theirs · Character · Jackson · ch1 \"Jackson prize for Comparative Pathology,…\" · 1 mention(s) in the slice, none annotated by LitBank"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · alias difference · Character · Swedish Pathological Society · ch1 \"Swedish Pathological Society. Author of…\" · LitBank span \"Corresponding member of the Swedish Pathological Society\" overlaps; our aliases: Swedish Pathological Society"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · alias difference · Character · Lancet · ch1 \"Lancet_ 1882). ‘Do We Progress?’…\" · LitBank span \"Author of ‘ Some Freaks of Atavism’ (Lancet 1882)\" overlaps; our aliases: Lancet"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · not in theirs · Character · Journal of Psychology · ch1 \"Journal of Psychology_, March, 1883).…\" · 1 mention(s) in the slice, none annotated by LitBank"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · alias difference · Location · Thorsley · ch1 \"Thorsley, and High Barrow.”\" · LitBank span \"Medical Officer for the parishes of Grimpen, Thorsley, and High Barrow\" overlaps; our aliases: Thorsley"
+    },
+    {
+      "mark": "accept",
+      "line": "LitBank · alias difference · Location · High Barrow · ch1 \"High Barrow.”\" · LitBank span \"Medical Officer for the parishes of Grimpen, Thorsley, and High Barrow\" overlaps; our aliases: High Barrow"
+    },
+    {
+      "mark": "reject",
+      "line": "LitBank · not in ours · Character · Jove · ch1 \"Jove, it _is_ a curly-haired spaniel.”\" · LitBank PER ×1"
+    }
+  ]
+}

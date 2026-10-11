@@ -1,0 +1,9 @@
+{
+  "bookId": "three-musketeers",
+  "expectedChapters": 67,
+  "skipHeadings": [
+    "AUTHOR’S PREFACE",
+    "EPILOGUE"
+  ],
+  "headings": "ChapterWord"
+}

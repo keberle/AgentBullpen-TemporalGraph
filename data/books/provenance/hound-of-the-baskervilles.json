@@ -1,0 +1,97 @@
+{
+  "book": "hound-of-the-baskervilles",
+  "runId": "20261011T130843Z-059d2c",
+  "promotedAt": "2026-10-11T13:12:33Z",
+  "git": {
+    "commit": "3005e1d98d315df2b73a10f8c78462294f5b8d7a",
+    "dirty": true
+  },
+  "chapters": {
+    "first": 1,
+    "last": 15
+  },
+  "textSha256": "f7c8c68729d32a5f6a04a5a9ad73d184176e66a6c76b3992c41c1ab47b427d98",
+  "llm": {
+    "profile": "haiku55",
+    "type": "Anthropic",
+    "model": "claude-haiku-5-5"
+  },
+  "anchor": {
+    "edtf": "1888-11-12",
+    "note": "Assumption: the story's first narrated event is placed on 1888-11-12, a date made up from the text's own clues (The Medical Directory entry records Mortimer as house-surgeon from 1882 to 1884 and married since, so the present is after 1884; the chapter gives no season or year, so a plausible late-Victorian day is chosen.). Every other story date is derived from it."
+  },
+  "scores": {
+    "gold": "ch01-03",
+    "entitiesF1": 0.764,
+    "factsF1": 0.2298
+  },
+  "leakTests": {
+    "spoilers-off": {
+      "checked": 42726,
+      "passed": true
+    },
+    "spoilers-on": {
+      "checked": 54595,
+      "passed": true
+    },
+    "identity": {
+      "checked": 39,
+      "passed": true
+    },
+    "referenced-events": {
+      "checked": 69,
+      "passed": true
+    },
+    "clocks": {
+      "checked": 5841,
+      "passed": true
+    }
+  },
+  "skills": {
+    "extract-graph": 1,
+    "pick-anchor-date": 2,
+    "assign-story-time": 5,
+    "revise-perceptions": 2
+  },
+  "counts": {
+    "rows": {
+      "nodes": 1493,
+      "node_labels": 1493,
+      "edges": 4348,
+      "event_order": 0,
+      "characters": 61,
+      "locations": 58,
+      "timeline": 499,
+      "chapters": 15,
+      "positions": 1469
+    },
+    "labels": {
+      "Character": 61,
+      "Event": 483,
+      "Fact": 891,
+      "Location": 58
+    },
+    "edgeTypes": {
+      "DISCOVERED": 895,
+      "IDENTICAL_TO": 3,
+      "LOCATED_AT": 268,
+      "MENTIONED_IN": 69,
+      "PARTICIPATED_IN": 1006,
+      "PERCEIVES": 2076,
+      "RELATED_TO": 31
+    }
+  },
+  "layout": {
+    "algorithm": "d3-force-3d 3.0.6",
+    "seed": 66,
+    "iterations": 300,
+    "nodes": 1493,
+    "edges": 4348,
+    "alpha3": 0.001,
+    "alpha2": 0.000108,
+    "radius3": 1208.27,
+    "radius2": 926.08,
+    "computedAt": "2026-10-11T16:08:12Z",
+    "milliseconds": 9880
+  }
+}
