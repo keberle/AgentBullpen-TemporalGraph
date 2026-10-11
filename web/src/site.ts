@@ -6,10 +6,12 @@
 // to the site and its other live demos. Admins see exactly what the public sees: no banner, no admin-only list (a test proves it).
 // Standalone it makes no calls at all (a test proves that too).
 //
-// Behind the gateway the demo is a signed-in app. Before the status check it asks the site who the member is (/api/me): signed
-// out (401) → the site's sign-in page, with this page as returnUrl, and nothing of the app renders; signed in → the kit's user menu
-// in the top bar (SiteChrome.tsx). A 401 on any later call (the session ended) goes to the same sign-in page. Only the member's
-// name, email and initials are kept: no roles, so nothing can render differently for an admin.
+// Behind the gateway the demo is a signed-in app, and it fails closed: only a member the site confirms sees any of it. Before the
+// status check it asks the site who the member is (/api/me). A 2xx answer with the member as JSON → the kit's user menu in the
+// top bar (SiteChrome.tsx). Anything else (a 401, another status, a body that isn't the member, the site unreachable or the call
+// blocked by CORS) → the site's sign-in page, with this page as returnUrl; nothing of the app renders and no other call is made.
+// A 401 on any later call (the session ended) goes to the same sign-in page. Only the member's name, email and initials are
+// kept: no roles, so nothing can render differently for an admin.
 
 import { useSyncExternalStore } from "react";
 import { apiBase, gatewayMode, siteUrl } from "./graphql.ts";
@@ -46,11 +48,11 @@ export type SiteState = {
   siteUrl: string;
   /** The load-time check has answered (standalone: at once). Until then, behind the gateway, the app renders nothing. */
   ready: boolean;
-  /** The site answered /api/me with 401: the visitor is on their way to the sign-in page, and the app renders nothing. */
+  /** The site did not confirm a member (/api/me): the visitor is on their way to the sign-in page, and the app renders nothing. */
   signedOut: boolean;
-  /** The signed-in member; null standalone, or when the site couldn't be reached. */
+  /** The signed-in member; null standalone, and for a visitor the site did not confirm. */
   user: SiteUser | null;
-  /** The status call's answer (without the access flag); null before it, or when the site couldn't be reached (then the app shows as usual). */
+  /** The status call's answer (without the access flag); null before it, or when that call failed (then the confirmed member's app shows as usual). */
   status: AppStatus | null;
   /** The header's "Other demos": the live ones, the same for every caller; never this demo. */
   otherDemos: SiteApp[];
@@ -94,19 +96,22 @@ function toSignIn(deps: Pick<SiteDeps, "siteUrl" | "redirect" | "here">): boolea
 
 type Me = { firstName?: string | null; lastName?: string | null; initials?: string | null; email?: string | null };
 
-/** `GET {api}/api/me`: the member, "signed-out" on a 401, null when the site couldn't be reached or answered anything else. */
-async function me(deps: SiteDeps): Promise<SiteUser | "signed-out" | null> {
+/**
+ * `GET {api}/api/me`: the member, from a 2xx answer whose body is a JSON object. Everything else is "signed-out": a 401, any
+ * other status, a body that isn't that, the site unreachable, the call blocked by CORS. There is no "couldn't tell".
+ */
+async function me(deps: SiteDeps): Promise<SiteUser | "signed-out"> {
   try {
     const response = await deps.fetch(`${deps.apiBase}/api/me`, { credentials: "include", headers: { Accept: "application/json" } });
-    if (response.status === 401) return "signed-out";
-    if (!response.ok) return null;
-    const m = (await response.json()) as Me;
+    if (!response.ok) return "signed-out";
+    const m = (await response.json()) as Me | null;
+    if (m === null || typeof m !== "object" || Array.isArray(m)) return "signed-out";
     const name = [m.firstName, m.lastName].map((n) => (n ?? "").trim()).filter(Boolean).join(" ");
     const email = m.email ?? "";
     const initials = m.initials || name.split(" ").map((n) => n[0]).slice(0, 2).join("").toUpperCase();
     return { name: name || email, email, initials };
   } catch {
-    return null; // as for the status below: the app shows as usual, without a user menu
+    return "signed-out"; // unreachable, blocked, or not JSON: not a confirmed member
   }
 }
 
@@ -136,19 +141,23 @@ export function isAppUnavailable(problem: { type?: string } | null | undefined):
   return !!problem?.type && /\/problems\/app-unavailable\/?$/.test(problem.type);
 }
 
+/** A call made for a confirmed member (the status, the demo list): its answer, or null when it failed. */
 async function json<T>(deps: SiteDeps, path: string): Promise<T | null> {
   try {
     const response = await deps.fetch(`${deps.apiBase}${path}`, { credentials: "include", headers: { Accept: "application/json" } });
     return response.ok ? ((await response.json()) as T) : null;
   } catch {
-    return null; // the site is down or unreachable: the app shows as usual (the gateway is the real lock)
+    return null; // this call failed after the member was confirmed: the app shows as usual (the gateway locks the API itself)
   }
 }
 
-/** The load-time check. Redirects through `deps.redirect` when the demo isn't open to this visitor. */
+/**
+ * The load-time check. Behind the gateway only a member confirmed by /api/me loads the app; anyone else is sent to the sign-in
+ * page. Redirects through `deps.redirect`, also when the demo isn't open to this member.
+ */
 export async function loadSite(deps: SiteDeps): Promise<SiteState> {
   if (!deps.gateway || !deps.apiBase) return standalone;
-  // Who is this, before anything else. Signed out → the sign-in page, and no other call is made.
+  // Who is this, before anything else. Not a confirmed member → the sign-in page, and no other call is made.
   const user = await me(deps);
   if (user === "signed-out") {
     return { ...standalone, enabled: true, siteUrl: deps.siteUrl, signedOut: true, redirected: toSignIn(deps) };
@@ -175,7 +184,7 @@ export async function loadSite(deps: SiteDeps): Promise<SiteState> {
 
 // ── the app's copy of the state ───────────────────────────────────────────────────────────────────────────────────────────
 
-// Behind the gateway nothing shows until the load-time check has answered (no signed-out content).
+// Behind the gateway nothing shows until the load-time check has confirmed a member (no signed-out content).
 let state: SiteState = gatewayMode ? { ...standalone, enabled: true, siteUrl, ready: false } : standalone;
 let started: Promise<SiteState> | null = null;
 const listeners = new Set<() => void>();

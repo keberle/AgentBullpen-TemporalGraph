@@ -20,9 +20,9 @@ const member = { firstName: "Kim", lastName: "Evans", initials: "KE", email: "ki
 
 /**
  * The book list's page and the site state, after the load-time check with these answers (a fresh copy of the app's modules).
- * `me`: the site's /api/me answer; null = signed out (401). `gateway: false` = standalone.
+ * `me`: the site's /api/me answer; null = signed out (401); an Error = the call fails. `gateway: false` = standalone.
  */
-async function render(status: Record<string, unknown>, list: unknown[], me: Record<string, unknown> | null = member, gateway = true) {
+async function render(status: Record<string, unknown>, list: unknown[], me: Record<string, unknown> | Error | null = member, gateway = true) {
   vi.resetModules();
   const siteModule = await import("./site.ts");
   const { SiteLinks, SiteUserMenu } = await import("./SiteChrome.tsx");
@@ -37,6 +37,7 @@ async function render(status: Record<string, unknown>, list: unknown[], me: Reco
     fetch: async (url) => {
       calls.push(url);
       const answer = answers[url.slice(api.length)];
+      if (answer instanceof Error) throw answer;
       return answer === null ? new Response(null, { status: 401 }) : new Response(JSON.stringify(answer), { status: 200 });
     },
     redirect: (u) => redirects.push(u),
@@ -45,7 +46,8 @@ async function render(status: Record<string, unknown>, list: unknown[], me: Reco
   const page = renderToStaticMarkup(<BookList books={books as never} onPick={() => {}} />);
   const links = renderToStaticMarkup(<SiteLinks />);
   const menu = renderToStaticMarkup(<SiteUserMenu />);
-  return { state, page, links, menu, redirects, calls };
+  const shown = state.ready && !state.signedOut;   // App renders nothing, and asks the API for nothing, unless this holds
+  return { state, page, links, menu, shown, redirects, calls };
 }
 
 const asAdmin = (xs: typeof apps) => xs.map((a) => ({ ...a, adminAccess: true }));
@@ -122,6 +124,18 @@ describe("The user menu, behind the site only", () => {
     expect(r.calls).toEqual([`${api}/api/me`]);
     expect(r.state).toMatchObject({ signedOut: true, user: null });
     expect(r.menu).toBe("");
+  });
+
+  it("the site can't be reached (or CORS blocks the call): the sign-in page, and the app renders nothing at all", async () => {
+    const r = await render({ status: "live" }, apps, new TypeError("Failed to fetch"));
+    expect(r.redirects).toEqual([`${site}/signin?returnUrl=${encodeURIComponent("http://localhost:5174/")}`]);
+    expect(r.calls).toEqual([`${api}/api/me`]);
+    expect(r.state).toMatchObject({ signedOut: true, user: null });
+    expect(r.shown).toBe(false);
+    expect(r.menu).toBe("");
+    // A confirmed member gets the app; a signed-out visitor gets as little as the unreachable case.
+    expect((await render({ status: "live" }, apps)).shown).toBe(true);
+    expect((await render({ status: "live" }, apps, null)).shown).toBe(false);
   });
 
   it("standalone: no call to the site, no user menu, no site links, and the wordmark is not a link", async () => {

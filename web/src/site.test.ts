@@ -16,7 +16,10 @@ const here = "http://localhost:5174/book/treasure-island/2d?ch=8&chat=jim";
 const me = { id: "7", firstName: "Kim", lastName: "Evans", initials: "KE", email: "kim@example.test", roles: ["Admin"], status: "Approved" };
 const signInPage = `${site}/signin?returnUrl=${encodeURIComponent(here)}`;
 
-/** The site, played: an answer per path (a number = that HTTP status with no body, an Error = unreachable); /api/me signed in unless said. */
+/**
+ * The site, played: an answer per path (a number = that HTTP status with no body, an Error = unreachable, a Response = itself);
+ * /api/me signed in unless said.
+ */
 function deps(given: Record<string, unknown>, extra: Partial<SiteDeps> = {}) {
   const answers: Record<string, unknown> = { "/api/me": me, ...given };
   const calls: string[] = [];
@@ -34,6 +37,7 @@ function deps(given: Record<string, unknown>, extra: Partial<SiteDeps> = {}) {
       const a = answers[path];
       if (a instanceof Error) throw a;
       if (typeof a === "number") return new Response(null, { status: a });
+      if (a instanceof Response) return a;
       return new Response(JSON.stringify(a), { status: 200, headers: { "Content-Type": "application/json" } });
     },
     redirect: (u) => redirects.push(u),
@@ -132,12 +136,23 @@ describe("The site's app status", () => {
     expect(redirects).toEqual([`${site}/under-construction?app=temporal`]);
   });
 
-  it("the site unreachable: the app loads as usual (the gateway is the real lock)", async () => {
+  it("the site unreachable: to the sign-in page, nothing renders, and only /api/me is called", async () => {
     const down = new TypeError("Failed to fetch");
-    const { d, redirects } = deps({ "/api/me": down, "/api/apps/temporal/status": down, "/api/apps": down });
+    const { d, calls, redirects } = deps({ "/api/me": down, "/api/apps/temporal/status": down, "/api/apps": down });
+    const s = await loadSite(d);
+    expect(redirects).toEqual([signInPage]);
+    expect(calls).toEqual([`${api}/api/me`]);
+    expect(s).toMatchObject({ enabled: true, ready: true, signedOut: true, redirected: true, user: null, status: null, otherDemos: [] });
+  });
+
+  it("a confirmed member, and the status and demo-list calls fail: the app loads (the gateway locks the API itself)", async () => {
+    const down = new TypeError("Failed to fetch");
+    const { d, calls, redirects } = deps({ "/api/apps/temporal/status": down, "/api/apps": 500 });
     const s = await loadSite(d);
     expect(redirects).toEqual([]);
-    expect(s).toMatchObject({ enabled: true, ready: true, signedOut: false, user: null, status: null, otherDemos: [] });
+    expect(calls).toEqual([`${api}/api/me`, `${api}/api/apps/temporal/status`, `${api}/api/apps`]);
+    expect(s).toMatchObject({ enabled: true, ready: true, signedOut: false, redirected: false, status: null, otherDemos: [] });
+    expect(s.user).toEqual({ name: "Kim Evans", email: "kim@example.test", initials: "KE" });
   });
 });
 
@@ -152,6 +167,35 @@ describe("Behind the gateway the demo is a signed-in app", () => {
       "https://agentbullpen.test/signin?returnUrl=http%3A%2F%2Flocalhost%3A5174%2Fbook%2Ftreasure-island%2F2d%3Fch%3D8%26chat%3Djim");
     expect(calls).toEqual([`${api}/api/me`]);   // not the status, not the demo list
     expect(s).toMatchObject({ enabled: true, ready: true, signedOut: true, redirected: true, user: null, otherDemos: [] });
+  });
+
+  // Fail closed: only a 2xx answer with the member as JSON loads the app. The site here would say "live" to anyone who asked.
+  const html = () => new Response("<!doctype html><title>Sign in</title>", { status: 200, headers: { "Content-Type": "text/html" } });
+  const text = (body: string) => () => new Response(body, { status: 200, headers: { "Content-Type": "application/json" } });
+  it.each<[string, () => unknown]>([
+    ["answers 500", () => 500],
+    ["answers 403", () => 403],
+    ["answers 404", () => 404],
+    ["answers 200 with a page, not JSON", html],
+    ["answers 200 with an empty body", text("")],
+    ["answers 200 with JSON that is no member (null)", text("null")],
+    ["answers 200 with JSON that is no member (a list)", text("[]")],
+    ["throws: unreachable", () => new TypeError("Failed to fetch")],
+    ["throws: blocked by CORS", () => new TypeError("NetworkError when attempting to fetch resource.")],
+  ])("/api/me %s: to the sign-in page, nothing renders, and no other call is made", async (_, answer) => {
+    const { d, calls, redirects } = deps({ ...live, "/api/me": answer() });
+    const s = await loadSite(d);
+    expect(redirects).toEqual([signInPage]);
+    expect(calls).toEqual([`${api}/api/me`]);
+    expect(s).toMatchObject({ enabled: true, ready: true, signedOut: true, redirected: true, user: null, status: null, otherDemos: [] });
+  });
+
+  it("not confirmed and no site address to send them to: still nothing renders", async () => {
+    const { d, calls, redirects } = deps({ ...live, "/api/me": new TypeError("Failed to fetch") }, { siteUrl: "" });
+    const s = await loadSite(d);
+    expect(redirects).toEqual([]);
+    expect(calls).toEqual([`${api}/api/me`]);
+    expect(s).toMatchObject({ enabled: true, signedOut: true, redirected: false, user: null });
   });
 
   it("signed in: the member's name, email and initials for the user menu, then the status check; no roles are kept", async () => {

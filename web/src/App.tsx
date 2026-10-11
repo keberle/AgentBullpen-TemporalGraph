@@ -11,7 +11,7 @@ export default function App() {
   const route = useRoute();
   const [books, setBooks] = useState<Book[] | null>(null);
 
-  // Behind the site, first: who is this (signed out → the site's sign-in page), then its app status (the
+  // Behind the site, first: who is this (anyone the site doesn't confirm as a member → its sign-in page), then its app status (the
   // under-construction page unless live, or the gateway lets this caller through). Standalone the state is ready at once.
   const site = useSite();
   const show = site.ready && !site.signedOut;
@@ -36,7 +36,7 @@ export default function App() {
     document.title = book ? `${book.title} · Temporal Graph` : "Temporal Graph";
   }, [book]);
 
-  // Behind the site nothing renders until the member is known, and nothing at all for a signed-out visitor.
+  // Behind the site nothing renders until the site has confirmed the member, and nothing at all for anyone else.
   if (!show) return null;
   if (route.book == null) return <BookList books={books ?? []} onPick={(b) => navigate({ ...home, book: b.id })} />;
   if (books == null) return null; // the manifest is loading

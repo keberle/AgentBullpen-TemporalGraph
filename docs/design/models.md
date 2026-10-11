@@ -23,7 +23,7 @@ The four sit within one standard deviation on facts F1. Haiku alone passed both 
 
 ## Gateway and standalone
 
-One switch per side chooses the mode at startup: `Auth:Gateway:SigningKey` on the API, `VITE_API_BASE_URL` on the web build; leave both empty for a clone. Four interfaces each have a Local and a Gateway implementation; the chat code has no `if (gateway)`. Behind the site the user is the gateway's JWT, model calls go to the site's LLM proxy keyed by the request's token, and the panel shows the member's daily allowance. Standalone, the user is anonymous, the profile's own endpoint and key are used, and a cost is shown only when the provider sends one.
+One switch per side chooses the mode at startup: `Auth:Gateway:SigningKey` on the API, `VITE_API_BASE_URL` on the web build; leave both empty for a clone. Four interfaces each have a Local and a Gateway implementation; the chat code has no `if (gateway)`. Behind the site the web app shows nothing until the site's `/api/me` confirms a signed-in member; any other answer, or none, sends the visitor to the site's sign-in page. Behind the site the user is the gateway's JWT, model calls go to the site's LLM proxy keyed by the request's token, and the panel shows the member's daily allowance. Standalone, the user is anonymous, the profile's own endpoint and key are used, and a cost is shown only when the provider sends one.
 
 ## Telemetry
 
