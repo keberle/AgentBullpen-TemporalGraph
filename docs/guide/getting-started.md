@@ -26,7 +26,7 @@ The Aspire dashboard shows `api` (ASP.NET Core, GraphQL at `/graphql`), `web` (V
 
 ## The app
 
-Three book cards: *The Hound of the Baskervilles*, *The Three Musketeers* and *Treasure Island*. A book view has a chapter slider ("Reader is at"), a **Spoilers** checkbox, a **Character** dropdown and the chat roster: eight characters, each offered once the text has mentioned them. Every screen has a URL (`/book/<id>/query?ch=7&spoilers=1&chat=dr-watson`); the docs are at `/docs`.
+Three book cards: *The Hound of the Baskervilles*, *The Three Musketeers* and *Treasure Island*. Deployed, the first load after a quiet spell waits for the API to start, and the page says so. A book view has a chapter slider ("Reader is at"), a **Spoilers** checkbox, a **Character** dropdown and the chat roster: eight characters, each offered once the text has mentioned them. Every screen has a URL (`/book/<id>/query?ch=7&spoilers=1&chat=dr-watson`); the docs are at `/docs`.
 
 **The 2D graph tab** draws characters as discs, locations as diamonds, events as rings and facts as squares, and only what the reader has reached: with Spoilers off, by where the text reveals it; with Spoilers on, by story time. The 3D tab loads on first use. See [The graph view](../design/graph-view.md).
 

@@ -1,12 +1,25 @@
 import { TopBar } from "./design-kit/components/TopBar.tsx";
 import { BookCard } from "./BookCard.tsx";
+import { BookCardSkeleton, BooksFailed, BooksWaiting, type BooksState } from "./BooksLoad.tsx";
 import { SiteLinks, SiteUserMenu, SiteWordmark } from "./SiteChrome.tsx";
 import type { Book } from "./graphql.ts";
 
 // "Pick a book" screen, ported from the site's prototype. Books come from the
 // GraphQL api (fetched once by App); clicking a card opens the book view.
+// Until they arrive the screen says the API is starting, over two skeleton cards (BooksLoad.tsx).
 
-export default function BookList({ books, onPick }: { books: Book[]; onPick: (book: Book) => void }) {
+export default function BookList({
+  books,
+  state,
+  onRetry,
+  onPick,
+}: {
+  books: Book[];
+  state: BooksState;
+  onRetry: () => void;
+  onPick: (book: Book) => void;
+}) {
+  const waiting = state === "loading" || state === "slow";
   return (
     <div className="flex h-screen flex-col">
       <TopBar
@@ -27,12 +40,21 @@ export default function BookList({ books, onPick }: { books: Book[]; onPick: (bo
           <h1 className="m-0 text-40 font-extrabold tracking-[-1px]">Pick a book</h1>
           <p className="m-0 text-17 text-fg-muted">Then pick a moment in the story and a character to talk to.</p>
         </div>
-        <div className="grid w-full max-w-720 grid-cols-[repeat(auto-fit,minmax(min(260px,100%),1fr))] gap-20">
-          {books.map((b) => (
-            <BookCard key={b.id} title={b.title} author={b.author} hero={b.hero} onClick={() => onPick(b)} />
-          ))}
-        </div>
-        <span className="text-13 text-fg-muted">More books later</span>
+        {state === "timed-out" && <BooksFailed onRetry={onRetry} />}
+        {waiting && <BooksWaiting slow={state === "slow"} />}
+        {state !== "timed-out" && (
+          <div className="grid w-full max-w-720 grid-cols-[repeat(auto-fit,minmax(min(260px,100%),1fr))] gap-20">
+            {waiting ? (
+              <>
+                <BookCardSkeleton />
+                <BookCardSkeleton />
+              </>
+            ) : (
+              books.map((b) => <BookCard key={b.id} title={b.title} author={b.author} hero={b.hero} onClick={() => onPick(b)} />)
+            )}
+          </div>
+        )}
+        {state === "ready" && <span className="text-13 text-fg-muted">More books later</span>}
       </main>
     </div>
   );

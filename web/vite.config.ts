@@ -13,7 +13,7 @@ const port = process.env.PORT ? Number(process.env.PORT) : 5173;
 
 // The browser only talks to this dev server; /graphql is proxied to the api.
 // Aspire sets API_HTTP to the api's http endpoint (see AppHost.cs). Without it
-// (plain `npm run dev`) there is no backend and the book list stays empty.
+// (plain `npm run dev`) there is no backend and the book list says the temporal graph didn't start.
 const apiTarget = process.env.API_HTTP;
 
 // The repo's docs (../docs/*.md) compiled at build time as plain markdown, not MDX: `format: "md"`, so a `<` or `{` in

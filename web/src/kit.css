@@ -10,3 +10,7 @@
   html { background: var(--abp-page); }
   body { margin: 0; }
 }
+
+/* The spinner and the skeleton cards of the first screen (BooksLoad.tsx). */
+@keyframes abp-spin { to { transform: rotate(360deg); } }
+@keyframes abp-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }

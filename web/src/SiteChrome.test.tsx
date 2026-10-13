@@ -43,7 +43,7 @@ async function render(status: Record<string, unknown>, list: unknown[], me: Reco
     redirect: (u) => redirects.push(u),
     here: () => "http://localhost:5174/",
   });
-  const page = renderToStaticMarkup(<BookList books={books as never} onPick={() => {}} />);
+  const page = renderToStaticMarkup(<BookList books={books as never} state="ready" onRetry={() => {}} onPick={() => {}} />);
   const links = renderToStaticMarkup(<SiteLinks />);
   const menu = renderToStaticMarkup(<SiteUserMenu />);
   const shown = state.ready && !state.signedOut;   // App renders nothing, and asks the API for nothing, unless this holds

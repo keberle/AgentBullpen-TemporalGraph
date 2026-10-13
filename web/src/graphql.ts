@@ -58,15 +58,17 @@ export class AppUnavailableError extends Error {
 
 /** The gateway answered 401 (signed out, or the session expired). */
 export class SignedOutError extends Error {
-  constructor() {
+  /** The visitor is being sent to the site's sign-in page (false standalone: there is nowhere to send them). */
+  readonly redirected: boolean;
+  constructor(redirected = false) {
     super("You are signed out of AgentBullpen.AI.");
+    this.redirected = redirected;
   }
 }
 
 /** A 401 mid-session also sends the visitor to the site's sign-in page (to come back here); the error is for the caller. */
 function signedOut(): SignedOutError {
-  onSignedOut();
-  return new SignedOutError();
+  return new SignedOutError(onSignedOut());
 }
 
 /** The site's API base, without a trailing slash; empty = standalone. */
@@ -82,30 +84,32 @@ export function graphqlUrl(base: string = apiBase): string {
 
 let csrfToken: string | null = null;
 
-async function csrf(refresh = false): Promise<string> {
+async function csrf(refresh = false, signal?: AbortSignal): Promise<string> {
   if (refresh || !csrfToken) {
-    const response = await fetch(`${apiBase}/api/antiforgery/token`, { credentials: "include", headers: { Accept: "application/json" } });
+    const response = await fetch(`${apiBase}/api/antiforgery/token`, { credentials: "include", headers: { Accept: "application/json" }, signal });
     if (response.status === 401) throw signedOut();
     csrfToken = ((await response.json()) as { token: string }).token;
   }
   return csrfToken;
 }
 
-async function post(query: string, variables: Record<string, unknown> | undefined, refreshCsrf = false): Promise<Response> {
+async function post(query: string, variables: Record<string, unknown> | undefined, signal?: AbortSignal, refreshCsrf = false): Promise<Response> {
   const body = JSON.stringify({ query, variables });
-  if (!gatewayMode) return fetch("/graphql", { method: "POST", headers: { "Content-Type": "application/json" }, body });
+  if (!gatewayMode) return fetch("/graphql", { method: "POST", headers: { "Content-Type": "application/json" }, body, signal });
   return fetch(graphqlUrl(), {
     method: "POST",
     credentials: "include",
-    headers: { "Content-Type": "application/json", "X-CSRF-TOKEN": await csrf(refreshCsrf) },
+    headers: { "Content-Type": "application/json", "X-CSRF-TOKEN": await csrf(refreshCsrf, signal) },
     body,
+    signal,
   });
 }
 
-export async function gql<T>(query: string, variables?: Record<string, unknown>): Promise<T> {
-  let response = await post(query, variables);
+/** `signal`: gives the whole call up when it aborts (the token it may need first, the request, reading the answer). */
+export async function gql<T>(query: string, variables?: Record<string, unknown>, signal?: AbortSignal): Promise<T> {
+  let response = await post(query, variables, signal);
   // The gateway rejects a stale antiforgery token with 400: fetch a new one once.
-  if (gatewayMode && response.status === 400) response = await post(query, variables, true);
+  if (gatewayMode && response.status === 400) response = await post(query, variables, signal, true);
   if (response.status === 401) throw signedOut();
   const body = (await response.json().catch(() => ({}))) as { data?: T; errors?: GraphQlError[] } & Partial<Problem>;
   // The site's gateway answers a demo that isn't open with the app-unavailable problem (503, problem+json) before it reaches
